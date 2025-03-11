@@ -1,0 +1,10 @@
+hardness: 12
+cost: 1
+color: 003153
+research: surge-alloy
+healthScaling: 6
+name: Rodrigonium
+description: A very tough metal hailing from Rodrigonia.
+shownPlanets: [
+  serpulo
+]

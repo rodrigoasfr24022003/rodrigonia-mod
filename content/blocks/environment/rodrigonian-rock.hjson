@@ -1,0 +1,7 @@
+type: Floor
+name: Rodrigonian Rock
+variants: 1
+mapColor: 00477a
+useColor: true
+wall: rodrigonian-rock-wall
+speedMultiplier: 1

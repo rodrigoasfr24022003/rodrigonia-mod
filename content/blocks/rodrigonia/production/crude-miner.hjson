@@ -1,0 +1,29 @@
+name: Crude Miner
+description: An early game drill, only capable of mining copper, tin, zinc, iron and coal. Consumes coal as fuel. 
+type: Drill
+health: 450
+size: 2
+tier: 2
+drillTime: 100
+liquidCapacity: 5
+consumes: {
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+  liquid:{
+    liquid: water
+      amount: 0.1
+      optional: true
+      booster: true
+    }
+}
+drawMineItem: false
+requirements: [
+   copper/40
+]
+category: production
+research: {
+    planet: rodrigonia-rodrigonia
+}
