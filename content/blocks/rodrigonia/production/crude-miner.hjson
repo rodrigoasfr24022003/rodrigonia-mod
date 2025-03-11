@@ -7,11 +7,6 @@ tier: 2
 drillTime: 100
 liquidCapacity: 5
 consumes: {
-  items: {
-    items: [
-      coal/1
-    ]
-  }
   liquid:{
     liquid: water
       amount: 0.1
@@ -21,7 +16,7 @@ consumes: {
 }
 drawMineItem: false
 requirements: [
-   copper/40
+   iron/40
 ]
 category: production
 research: {
