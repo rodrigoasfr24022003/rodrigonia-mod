@@ -8,7 +8,6 @@ generator: AsteroidGenerator
 name:Rodrigonia
 //sector count - larger numbers mean exponentially more sectors, may crash above 4
 sectorSize: 4
-radius: 6
 //terrain generation seed the planet uses for its sectors
 sectorSeed: 6
 //sector to start on - probably make this a preset sector
@@ -24,7 +23,7 @@ atmosphereRadOut: 0.2
 //colour of the atmosphere
 atmosphereColor: ffffff
 //orbit radius, measured in units i do not know
-orbitRadius: 1024
+orbitRadius: 200
 //angle of the starting position of the orbit, so that all planets are not in the same line 
 orbitOffset: 0
 //time taken to complete one full orbit, in seconds
@@ -60,7 +59,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 0.96
+    radius: 0.98
     color1: 003153
     color2: 003153
     octaves: 1
@@ -90,7 +89,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.04
+    radius: 1.02
     color1: ffffff
     color2: ffffff
     octaves: 4.2
