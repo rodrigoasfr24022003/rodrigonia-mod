@@ -1,0 +1,10 @@
+hardness: 1
+cost: 1
+color: "999999"
+healthScaling: 1
+alwaysUnlocked: true
+name: Iron
+description: Pretty much standard everywhere.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

@@ -1,0 +1,9 @@
+hardness: 1
+cost: 1
+color: 00538f
+healthScaling: 1
+name: RodSand
+description: Sand from Rodrigonia.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]
