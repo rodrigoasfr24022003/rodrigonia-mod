@@ -1,5 +1,5 @@
 type: StaticWall
 name: Rodrigonian Rock Wall
-variants: 1
+variants: 3
 mapColor: 00477a
 useColor: true
