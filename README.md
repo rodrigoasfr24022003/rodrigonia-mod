@@ -4,4 +4,4 @@
 - Rodrigo
 - Meowkitty
 # Special Thanks
-- To the moredefences team for their code.
+- To the MoreDefences team for their code.

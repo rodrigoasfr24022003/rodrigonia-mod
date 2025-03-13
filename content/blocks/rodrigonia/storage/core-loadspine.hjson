@@ -12,7 +12,6 @@ requirements: [
   iron/1000
   silver/500
 ]
-category: effect
 envDisabled: 24
 research: {
   root: true
