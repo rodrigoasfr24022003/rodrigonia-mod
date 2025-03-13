@@ -1,10 +1,10 @@
 name: Crude Miner
-description: An early game drill, only capable of mining copper, tin, zinc, iron and coal. Consumes coal as fuel. 
+description: An early game drill, only capable of mining iron and silver.
 type: Drill
 health: 450
 size: 2
-tier: 2
-drillTime: 100
+tier: 1
+drillTime: 50
 liquidCapacity: 5
 consumes: {
   liquid:{
