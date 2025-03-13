@@ -1,0 +1,7 @@
+type: OreBlock
+name: Iron
+itemDrop: iron
+variants: 3
+tier: 1
+mapColor: 999999
+useColor: true
