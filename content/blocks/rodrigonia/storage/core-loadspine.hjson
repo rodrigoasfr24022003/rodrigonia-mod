@@ -1,6 +1,7 @@
 name: "Core: Loadspine"
 description: Core of the base. Once destroyed the sector is lost.
 details: "Core of the first tier.\nPoorly armored but unit-efficient.\n\nVery cheap and lightweight, can be launched into other sectors on Rodrigonia with relative ease compared to more massive cores."
+type: CoreBlock
 size: 3
 unitType: shielder-ship
 health: 600
