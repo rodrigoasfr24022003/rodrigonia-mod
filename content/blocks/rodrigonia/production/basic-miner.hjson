@@ -9,7 +9,7 @@ liquidCapacity: 10
 consumes: {
   liquid:{
     liquid: water
-      amount: 0.125
+      amount: 0.1
       optional: true
       booster: true
     }
