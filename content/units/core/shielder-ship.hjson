@@ -1,0 +1,49 @@
+name: Shielder
+description: Builds structures to defend the Loadspine core. Shields nearby ally units.
+speed: 4
+flying: true
+health: 10
+engineOffset: 0
+engineSize: 0
+drag: 0.1
+accel: 0.2
+hitSize: 9
+useUnitCap: false
+mineFloor: true
+mineWalls: true
+isEnemy: false
+mineSpeed: 3
+mineTier: 1
+buildSpeed: 1
+coreUnitDock: true
+targetable: false
+hittable: false
+rotateSpeed: 30
+createWreck: false
+abilities: {
+  add: [
+    {
+      type: ShieldRegenFieldAbility
+      reload: 120
+      amount: 10
+      max: 60
+      range: 60
+    }
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 0
+      y: -6
+      teamColor: true
+      effectParam: 1.3
+    }
+  ]
+}
+itemCapacity: 50
+range: 80
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}
+alwaysUnlocked: true

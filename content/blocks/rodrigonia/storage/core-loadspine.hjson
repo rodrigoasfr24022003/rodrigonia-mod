@@ -1,0 +1,22 @@
+name: "Core: Loadspine"
+description: Core of the base. Once destroyed the sector is lost.
+details: "Core of the first tier.\nPoorly armored but unit-efficient.\n\nVery cheap and lightweight, can be launched into other sectors on Rodrigonia with relative ease compared to more massive cores."
+type: CoreBlock
+size: 3
+unitType: shielder-ship
+health: 600
+itemCapacity: 3000
+unitCapModifier: 16
+squareSprite: false
+isFirstTier: true
+requirements: [
+  iron/1000
+  silver/500
+]
+envDisabled: 24
+research: {
+  root: true
+  name: Rodrigonia
+  planet: rodrigonia-rodrigonia
+}
+alwaysUnlocked: true
