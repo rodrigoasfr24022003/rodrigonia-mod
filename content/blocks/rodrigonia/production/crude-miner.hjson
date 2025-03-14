@@ -21,4 +21,5 @@ requirements: [
 category: production
 research: {
     planet: rodrigonia-rodrigonia
+    parent: core-loadspine
 }
