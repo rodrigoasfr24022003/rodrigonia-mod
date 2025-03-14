@@ -1,0 +1,7 @@
+type: OreBlock
+name: Silver
+itemDrop: silver
+variants: 3
+tier: 1
+mapColor: beccd2
+useColor: true
