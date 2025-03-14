@@ -2,7 +2,7 @@ name: Shielder
 description: Builds structures to defend the Loadspine core. Shields nearby ally units. Also has 2 laser blasters.
 speed: 4
 flying: true
-health: 10
+health: 75
 engineOffset: 0
 engineSize: 0
 drag: 0.1
