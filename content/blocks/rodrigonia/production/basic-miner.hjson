@@ -1,0 +1,26 @@
+name: Basic Miner
+description: An early game drill, also capable of mining T2 resources. Still able to mine without power.
+type: Drill
+health: 550
+size: 2
+tier: 2
+drillTime: 150
+liquidCapacity: 10
+consumes: {
+  liquid:{
+    liquid: water
+      amount: 0.1
+      optional: true
+      booster: true
+    }
+}
+drawMineItem: false
+requirements: [
+   iron/100
+   silver/40
+]
+category: production
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: basic-miner
+}

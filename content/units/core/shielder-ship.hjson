@@ -1,8 +1,8 @@
 name: Shielder
-description: Builds structures to defend the Loadspine core. Shields nearby ally units.
+description: Builds structures to defend the Loadspine core. Shields nearby ally units. Also has 2 laser blasters.
 speed: 4
 flying: true
-health: 10
+health: 75
 engineOffset: 0
 engineSize: 0
 drag: 0.1
@@ -40,6 +40,27 @@ abilities: {
     }
   ]
 }
+weapons: [{
+  name: shielder-blaster
+  top: false
+  rotate: true
+  y: 2.3
+  x: -2.3
+  inaccuracy: 2
+  reload: 13
+  mirror: true
+  rotateSpeed: 90
+  rotationLimit: 200
+  predictTarget: false
+  shootCone: 361
+  bullet: {	
+    speed: 8
+    damage: 50
+    lifetime: 20
+    width: 6
+    height: 7
+  }
+}]
 itemCapacity: 50
 range: 80
 research: {

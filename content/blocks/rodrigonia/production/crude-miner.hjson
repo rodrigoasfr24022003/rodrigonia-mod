@@ -9,7 +9,7 @@ liquidCapacity: 5
 consumes: {
   liquid:{
     liquid: water
-      amount: 0.1
+      amount: 0.08
       optional: true
       booster: true
     }
@@ -21,4 +21,5 @@ requirements: [
 category: production
 research: {
     planet: rodrigonia-rodrigonia
+    parent: core-loadspine
 }
