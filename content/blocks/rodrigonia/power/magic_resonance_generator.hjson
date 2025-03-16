@@ -22,3 +22,11 @@ requirements: [
    iron/120
    silver/40
 ]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+  iron/1200
+  silver/300
+]
