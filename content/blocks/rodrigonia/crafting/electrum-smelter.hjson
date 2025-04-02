@@ -13,7 +13,7 @@ recipes:
         rodrigonia-silver/1
         rodrigonia-gold/1
       ]
-      powe1: 2
+      power: 2
     }
     output: {
       items: [
