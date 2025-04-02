@@ -10,26 +10,24 @@ recipes:
   {
     input: {
       items: [
-        silver/1
+        rodrigonia-silver/1
       ]
     }
     output: {
       power: 2
     }
     craftTime: 120.0
-    icon: silver
   }
   {
     input: {
       items: [
-        gold/1
+        rodrigonia-gold/1
       ]
     }
     output: {
       power: 4
     }
     craftTime: 120.0
-    icon: gold
   }
 ]
 requirements: [

@@ -1,0 +1,7 @@
+type: OreBlock
+name: Silver
+itemDrop: gold
+variants: 3
+tier: 2
+mapColor: ffd700
+useColor: true
