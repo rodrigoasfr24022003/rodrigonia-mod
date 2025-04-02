@@ -1,0 +1,12 @@
+type: Wall
+health: 1200
+category: defense
+name: Iron Wall
+description: A pretty basic wall.
+requirements: [
+  iron/6
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: core-loadspine
+}
