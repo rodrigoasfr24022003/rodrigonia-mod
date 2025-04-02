@@ -1,0 +1,9 @@
+hardness: 1.05
+cost: 1
+color: "f2e279"
+healthScaling: 1
+name: Nickel
+description: A component of Invar.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

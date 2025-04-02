@@ -1,0 +1,38 @@
+type: multicraft.MultiCrafter
+name: "Invar Smelter"
+description: "Used to make invar."
+health: 400
+size: 2
+fluidCapacityMultiplier: 1.0
+powerCapacity: 1800
+recipes:
+[
+  {
+    input: {
+      items: [
+        rodrigonia-iron/2
+        rodrigonia-nickel/1
+      ]
+      power: 2
+    }
+    output: {
+      items: [
+        rodrigonia-invar/3
+      ]
+    }
+    craftTime: 180.0
+  }
+]
+requirements: [
+   iron/240
+   nickel/120
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+  iron/2400
+  nickel/1200
+]
+category: crafting
