@@ -1,0 +1,10 @@
+hardness: 0.6
+cost: 2
+color: "ffd700"
+healthScaling: 0.8
+alwaysUnlocked: true
+name: Gold
+description: A precious metal since ancient times.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

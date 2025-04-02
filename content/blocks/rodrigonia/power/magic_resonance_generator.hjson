@@ -1,23 +1,37 @@
-name: Magic Resonance Generator
-description: An early game generator, generating energy from silver and gold.
-type: PowerGenerator
+type: multicraft.MultiCrafter
+name: "Magic Resonance Generator"
+description: "An early game generator, generating energy from silver and gold."
 health: 400
 size: 2
-powerProduction: 2
-generateTime: 120
-productionEfficiency: 1.0
-liquidCapacity: 10
-consumes: {
-  items: [
-    silver/1
-  ]
-  liquid:{
-    liquid: water
-      amount: 0.1
-      optional: true
-      booster: true
+fluidCapacityMultiplier: 1.0
+powerCapacity: 1200
+recipes:
+[
+  {
+    input: {
+      items: [
+        silver/1
+      ]
     }
-}
+    output: {
+      power: 2
+    }
+    craftTime: 120.0
+    icon: silver
+  }
+  {
+    input: {
+      items: [
+        gold/1
+      ]
+    }
+    output: {
+      power: 4
+    }
+    craftTime: 120.0
+    icon: gold
+  }
+]
 requirements: [
    iron/120
    silver/40
@@ -30,3 +44,4 @@ researchCost: [
   iron/1200
   silver/300
 ]
+category: "power"
