@@ -1,0 +1,43 @@
+name: Bolter
+description: Shoots laser bolts that deal some damage to enemy units. Uses 4 power/tick.
+type: PowerTurret
+health: 1000
+size: 2
+reload: 33
+range: 260
+inaccuracy: 5
+velocityRnd: 0.1
+rotateSpeed: 2
+powerCapcity: 1440
+predictTarget: true
+shoot: {
+  type: ShootMulti
+  source: ShootAlternate
+  barrels: 2
+  spread: 5
+}
+shootType: {	
+    speed: 8
+    damage: 100
+    lifetime: 40
+    width: 12
+    height: 14
+}
+shootCone: 360
+hasLiquids: true
+hasPower: true
+consumes: {
+  power: 4
+}
+coolantMultiplier: 7
+requirements: [
+  iron/100
+  silver/20
+  gold/5
+]
+shootSound: artillery
+category: turret
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}
