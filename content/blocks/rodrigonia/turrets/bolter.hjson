@@ -34,7 +34,7 @@ requirements: [
   silver/20
   gold/5
 ]
-shootSound: artillery
+shootSound: bolt
 category: turret
 research: {
   parent: core-loadspine
