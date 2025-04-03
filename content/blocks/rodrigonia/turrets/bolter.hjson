@@ -11,10 +11,9 @@ rotateSpeed: 2
 powerCapcity: 1440
 predictTarget: true
 shoot: {
-  type: ShootMulti
-  source: ShootAlternate
-  barrels: 2
-  spread: 5
+  type: ShootAlternate
+  shots: 2
+  shotDelay: 11
 }
 shootType: {	
     speed: 8

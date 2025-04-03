@@ -4,6 +4,7 @@ description: "Used to make invar."
 health: 400
 size: 2
 fluidCapacityMultiplier: 1.0
+itemCapacity: 20
 powerCapacity: 1800
 recipes:
 [
