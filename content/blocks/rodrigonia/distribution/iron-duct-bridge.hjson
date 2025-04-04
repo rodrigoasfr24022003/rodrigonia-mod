@@ -1,0 +1,19 @@
+type: DuctBridge
+name: "Iron Duct Bridge"
+description: "Rodrigonia's version of the duct bridge."
+health: 50
+size: 1
+moveArrows: true
+arrowSpacing: 6
+range: 4
+category: distribution
+requirements: [
+  iron/2
+]
+research: {
+  parent: structural-duct
+  planet: rodrigonia-rodrigonia
+}
+researchCost: [
+  iron/24
+]

@@ -7,6 +7,7 @@ requirements: [
   iron/2
   invar/1
 ]
+bridgeReplacement: iron-duct-bridge
 category: distribution
 research: {
   parent: structural-duct

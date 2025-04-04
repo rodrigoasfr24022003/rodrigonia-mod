@@ -6,6 +6,7 @@ speed: 8
 requirements: [
   iron/1
 ]
+bridgeReplacement: iron-duct-bridge
 category: distribution
 research: {
   parent: core-loadspine
