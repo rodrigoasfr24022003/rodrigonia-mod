@@ -27,8 +27,11 @@ hasLiquids: true
 hasPower: true
 consumes: {
   power: 4
+  coolant: {
+    amount: 0.1
+  }
 }
-coolantMultiplier: 7
+coolantMultiplier: 2
 requirements: [
   iron/100
   silver/20
