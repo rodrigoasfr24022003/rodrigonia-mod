@@ -1,0 +1,56 @@
+type: multicraft.MultiCrafter
+name: "Magic Resonance Generator"
+description: "An early game generator, generating energy from silver, gold and electrum."
+health: 400
+size: 2
+fluidCapacityMultiplier: 1.0
+powerCapacity: 1200
+recipes:
+[
+  {
+    input: {
+      items: [
+        rodrigonia-silver/1
+      ]
+    }
+    output: {
+      power: 2
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        rodrigonia-electrum/1
+      ]
+    }
+    output: {
+      power: 3
+    }
+    craftTime: 120.0
+  }
+  {
+    input: {
+      items: [
+        rodrigonia-gold/1
+      ]
+    }
+    output: {
+      power: 4
+    }
+    craftTime: 120.0
+  }
+]
+requirements: [
+   iron/120
+   silver/40
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+  iron/1200
+  silver/300
+]
+category: "power"

@@ -1,7 +1,7 @@
 hardness: 0.8
 cost: 1
 color: "beccd2"
-healthScaling: 10.8
+healthScaling: 1
 alwaysUnlocked: true
 name: Silver
 description: A precious metal known for its conductivity.

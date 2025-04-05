@@ -23,3 +23,6 @@ research: {
     planet: rodrigonia-rodrigonia
     parent: core-loadspine
 }
+researchCost: [
+  iron/300
+]

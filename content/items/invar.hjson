@@ -1,0 +1,9 @@
+hardness: 1.25
+cost: 1
+color: "c6d1cb"
+healthScaling: 1.25
+name: Invar
+description: An alloy of iron and nickel.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

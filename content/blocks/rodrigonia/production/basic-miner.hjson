@@ -22,5 +22,9 @@ requirements: [
 category: production
 research: {
     planet: rodrigonia-rodrigonia
-    parent: basic-miner
+    parent:crude-miner
 }
+researchCost: [
+  iron/1200
+  silver/300
+]

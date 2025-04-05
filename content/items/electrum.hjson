@@ -1,0 +1,9 @@
+hardness: 0.7
+cost: 2
+color: "f2e279"
+healthScaling: 0.9
+name: Electrum
+description: An alloy of gold and silver.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

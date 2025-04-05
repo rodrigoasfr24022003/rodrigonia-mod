@@ -1,0 +1,15 @@
+name: Invar Duct
+type: Duct
+description: Transfers items forwards with fast throughput.
+health: 100
+speed: 4
+requirements: [
+  iron/2
+  invar/1
+]
+bridgeReplacement: iron-duct-bridge
+category: distribution
+research: {
+  parent: structural-duct
+  planet: rodrigonia-rodrigonia
+}

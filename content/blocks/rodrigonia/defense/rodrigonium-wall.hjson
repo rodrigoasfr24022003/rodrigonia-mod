@@ -1,8 +1,0 @@
-type: Wall
-health: 1200
-category: defense
-name: Rodrigonium Wall
-description: A super tough wall.
-requirements: [
-  rodrigonium/6
-]

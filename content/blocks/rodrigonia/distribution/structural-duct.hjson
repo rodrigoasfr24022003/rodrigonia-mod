@@ -1,0 +1,15 @@
+name: Structural Duct
+type: Duct
+description: Transfers items forwards.
+health: 50
+speed: 8
+requirements: [
+  iron/1
+]
+bridgeReplacement: iron-duct-bridge
+category: distribution
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}
+alwaysUnlocked: true

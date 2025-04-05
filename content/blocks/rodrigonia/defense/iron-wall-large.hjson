@@ -1,0 +1,13 @@
+type: Wall
+health: 4800
+size: 2
+category: defense
+name: Large Iron Wall
+description: A pretty basic large wall.
+requirements: [
+  iron/24
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: iron-wall
+}

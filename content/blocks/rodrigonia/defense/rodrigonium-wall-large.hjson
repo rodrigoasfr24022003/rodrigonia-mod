@@ -1,9 +1,0 @@
-type: Wall
-health: 4800
-size: 2
-category: defense
-name: Large Rodrigonium Wall
-description: A super tough large wall.
-requirements: [
-  rodrigonium/24
-]
