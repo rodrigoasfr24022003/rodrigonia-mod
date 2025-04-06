@@ -1,0 +1,34 @@
+name: Reinforced Miner
+description: A mid-game drill capable of mining diamonds, gems and platinum, at the cost of power.
+type: Drill
+health: 1460
+size: 3
+tier: 3
+drillTime: 100
+liquidCapacity: 10
+powerCapacity: 1500
+consumes: {
+    power: 2.5
+    liquid:{
+        liquid: water
+        amount: 0.2
+        optional: true
+        booster: true
+    }
+}
+drawMineItem: false
+requirements: [
+   iron/200
+   electrum/50
+   invar/50
+]
+category: production
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: crude-miner
+}
+researchCost: [
+  iron/600
+  electrum/150
+  invar/150
+]
