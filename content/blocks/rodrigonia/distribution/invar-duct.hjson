@@ -8,6 +8,7 @@ requirements: [
   invar/1
 ]
 bridgeReplacement: iron-duct-bridge
+routerReplacement: iron-duct-router
 category: distribution
 research: {
   parent: structural-duct

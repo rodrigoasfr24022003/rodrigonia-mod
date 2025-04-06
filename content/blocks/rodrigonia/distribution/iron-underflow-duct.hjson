@@ -1,0 +1,17 @@
+type: OverflowDuct
+name: "Iron Underflow Duct"
+description: "Rodrigonia's version of the underflow duct."
+health: 50
+size: 1
+category: distribution
+requirements: [
+  iron/1
+  silver/1
+]
+research: {
+  parent: structural-duct
+  planet: rodrigonia-rodrigonia
+}
+researchCost: [
+  iron/24
+]

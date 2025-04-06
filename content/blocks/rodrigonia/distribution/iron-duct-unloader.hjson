@@ -1,0 +1,16 @@
+type: DirectionalUnloader
+name: "Iron Duct Unloader"
+description: "Rodrigonia's version of the duct unloader."
+health: 50
+size: 1
+category: distribution
+requirements: [
+  iron/3
+]
+research: {
+  parent: structural-duct
+  planet: rodrigonia-rodrigonia
+}
+researchCost: [
+  iron/24
+]

@@ -1,0 +1,16 @@
+type: DuctRouter
+name: "Iron Duct Router"
+description: "Rodrigonia's version of the duct router."
+health: 50
+size: 1
+category: distribution
+requirements: [
+  iron/2
+]
+research: {
+  parent: structural-duct
+  planet: rodrigonia-rodrigonia
+}
+researchCost: [
+  iron/24
+]
