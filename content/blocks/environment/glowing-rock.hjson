@@ -1,0 +1,6 @@
+type: Floor
+variants: 1
+tier: 3
+name: Glowing Rock
+mapColor: fbda74
+itemDrop: glowstone

@@ -1,0 +1,45 @@
+type: multicraft.MultiCrafter
+name: "Lumium Forge"
+description: "Used to make Lumium, a strong and luminescent alloy."
+health: 900
+size: 3
+fluidCapacityMultiplier: 1.0
+itemCapacity: 80
+powerCapacity: 7200
+recipes:
+[
+  {
+    input: {
+      items: [
+        rodrigonia-tin/3
+        rodrigonia-silver/1
+        rodrigonia-glowstone/4
+      ]
+      power: 4
+    }
+    output: {
+      items: [
+        rodrigonia-lumium/4
+      ]
+    }
+    craftTime: 360.0
+  }
+]
+requirements: [
+   tin/810
+   silver/270
+   glowstone/1080
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parents: [
+        electrum-smelter
+        invar-smelter    
+    ]
+}
+researchCost: [
+  tin/2430
+  silver/810
+  glowstone/3240
+]
+category: crafting
