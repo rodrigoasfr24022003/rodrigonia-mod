@@ -1,0 +1,17 @@
+name: lumium Duct
+type: Duct
+description: Transfers items forwards with very fast throughput.
+health: 150
+speed: 3
+requirements: [
+  iron/3
+  invar/2
+  lumium/1
+]
+bridgeReplacement: iron-duct-bridge
+routerReplacement: iron-duct-router
+category: distribution
+research: {
+  parent: invar-duct
+  planet: rodrigonia-rodrigonia
+}
