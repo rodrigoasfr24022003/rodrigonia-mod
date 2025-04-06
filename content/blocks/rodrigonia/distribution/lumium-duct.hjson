@@ -1,4 +1,4 @@
-name: lumium Duct
+name: Lumium Duct
 type: Duct
 description: Transfers items forwards with very fast throughput.
 health: 150
