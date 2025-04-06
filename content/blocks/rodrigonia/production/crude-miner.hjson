@@ -24,5 +24,5 @@ research: {
     parent: core-loadspine
 }
 researchCost: [
-  iron/300
+  iron/120
 ]

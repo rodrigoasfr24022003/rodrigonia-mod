@@ -25,6 +25,6 @@ research: {
     parent: crude-miner
 }
 researchCost: [
-  iron/1200
-  silver/300
+  iron/300
+  silver/120
 ]
