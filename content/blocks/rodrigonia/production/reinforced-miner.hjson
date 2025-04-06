@@ -8,7 +8,7 @@ drillTime: 100
 liquidCapacity: 10
 powerCapacity: 1500
 consumes: {
-    power: 2.5
+    power: 1
     liquid:{
         liquid: water
         amount: 0.2
