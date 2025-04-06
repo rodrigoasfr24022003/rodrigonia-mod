@@ -4,4 +4,4 @@
 - Rodrigo
 - Meowkitty
 # Special Thanks
-- To the MoreDefences team for their code.
+- To the [MoreDefences](https://github.com/coaldeficit/MoreDefences) team for their code.
