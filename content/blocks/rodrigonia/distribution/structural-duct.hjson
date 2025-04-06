@@ -7,7 +7,6 @@ requirements: [
   iron/1
 ]
 bridgeReplacement: iron-duct-bridge
-junctionReplacement: iron-duct-junction
 category: distribution
 research: {
   parent: core-loadspine
