@@ -1,1 +1,1 @@
-- Do a proper texture update (Rodrigo)
+- Add the remaining duct blocks, with similar functionality to the Erekir ones.
