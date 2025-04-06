@@ -1,0 +1,76 @@
+name: (2-3)-Gun
+description: Shoots enemies with iron or invar.
+type: ItemTurret
+health: 2250
+size: 3
+reload: 20
+range: 180
+inaccuracy: 3
+velocityRnd: 0.1
+rotateSpeed: 3
+predictTarget: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 6
+  dest: [{
+    type: ShootBarrel
+    shots: 2
+    barrels: [
+      -7.5,0,0,
+      7.5,0,0
+    ]
+  }, {
+    type: ShootBarrel
+    shots: 2
+    barrels: [
+      -7.5,0,0,
+      7.5,0,0
+    ]
+    firstShotDelay: 3
+  }, {
+    type: ShootBarrel
+    shots: 2
+    barrels: [
+      -7.5,0,0,
+      7.5,0,0
+    ]
+    firstShotDelay: 6
+  }]
+}
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    speed: 10
+    damage: 50
+    lifetime: 40
+    width: 6
+    height: 7
+  }
+  invar: {
+    type: BasicBulletType
+    speed: 10
+            damage: 100
+            lifetime: 50
+            width: 6
+            height: 7
+  }
+}
+shootCone: 360
+hasLiquids: true
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 2
+requirements: [
+  invar/100
+  electrum/100
+]
+shootSound: shoot
+category: turret
+research: {
+  parent: bolter
+  planet: rodrigonia-rodrigonia
+}
