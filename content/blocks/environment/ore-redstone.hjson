@@ -1,0 +1,7 @@
+type: OreBlock
+name: Redstone
+itemDrop: redstone
+variants: 1
+tier: 3
+mapColor: ff0000
+useColor: true
