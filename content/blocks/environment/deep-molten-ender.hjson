@@ -1,0 +1,5 @@
+type: LiquidBlock
+variants: 1
+name: Molten Ender
+mapColor: 0066ff
+liquidDrop: molten-ender
