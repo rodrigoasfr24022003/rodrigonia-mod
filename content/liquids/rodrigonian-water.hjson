@@ -1,0 +1,15 @@
+type: Liquid
+name: Rodrigonian Water
+description: Water with rodrigono-organic compounds.
+color: 003153
+flammability: 0
+explosiveness: 0
+heatCapacity: 1
+temperature: 0
+viscosity: 0.25
+coolant: true
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}

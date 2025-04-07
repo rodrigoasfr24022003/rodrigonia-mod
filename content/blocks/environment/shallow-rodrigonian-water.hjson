@@ -1,0 +1,5 @@
+type: ShallowLiquid
+variants: 1
+name: Shallow Rodrigonian Water
+mapColor: 0066ff
+liquidDrop: rodrigonian-water
