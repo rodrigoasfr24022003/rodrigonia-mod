@@ -1,0 +1,17 @@
+type: Conduit
+name: Fluiduct
+description: Transports liquids forward.
+health: 50
+size: 1
+leaks: true
+underBullets: true
+botColor: ffffff
+category: liquid
+requirements: [
+  rodcopper/1
+]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}
+alwaysUnlocked: true
