@@ -55,7 +55,7 @@ weapons: [{
   shootCone: 361
   bullet: {	
     speed: 8
-    damage: 50
+    damage: 10
     lifetime: 20
     width: 6
     height: 7

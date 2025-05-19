@@ -1,5 +1,5 @@
 name: (2-3)-Gun
-description: Shoots enemies with iron, invar or lumium.
+description: Shoots enemies with iron or invar.
 type: ItemTurret
 health: 2250
 size: 3
@@ -42,7 +42,7 @@ ammoTypes: {
   iron: {
     type: BasicBulletType
     speed: 10
-    damage: 50
+    damage: 10
     lifetime: 40
     width: 6
     height: 7
@@ -50,17 +50,8 @@ ammoTypes: {
   invar: {
     type: BasicBulletType
     speed: 10
-    damage: 100
+    damage: 20
     lifetime: 50
-    width: 6
-    height: 7
-  }
-  lumium: {
-    type: EmpBulletType
-    radius: 20
-    speed: 10
-    damage: 150
-    lifetime: 60
     width: 6
     height: 7
   }

@@ -1,7 +1,0 @@
-type: OreBlock
-name: Tin
-itemDrop: tin
-variants: 1
-tier: 1
-mapColor: 88a2a7
-useColor: true

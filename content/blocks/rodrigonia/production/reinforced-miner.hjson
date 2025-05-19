@@ -1,5 +1,5 @@
 name: Reinforced Miner
-description: A mid-game drill capable of mining diamonds, gems and platinum, at the cost of power.
+description: A mid-game drill capable of mining diamonds and other gems, at the cost of power.
 type: Drill
 health: 1460
 size: 3

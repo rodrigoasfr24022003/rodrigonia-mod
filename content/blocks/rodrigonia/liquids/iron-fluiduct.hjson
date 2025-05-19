@@ -8,7 +8,7 @@ underBullets: true
 botColor: ffffff
 category: liquid
 requirements: [
-  rodcopper/1
+  iron/1
 ]
 research: {
   parent: core-loadspine

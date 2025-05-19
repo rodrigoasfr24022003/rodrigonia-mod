@@ -1,40 +1,32 @@
-type: multicraft.MultiCrafter
+type: AttributeCrafter
 name: "Electrum Smelter"
 description: "Used to make electrum."
 health: 400
 size: 2
-fluidCapacityMultiplier: 1.0
-powerCapacity: 1200
-recipes:
-[
-  {
-    input: {
-      items: [
-        rodrigonia-silver/1
-        rodrigonia-gold/1
-      ]
-      power: 2
-    }
-    output: {
-      items: [
-        rodrigonia-electrum/2
-      ]
-    }
-    craftTime: 120.0
+hasPower: true
+hasItems: true
+craftTime: 120
+itemCapacity: 20
+powerCapacity: 3600
+consumes: {
+  power: 1
+  items: {
+    items: [
+      silver/1
+      gold/1
+    ]
   }
-]
+}
 requirements: [
-   iron/160
-   silver/40
-   gold/40
+   gold/120
+   silver/120
 ]
 research: {
     planet: rodrigonia-rodrigonia
-    parent: core-loadspine
+    parent: cinvar-smelter
 }
 researchCost: [
-  iron/1600
-  silver/400
-  gold/400
+  gold/600
+  silver/600
 ]
 category: crafting

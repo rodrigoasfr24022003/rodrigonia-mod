@@ -1,7 +1,0 @@
-type: OreBlock
-name: RodCopper
-itemDrop: rodcopper
-variants: 3
-tier: 1
-mapColor: "e77c56"
-useColor: true

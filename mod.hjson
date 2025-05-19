@@ -1,8 +1,7 @@
 name: "rodrigonia"
 displayName: "Rodrigonia"
 author: rodrigo_of_rodrigonia
-description: "Adds a new planet. Not recommended to play on BE due to bugs involving MultiCrafter Lib in BE."
+description: "Adds a new planet."
 version: "1.0"
 minGameVersion: "146"
-dependencies: ["multi-crafter"]
 hidden: false
