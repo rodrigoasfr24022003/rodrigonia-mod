@@ -2,12 +2,13 @@ name: Sculker
 description: A unit with 2 shotguns.
 speed: 2
 flying: false
+mech: true
 health: 250
 mechSideSway: 0.4
 mechFrontSway: 0.1
 mechStride: 4
 itemCapacity: 0
-hitSize: 6
+hitSize: 9
 useUnitCap: true
 targetFlags: [
     storage,
@@ -17,39 +18,25 @@ targetFlags: [
 weapons: [{
   name: sculker-shotgun
   top: false
-  rotate: true
-  y: 2.3
-  x: -2.3
+  rotate: false
+  y: 0
+  x: -3
   inaccuracy: 5
   reload: 30
   mirror: true
-  rotateSpeed: 60
+  rotateSpeed: 0
   rotationLimit: 180
-  predictTarget: true
+  predictTarget: false
   shootCone: 361
   bullet: {	
     speed: 12
     damage: 30
-    lifetime: 8
+    lifetime: 6
     width: 6
     height: 7
   }
 }]
-legSpeed: 0.1
-stepShake: 1
-legCount: 3
-legLength: 12
-legExtension: -10
-legBaseOffset: 10
-legLengthScl: .9
-legPairOffset: 3
-rippleScale: 2
-legMoveSpace: 1
-allowLegStep: true
-hovering: true
-legSplashDamage: 16
-legSplashRange: 16
-research: {
-    parent: core-loadspine
-    planet: rodrigonia-rodrigonia
-}
+mechLandShake: 0
+mechSideSway: 0.54
+mechFrontSway: 0.1
+mechStride: -1
