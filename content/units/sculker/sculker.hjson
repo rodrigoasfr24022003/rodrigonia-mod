@@ -20,7 +20,7 @@ weapons: [{
   top: false
   rotate: false
   y: 0
-  x: -3
+  x: -3.25
   inaccuracy: 5
   reload: 30
   mirror: true
