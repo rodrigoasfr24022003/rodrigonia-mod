@@ -41,7 +41,6 @@ coolantMultiplier: 2
 requirements: [
   iron/100
   silver/20
-  gold/5
 ]
 shootSound: bolt
 category: turret
