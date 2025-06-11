@@ -1,0 +1,17 @@
+type: PowerNode
+name: "Power Node"
+description: "An early game power node."
+health: 100
+laserRange: 12
+maxNodes: 12
+requirements: [
+   silver/5
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+  silver/20
+]
+category: "power"

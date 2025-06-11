@@ -1,0 +1,19 @@
+type: Battery
+name: "Silver Battery"
+description: "An early game battery."
+size: 1
+consumes: {
+  powerBuffered: 6000
+}
+health: 200
+requirements: [
+   silver/10
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: rodrigonian-power-node
+}
+researchCost: [
+  silver/20
+]
+category: "power"
