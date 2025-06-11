@@ -1,8 +1,7 @@
 name: Sculker
+type: mech
 description: A unit with 2 shotguns.
-speed: 2
-flying: false
-mech: true
+speed: 0.8
 health: 250
 mechSideSway: 0.4
 mechFrontSway: 0.1
@@ -20,7 +19,7 @@ weapons: [{
   top: false
   rotate: false
   y: 0
-  x: -3.25
+  x: -3
   inaccuracy: 5
   reload: 30
   mirror: true

@@ -1,6 +1,0 @@
-type: StaticWall
-name: Large Rodrigonian Rock Wall
-variants: 1
-size: 2
-mapColor: 00477a
-useColor: true
