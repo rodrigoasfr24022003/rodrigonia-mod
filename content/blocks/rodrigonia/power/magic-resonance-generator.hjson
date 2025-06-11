@@ -14,16 +14,16 @@ consumes: {
   }
 }
 requirements: [
-   iron/120
-   silver/40
+   iron/60
+   silver/20
 ]
 research: {
     planet: rodrigonia-rodrigonia
     parent: core-loadspine
 }
 researchCost: [
-  iron/1200
-  silver/300
+  iron/120
+  silver/40
 ]
 powerProduction: 2
 category: "power"
