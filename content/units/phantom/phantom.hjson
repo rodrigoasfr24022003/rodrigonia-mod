@@ -1,0 +1,45 @@
+name: Phantom
+description: Fast air unit with a basic cannon.
+speed: 2
+flying: true
+health: 200
+engineOffset: 0
+engineSize: 0
+drag: 0.05
+accel: 0.1
+hitSize: 9
+itemCapacity: 0
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+weapons: [{
+  name: phantom-cannon
+  top: false
+  rotate: false
+  y: 0
+  x: 0
+  inaccuracy: 2.5
+  reload: 20
+  mirror: false
+  rotateSpeed: 0
+  rotationLimit: 180
+  predictTarget: false
+  shootCone: 361
+  bullet: {	
+    speed: 12
+    damage: 20
+    lifetime: 10
+    width: 6
+    height: 7
+  }
+}]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}
+researchCost: [
+  iron/120
+  nickel/40
+]
