@@ -14,6 +14,28 @@ targetFlags: [
     battery,
     null
 ]
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -3
+      y: -4.5
+      teamColor: true
+      effectParam: 1.3
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 3
+      y: -4.5
+      teamColor: true
+      effectParam: 1.3
+    }
+  ]
+}
 weapons: [{
   name: phantom-cannon
   top: false
