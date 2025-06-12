@@ -1,0 +1,7 @@
+type: OreBlock
+name: Germanium
+itemDrop: germanium
+variants: 1
+tier: 1
+mapColor: 668f8f
+useColor: true

@@ -1,0 +1,10 @@
+hardness: 0.8
+cost: 1
+flammability: 1
+color: "668e8e"
+healthScaling: 1
+name: Germanium
+description: Fuel for combustion generators.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]
