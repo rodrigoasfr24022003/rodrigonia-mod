@@ -1,0 +1,49 @@
+name: Disruptor
+description: Shoots laser bolts that deal some damage to enemy units and EMP's them. Uses 6 power/tick.
+type: PowerTurret
+health: 1000
+size: 2
+reload: 42
+range: 260
+inaccuracy: 5
+velocityRnd: 0.1
+rotateSpeed: 2
+powerCapcity: 2160
+predictTarget: true
+shoot: {
+  type: ShootBarrel
+  shotDelay: 18
+}
+shootType: {
+    type: EmpBulletType
+    backColor: "ffd700"
+    mixColorFrom: "ffffff"
+    speed: 6
+    damage: 100
+    lifetime: 40
+    width: 6
+    height: 9
+    sprite: circle-small
+    shrinkY: 0
+    shrinkX: 0
+}
+shootCone: 360
+hasLiquids: true
+hasPower: true
+consumes: {
+  power: 6
+  coolant: {
+    amount: 0.1
+  }
+}
+coolantMultiplier: 2
+requirements: [
+  iron/100
+  nickel/20
+]
+shootSound: bolt
+category: turret
+research: {
+  parent: core-loadspine
+  planet: rodrigonia-rodrigonia
+}
