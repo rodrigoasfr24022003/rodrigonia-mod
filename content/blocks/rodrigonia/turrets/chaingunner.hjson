@@ -1,0 +1,88 @@
+name: Chaingunner
+description: Shoots bullets at an insanely rapid rate. Requires coolant or it will explode.
+type: ItemTurret
+health: 9000
+size: 6
+reload: 8
+range: 180
+inaccuracy: 5
+velocityRnd: 0.1
+rotateSpeed: 5
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 16
+  dest: [{
+    type: ShootBarrel
+    shots: 4
+    barrels: [
+      0,0,0,
+      -1,0,0,
+      1,0,0,
+      0,0,0
+    ]
+  }, {
+    type: ShootBarrel
+    shots: 4
+    barrels: [
+      0,0,0,
+      -1,0,0,
+      1,0,0,
+      0,0,0
+    ]
+    firstShotDelay: 2
+  }, {
+    type: ShootBarrel
+    shots: 4
+    barrels: [
+      0,0,0,
+      -1,0,0,
+      1,0,0,
+      0,0,0
+    ]
+    firstShotDelay: 4
+  }, {
+    type: ShootBarrel
+    shots: 4
+    barrels: [
+      0,0,0,
+      -1,0,0,
+      1,0,0,
+      0,0,0
+    ]
+    firstShotDelay: 6
+  }]
+}
+ammoTypes: {
+  invar: {
+    type: BasicBulletType
+    speed: 20
+    damage: 50
+    lifetime: 30
+    width: 6
+    height: 7
+  }
+}
+shootCone: 361
+hasLiquids: true
+consumes: {
+    coolant: {
+        amount: 4
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  invar/1200
+  electrum/400
+]
+maxAmmo: 320
+liquidCapacity: 750
+shootSound: shoot
+category: turret
+research: {
+  parent: 2-3-gun
+  planet: rodrigonia-rodrigonia
+}
+buildVisibility: hidden

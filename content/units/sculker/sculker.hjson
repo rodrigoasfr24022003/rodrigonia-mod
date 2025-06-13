@@ -27,6 +27,7 @@ weapons: [{
   rotationLimit: 180
   predictTarget: false
   shootCone: 361
+  layerOffset: -1
   bullet: {	
     speed: 12
     damage: 30
