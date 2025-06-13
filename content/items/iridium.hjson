@@ -1,0 +1,10 @@
+hardness: 0.6
+cost: 4
+color: "ffffff"
+healthScaling: 0.8
+alwaysUnlocked: true
+name: Iridium
+description: A very precious metal.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

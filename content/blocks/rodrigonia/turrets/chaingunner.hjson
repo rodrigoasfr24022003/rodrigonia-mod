@@ -4,7 +4,7 @@ type: ItemTurret
 health: 9000
 size: 6
 reload: 8
-range: 180
+range: 300
 inaccuracy: 5
 velocityRnd: 0.1
 rotateSpeed: 5
@@ -56,7 +56,7 @@ shoot: {
   }]
 }
 ammoTypes: {
-  invar: {
+  rodrigonium: {
     type: BasicBulletType
     speed: 20
     damage: 50
@@ -69,13 +69,15 @@ shootCone: 361
 hasLiquids: true
 consumes: {
     coolant: {
-        amount: 4
+        amount: 0.5
     }
 }
 coolantMultiplier: 0.5
 requirements: [
-  invar/1200
-  electrum/400
+  rodrigonium/1200
+  tritanium/900
+  gold/100
+  iridium/100
 ]
 maxAmmo: 320
 liquidCapacity: 750

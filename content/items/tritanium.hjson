@@ -1,0 +1,9 @@
+hardness: 6
+cost: 1
+color: 72AEB5
+healthScaling: 4.5
+name: Tritanium
+description: A very tough metal.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]
