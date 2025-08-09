@@ -41,7 +41,7 @@ defaultEnv: 129
 //content unlocked when landing on this planet
 unlockedOnLand: []
 //planet icon 
-icon: terrain
+//icon: terrain
 //various rules
 allowLaunchSchematics: true
 allowLaunchLoadout: true

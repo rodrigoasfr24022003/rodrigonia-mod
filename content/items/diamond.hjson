@@ -1,0 +1,11 @@
+hardness: 2.0
+cost: 2
+color: "00ffff"
+flammability: 0.1
+healthScaling: 0.5
+alwaysUnlocked: true
+name: Diamonds
+description: A precious gem. Brittle and useable as a very inneficient combustion fuel.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]
