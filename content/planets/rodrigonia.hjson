@@ -52,7 +52,7 @@ prebuildBase: true
 allowWaves: true
 enemyBuildSpeedMultiplier: 1
 //default core to launch with
-defaultCore: core-shard
+defaultCore: core-loadspine
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
 mesh: [
