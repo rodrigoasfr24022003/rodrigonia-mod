@@ -1,6 +1,6 @@
 name: Chaingunner
-description: Shoots bullets at an insanely rapid rate. Requires coolant or it will explode.
-// type: ItemTurret
+description: Shoots bullets at an insanely rapid rate. No gimmick because the gimmick I envisioned isn't viable.
+type: ItemTurret
 health: 9000
 size: 6
 reload: 8
