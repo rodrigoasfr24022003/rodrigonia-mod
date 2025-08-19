@@ -23,7 +23,7 @@ requirements: [
 ]
 research: {
     planet: rodrigonia-rodrigonia
-    parent: cinvar-smelter
+    parent: invar-smelter
 }
 researchCost: [
   gold/600
