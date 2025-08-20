@@ -11,7 +11,7 @@ sectorSize: 4
 //terrain generation seed the planet uses for its sectors
 sectorSeed: 6
 //sector to start on - probably make this a preset sector
-startSector: 0
+startSector: 1
 //parent to orbit around and follow
 parent: sun
 //icon colour
