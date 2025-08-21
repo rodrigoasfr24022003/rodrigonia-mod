@@ -1,0 +1,9 @@
+hardness: 8
+cost: 3
+color: aaad70
+healthScaling: 6
+name: Fragdrigonium
+description: Used for fragmentating projectiles.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

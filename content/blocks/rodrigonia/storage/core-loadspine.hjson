@@ -18,5 +18,9 @@ research: {
   root: true
   name: Rodrigonia
   planet: rodrigonia-rodrigonia
+  requiresUnlock: false
 }
+shownPlanets: [
+  rodrigonia-rodrigonia
+]
 alwaysUnlocked: true
