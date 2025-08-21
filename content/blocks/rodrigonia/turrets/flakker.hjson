@@ -1,0 +1,123 @@
+name: Flakker
+description: Shoots bullets at an very rapid rate.
+type: ItemTurret
+health: 4000
+size: 4
+reload: 16
+range: 300
+inaccuracy: 5
+velocityRnd: 0.1
+rotateSpeed: 5
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 4
+  dest: [{
+    type: ShootBarrel
+    shots: 1
+    barrels: [
+      -7,0,0
+    ]
+  }, {
+    type: ShootBarrel
+    shots: 1
+    barrels: [
+      7,0,0
+    ]
+  }, {
+    type: ShootBarrel
+    shots: 1
+    barrels: [
+      -9,-7,0
+    ]
+    firstShotDelay: 6
+  }, {
+    type: ShootBarrel
+    shots: 1
+    barrels: [
+      9,-7,0
+    ]
+    firstShotDelay: 6
+  }]
+}
+ammoTypes: {
+  iridium: {
+    type: FlakBulletType
+    speed: 30
+    damage: 50
+    lifetime: 20
+    width: 8
+    height: 8
+    splashDamage: 100
+    splashDamageRadius: 40
+    explodeRange: 40
+    explodeDelay: 0
+  },
+  gold: {
+    type: FlakBulletType
+    speed: 20
+    damage: 100
+    lifetime: 20
+    width: 9
+    height: 9
+    splashDamage: 200
+    splashDamageRadius: 40
+    explodeRange: 40
+    explodeDelay: 0
+  },
+  rodrigonium: {
+    type: FlakBulletType
+    speed: 20
+    damage: 150
+    lifetime: 20
+    width: 10
+    height: 10
+    splashDamage: 300
+    splashDamageRadius: 40
+    explodeRange: 40
+    explodeDelay: 0
+  },
+  tritanium: {
+    type: FlakBulletType
+    speed: 15
+    damage: 100
+    lifetime: 20
+    width: 10
+    height: 10
+    splashDamage: 200
+    splashDamageRadius: 30
+    explodeRange: 30
+    explodeDelay: 0
+    fragBullets: 3
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 10
+        lifetime: 20
+        width: 3
+        height: 3
+    }
+  }
+}
+shootCone: 361
+consumes: {
+    coolant: {
+        amount: 0.3
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  electrum/1000
+  iridium/300
+]
+maxAmmo: 160
+liquidCapacity: 250
+shootSound: shoot
+category: turret
+research: {
+  parent: 2-3-gun
+  planet: rodrigonia-rodrigonia
+}
+buildVisibility: hidden
