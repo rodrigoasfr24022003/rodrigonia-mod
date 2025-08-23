@@ -1,0 +1,10 @@
+hardness: 1.5
+cost: 1
+color: "565675"
+healthScaling: 1
+alwaysUnlocked: true
+name: Steel
+description: An alloy of iron and carbon. Used for midgame machines.
+shownPlanets: [
+  rodrigonia-rodrigonia
+]

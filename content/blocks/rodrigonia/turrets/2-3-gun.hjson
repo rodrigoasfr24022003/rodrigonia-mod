@@ -47,6 +47,14 @@ ammoTypes: {
     width: 6
     height: 7
   }
+  steel: {
+    type: BasicBulletType
+    speed: 8
+    damage: 15
+    lifetime: 45
+    width: 6
+    height: 7
+  }
   invar: {
     type: BasicBulletType
     speed: 10

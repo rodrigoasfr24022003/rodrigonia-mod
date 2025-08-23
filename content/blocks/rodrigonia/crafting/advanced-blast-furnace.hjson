@@ -1,0 +1,37 @@
+type: AttributeCrafter
+name: "Advanced Blast Furnace"
+description: "Used to make Steel quickly. Auto-vaporizes slag."
+health: 1600
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 150
+itemCapacity: 60
+powerCapacity: 6000
+consumes: {
+  power: 4
+  items: {
+    items: [
+      iron/1
+    ]
+  }
+}
+outputItems: [
+  steel/4
+]
+requirements: [
+   steel/270
+   diamond/10
+   iron/80
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: invar-smelter
+}
+researchCost: [
+   steel/810
+   diamond/30
+   iron/240
+]
+category: crafting

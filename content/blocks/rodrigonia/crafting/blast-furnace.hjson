@@ -1,0 +1,36 @@
+type: AttributeCrafter
+name: "Blast Furnace"
+description: "Used to make Steel. Outputs slag as a byproduct."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 600
+itemCapacity: 10
+powerCapacity: 6000
+consumes: {
+  power: 1
+  items: {
+    items: [
+      iron/1
+    ]
+  }
+}
+outputItems: [
+  steel/1
+]
+outputLiquid: slag/0.16
+requirements: [
+   iron/270
+   invar/90
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: invar-smelter
+}
+researchCost: [
+   iron/810
+   invar/270
+]
+category: crafting

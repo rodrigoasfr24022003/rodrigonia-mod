@@ -43,6 +43,18 @@ shoot: {
   }]
 }
 ammoTypes: {
+  steel: {
+    type: FlakBulletType
+    speed: 20
+    damage: 20
+    lifetime: 20
+    width: 6
+    height: 6
+    splashDamage: 50
+    splashDamageRadius: 20
+    explodeRange: 20
+    explodeDelay: 0
+  },
   iridium: {
     type: FlakBulletType
     speed: 30
