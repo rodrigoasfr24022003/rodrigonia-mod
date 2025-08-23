@@ -17,6 +17,9 @@ consumes: {
     ]
   }
 }
+outputItems: [
+  invar/3
+]
 requirements: [
    iron/240
    nickel/120

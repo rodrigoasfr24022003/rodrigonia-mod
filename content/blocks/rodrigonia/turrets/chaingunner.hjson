@@ -71,11 +71,29 @@ ammoTypes: {
     lifetime: 20
     width: 6
     height: 7
+    fragBullets: 3
     fragBullet: {	
         type: BasicBulletType
         speed: 10
         damage: 10
         lifetime: 20
+        width: 3
+        height: 3
+    }
+  },
+  fragdrigonium: {
+    type: BasicBulletType
+    speed: 20
+    damage: 20
+    lifetime: 15
+    width: 6
+    height: 7
+    fragBullets: 6
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 10
+        lifetime: 10
         width: 3
         height: 3
     }

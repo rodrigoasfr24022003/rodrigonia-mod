@@ -17,6 +17,9 @@ consumes: {
     ]
   }
 }
+outputItems: [
+  electrum/2
+]
 requirements: [
    gold/120
    silver/120

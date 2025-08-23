@@ -99,6 +99,27 @@ ammoTypes: {
         width: 3
         height: 3
     }
+  },
+  fragdrigonium: {
+    type: FlakBulletType
+    speed: 15
+    damage: 30
+    lifetime: 15
+    width: 10
+    height: 10
+    splashDamage: 100
+    splashDamageRadius: 20
+    explodeRange: 20
+    explodeDelay: 0
+    fragBullets: 6
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 10
+        lifetime: 10
+        width: 3
+        height: 3
+    }
   }
 }
 shootCone: 361

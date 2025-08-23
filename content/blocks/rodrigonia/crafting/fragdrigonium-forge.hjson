@@ -1,0 +1,38 @@
+type: AttributeCrafter
+name: "Fragdrigonium Forge"
+description: "Used to make Fragdrigonium."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 360
+itemCapacity: 30
+powerCapacity: 10800
+consumes: {
+  power: 3
+  items: {
+    items: [
+      rodrigonium/1
+      gold/1
+      iridium/1
+    ]
+  }
+}
+outputItems: [
+  fragdrigonium/3
+]
+requirements: [
+   rodrigonium/900
+   gold/400
+   iridium/400
+]
+research: {
+    planet: rodrigonia-rodrigonia
+    parent: electrum-smelter
+}
+researchCost: [
+  rodrigonium/4500
+  gold/2000
+  iridium/2000
+]
+category: crafting
