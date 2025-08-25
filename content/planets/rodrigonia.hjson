@@ -5,13 +5,13 @@
 //also accepts just doing generator: AsteroidGenerator
 //also these numbers are funny and i have no idea how they precisely work
 generator: AsteroidGenerator
-name:Rodrigonia
+name: Rodrigonia
 //sector count - larger numbers mean exponentially more sectors, may crash above 4
 sectorSize: 4
 //terrain generation seed the planet uses for its sectors
 sectorSeed: 6
 //sector to start on - probably make this a preset sector
-startSector: 1
+startSector: 0
 //parent to orbit around and follow
 parent: sun
 //icon colour
@@ -48,7 +48,7 @@ allowLaunchLoadout: true
 allowWaveSimulation: false
 allowSectorInvasion: true
 clearSectorOnLose: true
-prebuildBase: true
+prebuildBase: false
 allowWaves: true
 enemyBuildSpeedMultiplier: 1
 //default core to launch with
