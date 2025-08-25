@@ -4,3 +4,7 @@ planet: rodrigonia
 sector: 1
 difficulty: 1
 captureWave: 10
+research: {
+  parent: core-loadspine
+}
+alwaysUnlocked: true
