@@ -6,5 +6,5 @@ alwaysUnlocked: true
 name: Gold
 description: A precious metal since ancient times.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

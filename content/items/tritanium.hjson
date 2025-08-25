@@ -5,5 +5,5 @@ healthScaling: 4.5
 name: Tritanium
 description: A very tough metal.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

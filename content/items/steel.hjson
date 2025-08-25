@@ -6,5 +6,5 @@ alwaysUnlocked: true
 name: Steel
 description: An alloy of iron and carbon. Used for midgame machines.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

@@ -7,5 +7,5 @@ alwaysUnlocked: true
 name: Diamonds
 description: A precious gem. Brittle and useable as a very inneficient combustion fuel.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

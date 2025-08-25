@@ -45,5 +45,5 @@ shootSound: bolt
 category: turret
 research: {
   parent: core-loadspine
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }

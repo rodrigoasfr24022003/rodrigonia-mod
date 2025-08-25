@@ -6,5 +6,5 @@ alwaysUnlocked: true
 name: Iridium
 description: A very precious metal.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

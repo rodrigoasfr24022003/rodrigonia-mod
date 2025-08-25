@@ -25,7 +25,7 @@ requirements: [
    silver/120
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: invar-smelter
 }
 researchCost: [

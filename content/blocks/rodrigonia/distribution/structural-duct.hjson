@@ -10,6 +10,6 @@ bridgeReplacement: iron-duct-bridge
 category: distribution
 research: {
   parent: core-loadspine
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 alwaysUnlocked: true

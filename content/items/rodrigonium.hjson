@@ -5,5 +5,5 @@ healthScaling: 6
 name: Rodrigonium
 description: A very tough metal hailing from Rodrigonia.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

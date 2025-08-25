@@ -6,5 +6,5 @@ alwaysUnlocked: true
 name: Iron
 description: Pretty much standard everywhere.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

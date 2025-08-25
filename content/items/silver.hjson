@@ -6,5 +6,5 @@ alwaysUnlocked: true
 name: Silver
 description: A precious metal known for its conductivity.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

@@ -12,5 +12,5 @@ routerReplacement: iron-duct-router
 category: distribution
 research: {
   parent: structural-duct
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }

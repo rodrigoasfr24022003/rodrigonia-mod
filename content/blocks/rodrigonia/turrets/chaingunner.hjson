@@ -118,6 +118,6 @@ shootSound: shoot
 category: turret
 research: {
   parent: flakker
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 buildVisibility: hidden

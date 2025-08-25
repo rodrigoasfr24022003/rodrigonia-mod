@@ -8,7 +8,7 @@ requirements: [
    silver/5
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: core-loadspine
 }
 researchCost: [

@@ -7,6 +7,6 @@ requirements: [
   iron/6
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: core-loadspine
 }

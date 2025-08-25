@@ -10,7 +10,7 @@ requirements: [
 ]
 research: {
   parent: structural-duct
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 researchCost: [
   iron/24

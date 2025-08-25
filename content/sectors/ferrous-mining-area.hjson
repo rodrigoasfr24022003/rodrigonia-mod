@@ -1,4 +1,6 @@
+name: "Ferrous Mining Area"
 description: "This sector is prime for mining iron and nickel."
 planet: rodrigonia
 sector: 1
 difficulty: 1
+captureWave: 10

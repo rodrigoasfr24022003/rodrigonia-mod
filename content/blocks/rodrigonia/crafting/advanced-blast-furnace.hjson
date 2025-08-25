@@ -26,7 +26,7 @@ requirements: [
    iron/80
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: invar-smelter
 }
 researchCost: [

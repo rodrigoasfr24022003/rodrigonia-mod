@@ -10,7 +10,7 @@ requirements: [
    silver/10
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: rodrigonian-power-node
 }
 researchCost: [

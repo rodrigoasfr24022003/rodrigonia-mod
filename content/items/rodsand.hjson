@@ -5,5 +5,5 @@ healthScaling: 1
 name: RodSand
 description: Sand from Rodrigonia.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

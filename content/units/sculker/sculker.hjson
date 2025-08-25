@@ -42,7 +42,7 @@ mechFrontSway: 0.1
 mechStride: -1
 research: {
   parent: core-loadspine
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 researchCost: [
   silver/120

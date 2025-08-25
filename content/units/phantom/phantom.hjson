@@ -60,7 +60,7 @@ weapons: [{
 }]
 research: {
   parent: core-loadspine
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 researchCost: [
   iron/120

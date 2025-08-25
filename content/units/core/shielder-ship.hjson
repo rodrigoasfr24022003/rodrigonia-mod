@@ -65,6 +65,6 @@ itemCapacity: 50
 range: 80
 research: {
   parent: core-loadspine
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 alwaysUnlocked: true

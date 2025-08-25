@@ -5,5 +5,5 @@ healthScaling: 0.9
 name: Electrum
 description: An alloy of gold and silver.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

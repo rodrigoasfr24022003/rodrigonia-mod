@@ -6,5 +6,5 @@ healthScaling: 1
 name: Germanium
 description: Fuel for combustion generators.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

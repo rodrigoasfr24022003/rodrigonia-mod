@@ -11,5 +11,5 @@ coolant: true
 moveThroughBlocks: true
 research: {
   parent: core-loadspine
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }

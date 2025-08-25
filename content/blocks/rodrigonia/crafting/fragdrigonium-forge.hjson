@@ -27,7 +27,7 @@ requirements: [
    iridium/400
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: electrum-smelter
 }
 researchCost: [

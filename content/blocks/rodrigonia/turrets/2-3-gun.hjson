@@ -80,5 +80,5 @@ shootSound: shoot
 category: turret
 research: {
   parent: bolter
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }

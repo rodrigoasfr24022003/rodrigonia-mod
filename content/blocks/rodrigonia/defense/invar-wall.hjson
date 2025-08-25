@@ -7,6 +7,6 @@ requirements: [
   invar/6
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: iron-wall
 }

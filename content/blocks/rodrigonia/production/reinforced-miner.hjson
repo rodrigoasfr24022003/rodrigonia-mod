@@ -24,7 +24,7 @@ requirements: [
 ]
 category: production
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: crude-miner
 }
 researchCost: [

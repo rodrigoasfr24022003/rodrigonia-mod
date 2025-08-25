@@ -8,6 +8,6 @@ requirements: [
   invar/24
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: invar-wall
 }

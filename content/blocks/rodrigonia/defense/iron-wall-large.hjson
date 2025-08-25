@@ -8,6 +8,6 @@ requirements: [
   iron/24
 ]
 research: {
-    planet: rodrigonia-rodrigonia
+    planet: rodrigonia
     parent: iron-wall
 }

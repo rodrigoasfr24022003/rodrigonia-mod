@@ -151,6 +151,6 @@ shootSound: shoot
 category: turret
 research: {
   parent: 2-3-gun
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
 }
 buildVisibility: hidden

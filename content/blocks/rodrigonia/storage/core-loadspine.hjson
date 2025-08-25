@@ -17,10 +17,10 @@ envDisabled: 24
 research: {
   root: true
   name: Rodrigonia
-  planet: rodrigonia-rodrigonia
+  planet: rodrigonia
   requiresUnlock: false
 }
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]
 alwaysUnlocked: true

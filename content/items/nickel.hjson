@@ -5,5 +5,5 @@ healthScaling: 1
 name: Nickel
 description: A component of Invar.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]

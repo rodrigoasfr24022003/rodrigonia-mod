@@ -5,5 +5,5 @@ healthScaling: 1.25
 name: Invar
 description: An alloy of iron and nickel.
 shownPlanets: [
-  rodrigonia-rodrigonia
+  rodrigonia
 ]
