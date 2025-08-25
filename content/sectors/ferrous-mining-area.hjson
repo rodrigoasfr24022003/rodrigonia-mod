@@ -1,4 +1,4 @@
-name: "Ferrous Mining Area"
+localizedName: "Ferrous Mining Area"
 description: "This sector is prime for mining iron and nickel."
 planet: rodrigonia
 sector: 1

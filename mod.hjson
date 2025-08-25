@@ -3,5 +3,5 @@ displayName: "Rodrigonia"
 author: rodrigo_of_rodrigonia
 description: "Adds a new planet."
 version: "1.0"
-minGameVersion: "146"
+minGameVersion: "150"
 hidden: false
