@@ -1,6 +1,3 @@
-//earthlike(?) planet, name is an easter egg referencing v6 exotic
-//also an example
-
 //generator - necessary to prevent crashes, even if you do not use numbered sectors
 //also accepts just doing generator: AsteroidGenerator
 //also these numbers are funny and i have no idea how they precisely work
