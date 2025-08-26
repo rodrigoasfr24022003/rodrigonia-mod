@@ -1,4 +1,3 @@
-# Mod has been archived due to me being frustrated with the campaign crashing.
 # rodrigonia-mod
 - My planet mod for Mindustry. Heavily unfinished.
 # Authors:
