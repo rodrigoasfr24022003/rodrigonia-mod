@@ -120,4 +120,3 @@ research: {
   parent: flakker
   planet: rodrigonia
 }
-buildVisibility: hidden

@@ -1,0 +1,98 @@
+name: Canoneer
+description: Shoots stronger bullets than Bolter but consumes ammo and is slower.
+type: ItemTurret
+health: 1000
+size: 2
+reload: 55
+range: 200
+inaccuracy: 2
+velocityRnd: 0.1
+rotateSpeed: 2.5
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootBarrel
+  source: ShootPattern
+  shots: 1
+  barrels: [
+      0,0,0
+  ]
+}
+ammoTypes: {
+  germanium: {
+    type: BasicBulletType
+    speed: 20
+    damage: 100
+    lifetime: 15
+    width: 6
+    height: 7
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    makeFire: true
+  },
+  iron: {
+    type: BasicBulletType
+    speed: 20
+    damage: 200
+    lifetime: 20
+    width: 6
+    height: 7
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+  },
+  invar: {
+    type: BasicBulletType
+    speed: 20
+    damage: 200
+    lifetime: 20
+    width: 6
+    height: 7
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 6
+  },
+  electrum: {
+    type: EmpBulletType
+    speed: 20
+    damage: 200
+    lifetime: 20
+    width: 6
+    height: 7
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+  },
+  steel: {
+    type: BasicBulletType
+    speed: 20
+    damage: 300
+    lifetime: 20
+    width: 6
+    height: 7
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+  }
+}
+shootCone: 361
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  iron/100
+  silver/20
+  steel/20
+]
+maxAmmo: 20
+liquidCapacity: 100
+shootSound: shoot
+category: turret
+research: {
+  parent: bolter
+  planet: rodrigonia
+}

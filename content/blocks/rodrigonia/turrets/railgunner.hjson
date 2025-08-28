@@ -3,7 +3,7 @@ description: Shoots fast, piercing bullets at a slow rate.
 type: ItemTurret
 health: 9000
 size: 6
-reload: 60
+reload: 120
 range: 600
 inaccuracy: 0.5
 velocityRnd: 0.05
@@ -93,12 +93,11 @@ requirements: [
   tritanium/1000
   steel/2500
 ]
-maxAmmo: 320
-liquidCapacity: 750
+maxAmmo: 20
+liquidCapacity: 250
 shootSound: shoot
 category: turret
 research: {
-  parent: bolter
+  parent: cannoneer
   planet: rodrigonia
 }
-buildVisibility: hidden

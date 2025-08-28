@@ -45,7 +45,7 @@ shoot: {
 ammoTypes: {
   steel: {
     type: FlakBulletType
-    speed: 20
+    speed: 10
     damage: 20
     lifetime: 20
     width: 6
@@ -57,7 +57,7 @@ ammoTypes: {
   },
   iridium: {
     type: FlakBulletType
-    speed: 30
+    speed: 20
     damage: 50
     lifetime: 20
     width: 8
@@ -69,7 +69,7 @@ ammoTypes: {
   },
   gold: {
     type: FlakBulletType
-    speed: 20
+    speed: 10
     damage: 100
     lifetime: 20
     width: 9
@@ -81,7 +81,7 @@ ammoTypes: {
   },
   rodrigonium: {
     type: FlakBulletType
-    speed: 20
+    speed: 10
     damage: 150
     lifetime: 20
     width: 10
@@ -93,7 +93,7 @@ ammoTypes: {
   },
   tritanium: {
     type: FlakBulletType
-    speed: 15
+    speed: 7.5
     damage: 100
     lifetime: 20
     width: 10
@@ -114,7 +114,7 @@ ammoTypes: {
   },
   fragdrigonium: {
     type: FlakBulletType
-    speed: 15
+    speed: 7.5
     damage: 30
     lifetime: 15
     width: 10
@@ -153,4 +153,3 @@ research: {
   parent: 2-3-gun
   planet: rodrigonia
 }
-buildVisibility: hidden
