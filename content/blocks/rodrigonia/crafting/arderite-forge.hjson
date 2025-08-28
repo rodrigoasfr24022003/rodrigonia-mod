@@ -1,0 +1,36 @@
+type: AttributeCrafter
+name: "Arderite Forge"
+description: "Used to make arderite."
+health: 1600
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 60
+itemCapacity: 20
+consumes: {
+  power: 6
+  items: {
+    items: [
+      rodrigonium/1
+      pyroberyl/1
+    ]
+  }
+}
+outputItems: [
+  arderite/2
+]
+requirements: [
+   rodrigonium/200
+   pyroberyl/50
+   diamond/50
+]
+research: {
+    planet: rodrigonia
+    parent: pyroberyl-crystallizer
+}
+researchCost: [
+   rodrigonium/2000
+   pyroberyl/500
+   diamond/500
+]
+category: crafting

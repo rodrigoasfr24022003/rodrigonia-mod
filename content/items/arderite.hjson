@@ -1,0 +1,9 @@
+hardness: 12
+cost: 1
+color: ffd700
+healthScaling: 6
+name: Arderite
+description: An alloy of pyroberyl and rodrigonium.
+shownPlanets: [
+  rodrigonia
+]

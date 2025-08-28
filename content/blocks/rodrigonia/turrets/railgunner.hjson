@@ -80,6 +80,20 @@ ammoTypes: {
         width: 3
         height: 3
     }
+  },
+  arderite: {
+    type: BasicBulletType
+    speed: 60
+    damage: 3600
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 12
+    makeFire: true
+    status: melting
+    statusDuration: 72
   }
 }
 shootCone: 361

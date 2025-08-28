@@ -30,6 +30,8 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 3
     makeFire: true
+    status: burning
+    statusDuration: 360
   },
   iron: {
     type: BasicBulletType

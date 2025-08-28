@@ -1,0 +1,11 @@
+hardness: 1.0
+cost: 2
+color: "fc4004"
+healthScaling: 0.5
+flammability: 1
+alwaysUnlocked: true
+name: Pyroberyl
+description: A flammable emerald.
+shownPlanets: [
+  rodrigonia
+]

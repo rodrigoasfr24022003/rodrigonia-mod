@@ -1,0 +1,40 @@
+type: AttributeCrafter
+name: "Pyroberyl Crystallizer"
+description: "Used to make pyroberyl."
+health: 400
+size: 2
+hasPower: true
+hasItems: true
+craftTime: 600
+itemCapacity: 10
+consumes: {
+  power: 2
+  items: {
+    items: [
+      emerald/1
+    ]
+  }
+  liquids: {
+    liquids: [
+      liquid-blaze/0.5
+    ]
+  }
+}
+outputItems: [
+  pyroberyl/1
+]
+requirements: [
+   emerald/80
+   diamond/80
+   steel/240
+]
+research: {
+    planet: rodrigonia
+    parent: electrum-smelter
+}
+researchCost: [
+   emerald/800
+   diamond/800
+   steel/2400
+]
+category: crafting
