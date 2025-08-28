@@ -1,0 +1,15 @@
+type: Liquid
+name: Liquid Blaze
+description: Liquid fire.
+color: ffcc00
+flammability: 1
+explosiveness: 0
+heatCapacity: 1
+temperature: 1.5
+viscosity: 0.5
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
