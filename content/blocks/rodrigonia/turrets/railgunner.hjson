@@ -1,0 +1,104 @@
+name: Railgunner
+description: Shoots fast, piercing bullets at a slow rate.
+type: ItemTurret
+health: 9000
+size: 6
+reload: 60
+range: 600
+inaccuracy: 0.5
+velocityRnd: 0.05
+rotateSpeed: 1
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootBarrel
+  source: ShootPattern
+  shots: 1
+  barrels: [
+      0,0,0
+  ]
+}
+ammoTypes: {
+  steel: {
+    type: BasicBulletType
+    speed: 80
+    damage: 400
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    reloadMultiplier: 2
+  },
+  rodrigonium: {
+    type: BasicBulletType
+    speed: 60
+    damage: 1000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 6
+  },
+  tritanium: {
+    type: BasicBulletType
+    speed: 60
+    damage: 600
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 6
+    fragBullets: 3
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 50
+        lifetime: 20
+        width: 3
+        height: 3
+    }
+  },
+  fragdrigonium: {
+    speed: 50
+    damage: 1200
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    fragBullets: 6
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 50
+        lifetime: 10
+        width: 3
+        height: 3
+    }
+  }
+}
+shootCone: 361
+consumes: {
+    coolant: {
+        amount: 0.5
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  tritanium/1000
+  steel/2500
+]
+maxAmmo: 320
+liquidCapacity: 750
+shootSound: shoot
+category: turret
+research: {
+  parent: bolter
+  planet: rodrigonia
+}
+buildVisibility: hidden
