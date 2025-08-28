@@ -1,0 +1,10 @@
+hardness: 1.0
+cost: 2
+color: "50c878"
+healthScaling: 0.5
+alwaysUnlocked: true
+name: Emerald
+description: A precious gem. Brittle.
+shownPlanets: [
+  rodrigonia
+]
