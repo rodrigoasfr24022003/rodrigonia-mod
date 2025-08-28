@@ -1,0 +1,9 @@
+hardness: 14
+cost: 1
+color: ff6600
+healthScaling: 7
+name: Ionium
+description: The culmination of heat.
+shownPlanets: [
+  rodrigonia
+]

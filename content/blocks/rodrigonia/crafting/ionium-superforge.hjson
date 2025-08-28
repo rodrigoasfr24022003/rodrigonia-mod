@@ -1,0 +1,45 @@
+type: AttributeCrafter
+name: "Ionium Superforge"
+description: "Used to make Ionium."
+health: 1600
+size: 4
+hasPower: true
+hasItems: true
+craftTime: 120
+itemCapacity: 160
+consumes: {
+  power: 12
+  items: {
+    items: [
+      steel/8
+      pyroberyl/6
+      arderite/2
+    ]
+  }
+  liquids: {
+    liquids: [
+      liquid-blaze/3
+      slag/3
+    ]
+  }
+}
+outputItems: [
+  ionium/16
+]
+requirements: [
+   steel/2400
+   pyroberyl/2400
+   arderite/600
+   tritanium/600
+]
+research: {
+    planet: rodrigonia
+    parent: arderite-forge
+}
+researchCost: [
+   steel/7200
+   pyroberyl/7200
+   arderite/2400
+   tritanium/2400
+]
+category: crafting
