@@ -1,0 +1,10 @@
+hardness: 2
+cost: 1
+color: 8000ff
+healthScaling: 1
+radioactivity: 2.0
+name: Letalium
+description: Rodrigonia's radioactive material.
+shownPlanets: [
+  rodrigonia
+]
