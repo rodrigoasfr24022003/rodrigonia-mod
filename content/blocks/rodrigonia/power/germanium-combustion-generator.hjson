@@ -1,0 +1,35 @@
+type: ConsumeGenerator
+name: "Germanium Combustion Generator"
+description: "An early game generator, burning germanium for fuel."
+health: 400
+size: 2
+itemDuration: 60
+itemCapacity: 20
+hasItems: true
+hasLiquids: true
+consumes: {
+  items: {
+    items: [
+      germanium/1
+    ]
+  }
+  liquids: {
+    liquids: [
+        rodrigonian-water/0.1
+    ]
+  }
+}
+requirements: [
+   iron/80
+   nickel/20
+]
+research: {
+    planet: rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+  iron/160
+  nickel/40
+]
+powerProduction: 8
+category: "power"
