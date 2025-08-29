@@ -1,0 +1,32 @@
+type: AttributeCrafter
+name: "Rodsand Melter"
+description: "Melts rodsand into slag."
+health: 400
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 30
+itemCapacity: 10
+consumes: {
+  power: 1
+  items: {
+    items: [
+      rodsand/1
+    ]
+  }
+}
+outputLiquid: slag/0.5
+requirements: [
+   iron/270
+   invar/90
+]
+research: {
+    planet: rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+   iron/810
+   invar/270
+]
+category: crafting
