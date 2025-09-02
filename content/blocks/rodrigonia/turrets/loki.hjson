@@ -2,6 +2,7 @@ name: Loki
 description: Shoots T6-killing bullets at an insanely slow rate. Has 2 barrels.
 type: ItemTurret
 health: 20250
+armor: 20
 size: 9
 reload: 360
 range: 800
