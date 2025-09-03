@@ -1,0 +1,29 @@
+type: AttributeCrafter
+name: "Rodrigonian Oil Extractor"
+description: "Used to obtain Rodrigonian OIl, which can be either refined or separated into rodrigonium and carbon components."
+health: 1600
+size: 3
+hasPower: true
+hasItems: false
+hasLiquids: true
+craftTime: 50
+powerCapacity: 1000
+consumes: {
+  power: 2
+}
+outputLiquids: [
+  rodrigonian-oil/1
+]
+requirements: [
+   steel/200
+   iron/100
+]
+research: {
+    planet: rodrigonia
+    parent: basic-miner
+}
+researchCost: [
+   steel/600
+   iron/300
+]
+category: crafting
