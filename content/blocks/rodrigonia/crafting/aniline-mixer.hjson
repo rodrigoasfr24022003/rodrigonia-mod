@@ -1,0 +1,42 @@
+type: AttributeCrafter
+name: "Aniline Mixer"
+description: "Makes aniline from benzene and nitrogen. Also uses nickel."
+health: 3200
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+powerCapacity: 1000
+consumes: {
+  power: 8
+  liquids:{
+    liquids: [
+      benzene/1
+      rodrigonian-nitrogen/1
+    ]
+  }
+  items: {
+    items: [
+      nickel/1
+    ]
+  }
+}
+outputLiquids: [
+  aniline/1
+]
+requirements: [
+  invar/80
+  tritanium/240
+  rodrigonium/360
+]
+research: {
+    planet: rodrigonia
+    parent: oil-distillery-benzene
+}
+researchCost: [
+  invar/240
+  tritanium/720
+  rodrigonium/1080
+]
+category: crafting

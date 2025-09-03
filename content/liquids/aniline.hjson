@@ -1,0 +1,15 @@
+type: Liquid
+name: Aniline
+description: Rocket fuel.
+color: "222266"
+flammability: 3
+explosiveness: 0
+heatCapacity: 1
+temperature: 0
+viscosity: 0.5
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

@@ -1,0 +1,29 @@
+type: AttributeCrafter
+name: "Rodrigonian Nitrogen Extractor"
+description: "Extracts nitrogen from Rodrigonia's air."
+health: 800
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: false
+craftTime: 120
+powerCapacity: 1000
+consumes: {
+  power: 1
+}
+outputLiquids: [
+  rodrigonian-nitrogen/1
+]
+requirements: [
+  nickel/20
+  iron/100
+]
+research: {
+    planet: rodrigonia
+    parent: core-loadspine
+}
+researchCost: [
+  nickel/60
+  iron/300
+]
+category: crafting

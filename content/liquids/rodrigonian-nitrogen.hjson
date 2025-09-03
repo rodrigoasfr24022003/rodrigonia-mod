@@ -1,0 +1,15 @@
+type: Liquid
+name: Nitrogen
+description: A very abundant gas in Rodrigonia's air. Inert, although poisonous in Rodrigonia's surface due to its aathmospheric pressure.
+color: "0000ff"
+flammability: 0
+explosiveness: 0
+heatCapacity: 0.5
+temperature: 0
+viscosity: 0.5
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

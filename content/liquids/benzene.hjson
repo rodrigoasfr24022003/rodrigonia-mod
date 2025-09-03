@@ -1,0 +1,15 @@
+type: Liquid
+name: Benzene
+description: Causes cancer. Oh wait, machines don't get cancer.
+color: "222222"
+flammability: 1
+explosiveness: 0
+heatCapacity: 1
+temperature: 0
+viscosity: 0.5
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
