@@ -1,46 +1,39 @@
 type: AttributeCrafter
-name: "Rodrigonian Oil Extractor"
-description: "Used to obtain Rodrigonian Oil, which can be either refined or separated into rodrigonium and carbon components."
+name: "Rodrigonian Oil Separator"
+description: "Separates Rodrigonian Oil into rodrigonium and oil."
 health: 1600
 size: 3
 hasPower: true
-hasItems: false
+hasItems: true
 hasLiquids: true
-craftTime: 50
+craftTime: 60
 powerCapacity: 1000
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    },
-    {
-      type: DrawRegion
-      suffix: -rotator
-      rotateSpeed: 3
-    },
-    {
-      type: DrawRegion
-      suffix: -top
-    }
-  ]
-}
 consumes: {
-  power: 2
+  power: 6
+  liquids:{
+    liquids: [
+      rodrigonian-oil/1
+    ]
+  }
 }
+outputItems: [
+  rodrigonium/1
+]
 outputLiquids: [
-  rodrigonian-oil/1
+  oil/1
 ]
 requirements: [
-   steel/200
-   iron/100
+  rodrigonium/24
+  tritanium/100
+  steel/400
 ]
 research: {
     planet: rodrigonia
-    parent: basic-miner
+    parent: rodrigonian-oil-extractor
 }
 researchCost: [
-   steel/600
-   iron/300
+  rodrigonium/72
+  tritanium/300
+  steel/1200
 ]
 category: crafting

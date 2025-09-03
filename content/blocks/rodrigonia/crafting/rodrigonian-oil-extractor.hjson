@@ -6,7 +6,7 @@ size: 3
 hasPower: true
 hasItems: false
 hasLiquids: true
-craftTime: 50
+craftTime: 60
 powerCapacity: 1000
 drawer: {
   type: DrawMulti
