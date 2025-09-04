@@ -1,0 +1,15 @@
+type: Liquid
+name: Germanic Acid
+description: Corrodes stuff.
+color: "668f8f"
+flammability: 1
+explosiveness: 0
+heatCapacity: 0.8
+temperature: 0
+viscosity: 0.2
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

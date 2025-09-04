@@ -1,0 +1,41 @@
+type: AttributeCrafter
+name: "Germanic Acid Synthesizer"
+description: "Reacts water and germanium into germanic acid."
+health: 1600
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 60
+powerCapacity: 1000
+consumes: {
+  power: 4
+  liquids:{
+    liquids: [
+      rodrigonian-water/1
+    ]
+  }
+  items:{
+    items:[
+      germanium/1
+    ]
+  }
+}
+outputLiquids: [
+  germanic-acid/1
+]
+requirements: [
+  rodrigonium/30
+  germanium/120
+  steel/600
+]
+research: {
+    planet: rodrigonia
+    parent: rodrigonian-oil-separator
+}
+researchCost: [
+  rodrigonium/90
+  germanium/360
+  steel/1800
+]
+category: crafting
