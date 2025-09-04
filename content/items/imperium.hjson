@@ -1,0 +1,10 @@
+hardness: 10
+cost: 1
+color: ff0033
+healthScaling: 5
+radioactivity: 1.0
+name: Imperium
+description: The culmination of nuclear hellfire.
+shownPlanets: [
+  rodrigonia
+]

@@ -1,0 +1,39 @@
+type: AttributeCrafter
+name: "Imperium Forge"
+description: "Used to make Imperium."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+craftTime: 120
+itemCapacity: 60
+consumes: {
+  power: 4
+  items: {
+    items: [
+      rodrigonium/1
+      steel/4
+      letalium/1
+    ]
+  }
+}
+outputItems: [
+  imperium/6
+]
+requirements: [
+   rodrigonium/900
+   steel/2700
+   letalium/300
+   diamond/100
+]
+research: {
+    planet: rodrigonia
+    parent: fragdrigonium-forge
+}
+researchCost: [
+   rodrigonium/2700
+   steel/8100
+   letalium/900
+   diamond/300
+]
+category: crafting
