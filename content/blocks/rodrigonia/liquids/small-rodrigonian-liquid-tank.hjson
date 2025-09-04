@@ -1,0 +1,17 @@
+type: LiquidRouter
+name: Small Liquid Tank
+description: Stores fluids.
+health: 100
+size: 1
+liquidCapacity: 8000
+category: liquid
+requirements: [
+  iron/10
+]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  iron/30
+]

@@ -1,0 +1,19 @@
+type: LiquidRouter
+name: Large Liquid Tank
+description: Stores a lot of fluids.
+health: 900
+size: 3
+liquidCapacity: 72000
+category: liquid
+requirements: [
+  steel/400
+  diamond/90
+]
+research: {
+  parent: rodrigonian-liquid-tank
+  planet: rodrigonia
+}
+researchCost: [
+  steel/1200
+  diamond/270
+]
