@@ -1,0 +1,24 @@
+name: Large Liquid Pump
+description: An overall better pump, but bigger.
+type: Pump
+health: 450
+size: 3
+pumpAmount: 0.5
+consumes: {
+    power: 1
+}
+squareSprite: false
+drawMineItem: false
+requirements: [
+   iron/400
+   gold/100
+]
+category: production
+research: {
+    planet: rodrigonia
+    parent: liquid-pump
+}
+researchCost: [
+  iron/1200
+  gold/300
+]

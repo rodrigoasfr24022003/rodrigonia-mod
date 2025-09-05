@@ -1,0 +1,26 @@
+name: Huge Liquid Pump
+description: The best pump Rodrigonia has to offer. However, it is a big pump.
+type: Pump
+health: 450
+size: 4
+pumpAmount: 1.2
+consumes: {
+    power: 2
+}
+squareSprite: false
+drawMineItem: false
+requirements: [
+   iron/900
+   gold/400
+   iridium/100
+]
+category: production
+research: {
+    planet: rodrigonia
+    parent: large-liquid-pump
+}
+researchCost: [
+  iron/2700
+  gold/1200
+  iridium/300
+]
