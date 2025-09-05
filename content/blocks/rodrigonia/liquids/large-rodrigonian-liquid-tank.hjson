@@ -3,7 +3,7 @@ name: Large Liquid Tank
 description: Stores a lot of fluids.
 health: 900
 size: 3
-liquidCapacity: 72000
+liquidCapacity: 9000
 category: liquid
 requirements: [
   steel/400

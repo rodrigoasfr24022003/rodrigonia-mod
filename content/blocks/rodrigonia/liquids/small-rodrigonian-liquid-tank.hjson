@@ -3,7 +3,7 @@ name: Small Liquid Tank
 description: Stores fluids.
 health: 100
 size: 1
-liquidCapacity: 8000
+liquidCapacity: 1000
 category: liquid
 requirements: [
   iron/10

@@ -3,7 +3,7 @@ name: Liquid Tank
 description: Stores fluids.
 health: 400
 size: 2
-liquidCapacity: 32000
+liquidCapacity: 4000
 category: liquid
 requirements: [
   iron/100
