@@ -13,7 +13,7 @@ requirements: [
    iron/400
    gold/100
 ]
-category: production
+category: liquids
 research: {
     planet: rodrigonia
     parent: liquid-pump

@@ -13,7 +13,7 @@ requirements: [
    iron/100
    silver/40
 ]
-category: production
+category: liquids
 research: {
     planet: rodrigonia
     parent: core-loadspine
