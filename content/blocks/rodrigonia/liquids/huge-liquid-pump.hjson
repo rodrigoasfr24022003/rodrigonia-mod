@@ -14,7 +14,7 @@ requirements: [
    gold/400
    iridium/100
 ]
-category: liquids
+category: liquid
 research: {
     planet: rodrigonia
     parent: large-liquid-pump
