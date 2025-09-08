@@ -1,0 +1,144 @@
+name: Thanatos
+description: Loki's fast-firing, but less damaging brother.
+type: ItemTurret
+health: 20250
+armor: 20
+size: 9
+reload: 360
+range: 800
+inaccuracy: 0.1
+velocityRnd: 0.1
+rotateSpeed: 0.5
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 6
+  dest: [{
+    type: ShootBarrel
+    shots: 2
+    barrels: [
+      -4,-10,0,
+      4,-10,0,
+    ]
+    firstShotDelay: 240
+  }, {
+    type: ShootBarrel
+    shots: 2
+    barrels: [
+      -6,-5,0,
+      6,-5,0,
+    ]
+    firstShotDelay: 120
+  }, {
+    type: ShootBarrel
+    shots: 2
+    barrels: [
+      -8,0,0,
+      8,0,0,
+    ]
+  }]
+}
+ammoTypes: {
+  rodrigonium: {
+    type: BasicBulletType
+    speed: 60
+    damage: 10000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 6
+  },
+  tritanium: {
+    type: BasicBulletType
+    speed: 60
+    damage: 6000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 6
+    fragBullets: 3
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 300
+        lifetime: 20
+        width: 3
+        height: 3
+    }
+  },
+  fragdrigonium: {
+    speed: 50
+    damage: 12000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    fragBullets: 6
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 400
+        lifetime: 10
+        width: 3
+        height: 3
+    }
+  },
+  arderite: {
+    type: BasicBulletType
+    speed: 60
+    damage: 18000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 12
+    makeFire: true
+    status: melting
+    statusDuration: 720
+  },
+  ionium: {
+    type: BasicBulletType
+    speed: 60
+    damage: 24000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 12
+    makeFire: true
+    status: melting
+    statusDuration: 1080
+  }
+}
+shootCone: 361
+consumes: {
+    coolant: {
+        amount: 2
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  tritanium/1000
+  steel/10000
+  arderite/1000
+  ionium/2500
+  emerald/1000
+]
+maxAmmo: 240
+liquidCapacity: 500
+shootSound: shoot
+category: turret
+research: {
+  parent: cannoneer
+  planet: rodrigonia
+}
