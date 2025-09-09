@@ -118,6 +118,6 @@ liquidCapacity: 100
 shootSound: shoot
 category: turret
 research: {
-  parent: bolter
+  parent: cannoneer
   planet: rodrigonia
 }
