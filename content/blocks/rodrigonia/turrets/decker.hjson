@@ -1,0 +1,174 @@
+name: Decker.
+description: A powerful, twin-barreled version of the Canoneer.
+type: ItemTurret
+health: 4000
+size: 4
+reload: 300
+range: 180
+inaccuracy: 2
+velocityRnd: 0.1
+rotateSpeed: 1
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootBarrel
+  source: ShootPattern
+  shots: 2
+  barrels: [
+      -10,0,0,
+      10,0,0
+  ]
+}
+ammoTypes: {
+  germanium: {
+    type: BasicBulletType
+    speed: 10
+    damage: 2500
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+    makeFire: true
+    status: burning
+    statusDuration: 1440
+  },
+  iron: {
+    type: BasicBulletType
+    speed: 10
+    damage: 5000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+  },
+  invar: {
+    type: BasicBulletType
+    speed: 10
+    damage: 5000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 60
+  },
+  electrum: {
+    type: EmpBulletType
+    speed: 10
+    damage: 5000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+  },
+  steel: {
+    type: BasicBulletType
+    speed: 10
+    damage: 7500
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+  },
+  fragdrigonium: {
+    type: BasicBulletType
+    speed: 6
+    damage: 12000
+    lifetime: 24
+    width: 15
+    height: 18
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+    reloadMultiplier: 0.5
+    fragBullets: 6
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 6
+        damage: 1200
+        lifetime: 6
+        width: 12
+        height: 15
+        fragBullets: 6
+        fragBullet: {	
+            type: BasicBulletType
+            speed: 6
+            damage: 120
+            lifetime: 6
+            width: 8
+            height: 10
+            fragBullets: 6
+            fragBullet: {
+                type: BasicBulletType
+                speed: 6
+                damage: 12
+                lifetime: 6
+                width: 6
+                height: 7
+            }
+        }
+    }
+  },
+  tritanium: {
+    type: BasicBulletType
+    speed: 10
+    damage: 10000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+    fragBullets: 10
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 240
+        lifetime: 10
+        width: 5
+        height: 4
+    }
+  },
+  ionium: {
+    type: BasicBulletType
+    speed: 30
+    damage: 10000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 120
+    makeFire: true
+    status: burning
+    statusDuration: 120
+  }
+}
+shootCone: 361
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  iron/2000
+  tritanium/300
+  iridium/600
+]
+maxAmmo: 20
+liquidCapacity: 100
+shootSound: shoot
+category: turret
+research: {
+  parent: heavy-cannoneer
+  planet: rodrigonia
+}

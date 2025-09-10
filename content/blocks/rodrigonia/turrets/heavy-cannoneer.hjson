@@ -109,9 +109,9 @@ consumes: {
 }
 coolantMultiplier: 0.5
 requirements: [
-  iron/100
-  silver/20
-  steel/20
+  iron/200
+  gold/100
+  steel/400
 ]
 maxAmmo: 20
 liquidCapacity: 100
