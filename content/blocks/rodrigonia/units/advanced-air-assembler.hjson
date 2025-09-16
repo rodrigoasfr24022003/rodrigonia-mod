@@ -1,0 +1,36 @@
+name: Advanced Air Assembler
+type: UnitAssembler
+description: Uses resources and units to construct low to mid-tier air units.
+health: 1250
+size: 5
+hasPower: true
+payloadSpeed: 4
+consumes: {
+  power: 4
+}
+plans: [
+  {
+    unit: gunner
+    time: 2400
+    requirements:[
+      rodrigonia-phantom/1
+    ]
+    itemReq:[
+      iron/200
+      gold/80
+    ]
+  }
+]
+requirements: [
+  iron/600
+  gold/240
+]
+category: units
+research: {
+  parent: basic-air-factory
+  planet: rodrigonia
+}
+researchCost: [
+  iron/1200
+  gold/480
+]

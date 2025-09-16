@@ -1,0 +1,34 @@
+name: Basic Ground Factory
+type: UnitFactory
+description: Uses resources to construct basic, low tier air units.
+health: 450
+size: 3
+hasPower: true
+consumes: {
+  power: 2
+}
+plans: [
+  {
+    unit: sculker
+    time: 1200
+    requirements: [
+      iron/30
+      silver/15
+    ]
+  }
+]
+requirements: [
+  iron/300
+  nickel/100
+  silver/100
+]
+category: units
+research: {
+  parent: basic-miner
+  planet: rodrigonia
+}
+researchCost: [
+  iron/900
+  nickel/300
+  silver/300
+]
