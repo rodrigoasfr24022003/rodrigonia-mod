@@ -1,0 +1,89 @@
+name: Warden
+type: mech
+description: A stronger version of the Sculker with a laser on it.
+speed: 1
+health: 1000
+mechSideSway: 0.6
+mechFrontSway: 0.2
+mechStride: 5
+itemCapacity: 0
+hitSize: 16
+useUnitCap: true
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+weapons: [{
+  name: warden-cannon
+  top: false
+  rotate: false
+  y: 1
+  x: -5
+  inaccuracy: 5
+  reload: 120
+  mirror: true
+  rotateSpeed: 0
+  rotationLimit: 180
+  predictTarget: false
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    speed: 16
+    damage: 300
+    lifetime: 12
+    width: 6
+    height: 7
+  }
+},{
+  name: warden-laser
+  top: false
+  rotate: false
+  y: 7.5
+  x: 0
+  inaccuracy: 5
+  continuous: true
+  alwaysContinuous: true
+  mirror: false
+  rotateSpeed: 0
+  rotationLimit: 180
+  predictTarget: false
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    type: ContinuousLaserBulletType
+    fadeTime: 60
+    lightStroke: 45
+    divisions: 15
+    colors: [
+        "00404055"
+        "008080aa"
+        "00c0c0"
+        "00ffff"
+    ]
+    strokeFrom: 1
+    strokeTo: 1
+    pointyScaling: 1
+    frontLength: 75
+    backLength: 10
+    width: 4
+    damage: 12.5
+    incendChance: 0.0
+    lightColor: "00ffff"
+    hitSize: 2
+    drawSize: 150
+    lifetime: 60
+  }
+}]
+mechLandShake: 0
+mechSideSway: 0.54
+mechFrontSway: 0.1
+mechStride: -1
+research: {
+  parent: sculker
+  planet: rodrigonia
+}
+researchCost: [
+  gold/80
+  iron/300
+]

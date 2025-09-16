@@ -1,0 +1,36 @@
+name: Advanced Ground Assembler
+type: UnitAssembler
+description: Uses resources and units to construct low to mid-tier ground units.
+health: 1250
+size: 5
+hasPower: true
+payloadSpeed: 4
+consumes: {
+  power: 4
+}
+plans: [
+  {
+    unit: warden
+    time: 2400
+    requirements:[
+      rodrigonia-sculker/1
+    ]
+    itemReq:[
+      iron/300
+      gold/100
+    ]
+  }
+]
+requirements: [
+  iron/900
+  gold/300
+]
+category: units
+research: {
+  parent: basic-air-factory
+  planet: rodrigonia
+}
+researchCost: [
+  iron/1800
+  gold/600
+]
