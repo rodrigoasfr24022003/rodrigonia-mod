@@ -1,5 +1,6 @@
 # rodrigonia-mod
 - My planet mod for Mindustry. Heavily unfinished.
+- Discord server for the mod [here](https://discord.gg/HRRwyKnrkV).
 # Authors:
 - Rodrigo
 - Meowkitty
