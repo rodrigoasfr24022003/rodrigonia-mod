@@ -1,4 +1,4 @@
-name: Advanced Ground Assembler
+name: Reinforced Ground Assembler
 type: UnitAssembler
 description: Uses resources and units to construct low to mid-tier ground units.
 health: 1250
