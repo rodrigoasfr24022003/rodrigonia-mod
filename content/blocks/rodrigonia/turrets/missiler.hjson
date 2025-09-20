@@ -1,0 +1,54 @@
+name: Missiler
+description: Shoots iron missiles at enemies.
+type: ItemTurret
+health: 2250
+size: 3
+reload: 20
+range: 180
+inaccuracy: 3
+velocityRnd: 0.1
+rotateSpeed: 3
+predictTarget: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 3
+  dest: [{
+    type: ShootBarrel
+    shots: 3
+    barrels: [
+      -7.5,0,0,
+      7.5,0,0,
+      0,0,0
+    ]
+  }]
+}
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    speed: 10
+    damage: 10
+    lifetime: 0
+    width: 6
+    height: 7
+    spawnUnit: missile-he
+  }
+}
+shootCone: 360
+hasLiquids: true
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 2
+requirements: [
+  invar/100
+  silver/100
+]
+shootSound: shoot
+category: turret
+research: {
+  parent: cannoneer
+  planet: rodrigonia
+}

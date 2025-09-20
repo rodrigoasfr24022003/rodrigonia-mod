@@ -2,7 +2,7 @@ name: HE Missile
 description: An high-explosive missile. That's it.
 speed: 2
 range: 300
-lifetime: 100
+lifetime: 120
 flying: true
 health: 1000
 hitSize: 12
