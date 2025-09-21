@@ -1,0 +1,91 @@
+name: Wither
+description: Very fast air unit with 3 heavy cannons.
+speed: 3
+flying: true
+health: 300
+engineOffset: 0
+engineSize: 0
+drag: 0.05
+accel: 0.15
+hitSize: 16
+itemCapacity: 0
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -3
+      y: -6
+      teamColor: true
+      effectParam: 1.3
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 3
+      y: -6
+      teamColor: true
+      effectParam: 1.3
+    }
+  ]
+}
+weapons: [{
+  name: wither-heavy-cannon
+  top: false
+  rotate: false
+  y: 4
+  x: 0
+  inaccuracy: 2.5
+  reload: 60
+  mirror: false
+  rotateSpeed: 5
+  rotationLimit: 360
+  predictTarget: true
+  shootCone: 361
+  bullet: {
+    type: FlakBulletType	
+    speed: 8
+    splashDamage: 1500
+    splashDamageRadius: 12
+    lifetime: 120
+    width: 10
+    height: 12
+  }
+},{
+  name: wither-heavy-cannon
+  top: false
+  rotate: false
+  y: 3
+  x: -6
+  inaccuracy: 2.5
+  reload: 60
+  mirror: true
+  rotateSpeed: 5
+  rotationLimit: 360
+  predictTarget: true
+  shootCone: 361
+  bullet: {
+    type: FlakBulletType	
+    speed: 8
+    splashDamage: 1000
+    splashDamageRadius: 12
+    lifetime: 120
+    width: 10
+    height: 12
+  }
+}]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  iron/120
+  nickel/40
+]
