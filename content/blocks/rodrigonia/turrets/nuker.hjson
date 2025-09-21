@@ -1,0 +1,60 @@
+name: Nuker
+description: Shoots letalium nukes at enemies.
+type: ItemTurret
+health: 2250
+size: 3
+reload: 120
+range: 300
+inaccuracy: 3
+velocityRnd: 0.1
+rotateSpeed: 3
+predictTarget: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 1
+  dest: [{
+    type: ShootBarrel
+    shots: 1
+    barrels: [
+      0,0,0
+    ]
+  }]
+}
+ammoTypes: {
+  letalium: {
+    type: MissileBulletType
+    speed: 1
+    damage: 100
+    splashDamage: 10000
+    splashDamageRadius: 72
+    lifetime: 360
+    homingPower: 0.01,
+    homingRange: 300,
+    backColor: "8000ff",
+    frontColor: "ffffff"
+    trailColor: "8000ff"
+    trailWidth: 6
+    trailLength: 12
+    trailChance: 1
+  }
+}
+shootCone: 360
+hasLiquids: true
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 2
+requirements: [
+  invar/400
+  electrum/100
+  letalium/120
+]
+shootSound: missile
+category: turret
+research: {
+  parent: missiler
+  planet: rodrigonia
+}

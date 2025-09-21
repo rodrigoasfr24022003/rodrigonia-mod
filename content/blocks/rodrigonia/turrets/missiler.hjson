@@ -3,7 +3,7 @@ description: Shoots iron missiles or germanium missiles at enemies.
 type: ItemTurret
 health: 2250
 size: 3
-reload: 20
+reload: 30
 range: 600
 inaccuracy: 3
 velocityRnd: 0.1
@@ -32,7 +32,7 @@ ammoTypes: {
     splashDamageRadius: 36
     lifetime: 120
     homingPower: 0.035,
-    homingRange: 300,
+    homingRange: 600,
     backColor: "999999",
     frontColor: "ffffff"
     trailColor: "999999"
@@ -48,13 +48,13 @@ ammoTypes: {
     splashDamageRadius: 48
     lifetime: 120
     homingPower: 0.035,
-    homingRange: 300,
+    homingRange: 600,
     backColor: "668f8f",
     frontColor: "ffffff"
     trailColor: "668f8f"
-    trailWidth: 2,
-    trailLength: 12,
-    trailChance: 1,
+    trailWidth: 2
+    trailLength: 12
+    trailChance: 1
     status: burning
     statusDuration: 120
   }

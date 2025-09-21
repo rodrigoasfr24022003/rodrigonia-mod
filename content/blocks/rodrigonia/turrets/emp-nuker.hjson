@@ -1,0 +1,63 @@
+name: EMP Nuker
+description: Shoots silver EMP nukes at enemies.
+type: ItemTurret
+health: 2250
+size: 3
+reload: 90
+range: 700
+inaccuracy: 3
+velocityRnd: 0.1
+rotateSpeed: 3
+predictTarget: true
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 1
+  dest: [{
+    type: ShootBarrel
+    shots: 1
+    barrels: [
+      0,0,0
+    ]
+  }]
+}
+ammoTypes: {
+  silver: {
+    type: MissileBulletType
+    speed: 4
+    damage: 100
+    splashDamage: 10
+    splashDamageRadius: 108
+    lifetime: 112
+    homingPower: 0.035,
+    homingRange: 700,
+    backColor: "beccd2",
+    frontColor: "ffffff"
+    trailColor: "beccd2"
+    trailWidth: 6
+    trailLength: 12
+    trailChance: 1
+    pierce: 6
+    status: electrified
+    statusDuration: 300
+  }
+}
+shootCone: 360
+hasLiquids: true
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 2
+requirements: [
+  invar/400
+  electrum/100
+  silver/90
+]
+shootSound: missile
+category: turret
+research: {
+  parent: missiler
+  planet: rodrigonia
+}
