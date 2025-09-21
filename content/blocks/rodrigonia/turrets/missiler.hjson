@@ -1,10 +1,10 @@
 name: Missiler
-description: Shoots iron missiles at enemies.
+description: Shoots iron missiles or germanium missiles at enemies.
 type: ItemTurret
 health: 2250
 size: 3
 reload: 20
-range: 180
+range: 600
 inaccuracy: 3
 velocityRnd: 0.1
 rotateSpeed: 3
@@ -25,13 +25,38 @@ shoot: {
 }
 ammoTypes: {
   iron: {
-    type: BasicBulletType
-    speed: 10
-    damage: 10
-    lifetime: 0
-    width: 6
-    height: 7
-    spawnUnit: missile-he
+    type: MissileBulletType
+    speed: 4
+    damage: 100
+    splashDamage: 1000
+    splashDamageRadius: 36
+    lifetime: 120
+    homingPower: 0.035,
+    homingRange: 300,
+    backColor: "999999",
+    frontColor: "ffffff"
+    trailColor: "999999"
+    trailWidth: 2,
+    trailLength: 12,
+    trailChance: 1,
+  },
+  germanium: {
+    type: MissileBulletType
+    speed: 4
+    damage: 50
+    splashDamage: 500
+    splashDamageRadius: 48
+    lifetime: 120
+    homingPower: 0.035,
+    homingRange: 300,
+    backColor: "668f8f",
+    frontColor: "ffffff"
+    trailColor: "668f8f"
+    trailWidth: 2,
+    trailLength: 12,
+    trailChance: 1,
+    status: burning
+    statusDuration: 120
   }
 }
 shootCone: 360
@@ -46,7 +71,7 @@ requirements: [
   invar/100
   silver/100
 ]
-shootSound: shoot
+shootSound: missile
 category: turret
 research: {
   parent: cannoneer
