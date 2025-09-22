@@ -19,6 +19,17 @@ plans: [
       iron/200
       gold/80
     ]
+  },
+  {
+    unit: wither
+    time: 2400
+    requirements:[
+      rodrigonia-phantom/1
+    ]
+    itemReq:[
+      silver/300
+      gold/60
+    ]
   }
 ]
 requirements: [

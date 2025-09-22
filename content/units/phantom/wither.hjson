@@ -7,7 +7,7 @@ engineOffset: 0
 engineSize: 0
 drag: 0.05
 accel: 0.15
-hitSize: 16
+hitSize: 24
 itemCapacity: 0
 targetFlags: [
     storage,

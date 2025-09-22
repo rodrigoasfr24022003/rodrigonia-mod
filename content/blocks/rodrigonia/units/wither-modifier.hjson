@@ -1,0 +1,21 @@
+name: Wither Modifier
+type: UnitAssemblerModule
+description: Modifies Gunners into Withers.
+health: 750
+size: 3
+consumes: {
+  power: 2
+}
+requirements: [
+  silver/600
+  gold/240
+]
+category: units
+research: {
+  parent: basic-air-factory
+  planet: rodrigonia
+}
+researchCost: [
+  silver/1200
+  gold/480
+]
