@@ -37,50 +37,61 @@ abilities: {
   ]
 }
 weapons: [{
-  name: wither-heavy-cannon
-  top: false
+  name: wither-cannon
+  top: true
   rotate: false
-  y: 4
+  y: 2
   x: 0
   inaccuracy: 2.5
   reload: 60
+  layerOffset: -0.01
   mirror: false
   rotateSpeed: 5
-  rotationLimit: 360
+  rotationLimit: 90
   predictTarget: true
-  shootCone: 361
+  shootCone: 90
   bullet: {
     type: FlakBulletType	
     speed: 8
-    splashDamage: 1500
+    splashDamage: 45
     splashDamageRadius: 12
-    lifetime: 120
+    lifetime: 32
     width: 10
     height: 12
   }
 },{
-  name: wither-heavy-cannon
-  top: false
+  name: wither-gun
+  top: true
   rotate: false
-  y: 3
+  y: 2.25
   x: -6
   inaccuracy: 2.5
-  reload: 60
+  reload: 20
+  layerOffset: -0.01
   mirror: true
   rotateSpeed: 5
-  rotationLimit: 360
+  rotationLimit: 40
   predictTarget: true
-  shootCone: 361
+  shootCone: 40
   bullet: {
-    type: FlakBulletType	
-    speed: 8
-    splashDamage: 1000
-    splashDamageRadius: 12
-    lifetime: 120
-    width: 10
-    height: 12
+    speed: 14
+    lifetime: 13
+    keepVelocity: false
+    damage: 15
+    frontColor: f6e096
+    backColor: f8ad42
+    trailColor: f8ad42
+    trailLength: 4
+    trailWidth: 3
+    height: 50
+    width: 12
+    lightColor: f6e096
+    lightOpacity: 0.6
+    lightRadius: 27
+    trailEffect: burning
+    trailChance: 0.333
   }
-}]
+},]
 research: {
   parent: core-loadspine
   planet: rodrigonia
