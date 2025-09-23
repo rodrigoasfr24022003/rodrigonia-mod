@@ -20,19 +20,19 @@ abilities: {
       type: MoveEffectAbility
       display: false
       minVelocity: 0
-      x: -3
-      y: -6
+      x: -4
+      y: -4
       teamColor: true
-      effectParam: 1.3
+      effectParam: 2
     },
     {
       type: MoveEffectAbility
       display: false
       minVelocity: 0
-      x: 3
-      y: -6
+      x: 4
+      y: -4
       teamColor: true
-      effectParam: 1.3
+      effectParam: 2
     }
   ]
 }
