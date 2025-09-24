@@ -53,7 +53,7 @@ enemyBuildSpeedMultiplier: 1
 //default core to launch with
 defaultCore: core-loadspine
 sectors: {
-  sector-Rodrigonia-0: sector-Rodrigonia-0
+  sector-Rodrigonia-0: wip-first-sector
 }
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
