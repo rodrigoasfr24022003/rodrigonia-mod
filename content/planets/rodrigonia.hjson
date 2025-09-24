@@ -13,6 +13,7 @@ startSector: 0
 parent: sun
 //icon colour
 iconColor: 003153
+hasAtmosphere: true
 //radius from the planet's "surface" that the atmosphere blur begins
 atmosphereRadIn: 0.1
 //radius where it fades away - this can have visual issues if above 0.25
@@ -45,11 +46,15 @@ allowLaunchLoadout: true
 allowWaveSimulation: false
 allowSectorInvasion: true
 clearSectorOnLose: true
+allowWaves: true
 prebuildBase: false
 allowWaves: true
 enemyBuildSpeedMultiplier: 1
 //default core to launch with
 defaultCore: core-loadspine
+sectors: {
+  sector-Rodrigonia-0: sector-Rodrigonia-0
+}
 //visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
 //use objects {} to make a single mesh, and the below format to create multiple
 mesh: [

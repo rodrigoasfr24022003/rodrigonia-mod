@@ -37,6 +37,22 @@ ammoTypes: {
     trailWidth: 6
     trailLength: 12
     trailChance: 1
+  },
+  letalium: {
+    type: MissileBulletType
+    speed: 2
+    damage: 200
+    splashDamage: 20000
+    splashDamageRadius: 96
+    lifetime: 360
+    homingPower: 0.01,
+    homingRange: 300,
+    backColor: "ff0033",
+    frontColor: "ffffff"
+    trailColor: "ff0033"
+    trailWidth: 6
+    trailLength: 12
+    trailChance: 1
   }
 }
 shootCone: 360
