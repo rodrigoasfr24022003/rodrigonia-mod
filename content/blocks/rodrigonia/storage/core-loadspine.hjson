@@ -19,7 +19,4 @@ research: {
   planet: rodrigonia
   requiresUnlock: false
 }
-shownPlanets: [
-  rodrigonia
-]
 alwaysUnlocked: true
