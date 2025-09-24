@@ -1,5 +1,14 @@
 type: ShallowLiquid
-variants: 1
+variants: 3
 name: Shallow Rodrigonian Water
 mapColor: 0099ff
 liquidDrop: rodrigonian-water
+speedMultiplier: 0.3
+walkSound: splash
+walkSoundVolume: 0.02
+walkSoundPitchMin: 0.4
+walkSoundPitchMax: 0.6
+solid: false
+cacheLayer: water
+isLiquid: true
+supportsOverlay: true

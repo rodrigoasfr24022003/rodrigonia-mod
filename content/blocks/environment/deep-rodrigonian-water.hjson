@@ -1,5 +1,15 @@
-type: LiquidBlock
-variants: 1
+type: Floor
+variants: 3
 name: Rodrigonian Water
 mapColor: 0066ff
 liquidDrop: rodrigonian-water
+drownTime: 100
+speedMultiplier: 0.3
+walkSound: splash
+walkSoundVolume: 0.02
+walkSoundPitchMin: 0.4
+walkSoundPitchMax: 0.6
+solid: false
+cacheLayer: water
+isLiquid: true
+supportsOverlay: true

@@ -1,0 +1,7 @@
+type: Floor
+name: Moss
+variants: 3
+mapColor: 003153
+useColor: true
+wall: rodrigonian-rock-wall
+speedMultiplier: 0.95
