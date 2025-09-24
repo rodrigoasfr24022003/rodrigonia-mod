@@ -1,0 +1,7 @@
+type: OreBlock
+name: Iridium
+itemDrop: iridium
+variants: 3
+tier: 3
+mapColor: ffffff
+useColor: true
