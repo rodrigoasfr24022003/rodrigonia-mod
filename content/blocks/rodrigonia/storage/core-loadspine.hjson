@@ -13,7 +13,6 @@ requirements: [
   iron/1000
   silver/500
 ]
-envDisabled: 24
 research: {
   root: true
   name: Rodrigonia
