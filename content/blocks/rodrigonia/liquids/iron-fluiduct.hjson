@@ -10,6 +10,7 @@ category: liquid
 requirements: [
   iron/1
 ]
+bridgeReplacement: rodrigonian-liquid-bridge
 research: {
   parent: core-loadspine
   planet: rodrigonia
