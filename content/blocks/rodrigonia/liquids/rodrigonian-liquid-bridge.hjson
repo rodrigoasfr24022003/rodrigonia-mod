@@ -1,0 +1,17 @@
+type: LiquidBridge
+name: Rodrigonian Liquid Bridge
+description: "Rodrigonia's version of the liquid bridge."
+health: 50
+size: 1
+range: 4
+category: liquid
+requirements: [
+  iron/2
+]
+research: {
+  parent: fluiduct
+  planet: rodrigonia
+}
+researchCost: [
+  iron/6
+]
