@@ -1,67 +1,37 @@
-//generator - necessary to prevent crashes, even if you do not use numbered sectors
-//also accepts just doing generator: AsteroidGenerator
-//also these numbers are funny and i have no idea how they precisely work
-generator: AsteroidGenerator
-name: Rodrigonia
-//sector count - larger numbers mean exponentially more sectors, may crash above 4
-sectorSize: 4
-//terrain generation seed the planet uses for its sectors
-sectorSeed: 6
-//sector to start on - probably make this a preset sector
-startSector: 0
-//parent to orbit around and follow
 parent: sun
-//icon colour
-iconColor: 003153
-hasAtmosphere: true
-//radius from the planet's "surface" that the atmosphere blur begins
-atmosphereRadIn: 0.1
-//radius where it fades away - this can have visual issues if above 0.25
-atmosphereRadOut: 0.2
-//colour of the atmosphere
-atmosphereColor: ffffff
-//orbit radius, measured in units i do not know
-orbitRadius: 200
-//angle of the starting position of the orbit, so that all planets are not in the same line 
-orbitOffset: 0
-//time taken to complete one full orbit, in seconds
-orbitTime: 3600000
-//time in ticks that it takes for one day to pass on the planet
-rotateTime: 24000
-//add tidalLock: true and updateLighting: false to make a planet's daylight not move
-//whether this planet can be selected, ever
+sectorSize: 3
+radius: 0.9
+generator: AsteroidGenerator
 accessible: true
 alwaysUnlocked: true
-//whether to allow launching to numbered sectors - set to false for erekir sector behaviour
-allowLaunchToNumbered: true
-//planet environmental factors
+bloom: false
+startSector: 27
+iconColor: 292A55
+hasAtmosphere: true
+atmosphereColor: 45351120
+atmosphereRadIn: 0.05
+atmosphereRadOut: 0.1
+rotateTime: 2076
+orbitRadius: 132
+landCloudColor: e6c25730
+
 defaultEnv: 129
-//content unlocked when landing on this planet
-unlockedOnLand: []
-//planet icon 
-//icon: terrain
-//various rules
-allowLaunchSchematics: true
-allowLaunchLoadout: true
+updateLighting: true
+allowLaunchToNumbered: false
+allowLaunchSchematics: false
+allowLaunchLoadout: false
 allowWaveSimulation: false
-allowSectorInvasion: true
+allowSectorInvasion: false
 clearSectorOnLose: true
-allowWaves: true
-prebuildBase: false
-allowWaves: true
 enemyBuildSpeedMultiplier: 1
-//default core to launch with
+
 defaultCore: core-loadspine
-sectors: {
-  sector-rodrigonia-0: wip-first-sector
-}
-//visual mesh made of hexagons - note that JSON only supports NoiseMesh and HexSkyMesh
-//use objects {} to make a single mesh, and the below format to create multiple
+
 mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 0.98
+    radius: 0.865
     color1: 003153
     color2: 003153
     octaves: 1
@@ -76,11 +46,11 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1
+    radius: 0.93
     color1: ffd700
     color2: ffd700
     octaves: 4.2
-    persistence: 0.9
+    persistence: 0.5
     scale: 0.7
     mag: 0.2
     coct: 4
@@ -91,7 +61,7 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
-    radius: 1.02
+    radius: 0.92
     color1: ffffff
     color2: ffffff
     octaves: 4.2
@@ -104,7 +74,6 @@ mesh: [
     cthresh: 1
   }
 ]
-//mesh to use for drawing the clouds, essentially just a second mesh
 cloudMesh: [
   {
     type: HexSkyMesh

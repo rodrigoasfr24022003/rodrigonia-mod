@@ -1,7 +1,7 @@
 localizedName: "Ferritic Mining Complex"
 description: "This sector is prime for mining iron and silver."
 planet: rodrigonia
-sector: 0
+sector: 27
 difficulty: 1
 captureWave: 10
 research: {
