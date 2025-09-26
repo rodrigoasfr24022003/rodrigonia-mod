@@ -1,3 +1,6 @@
+<div align = center>
+![Logo]
+</div>
 # rodrigonia-mod
 - My planet mod for Mindustry. Heavily unfinished.
 - Discord server for the mod [here](https://discord.gg/HRRwyKnrkV).
@@ -10,3 +13,5 @@
 # Credits
 - [Allure](https://github.com/LixieWulf/Allure), by LixieWulf
 - [Asthosus](https://github.com/Catana791/Asthosus), by Catana791
+<!----------------------------------[ Links ]--------------------------------->
+[Logo]: github/logo.png
