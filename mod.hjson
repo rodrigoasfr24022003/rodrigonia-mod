@@ -2,7 +2,7 @@ name: "rodrigonia"
 displayName: "Rodrigonia"
 author: rodrigo_of_rodrigonia
 description: "My planet mod for Mindustry. Heavily unfinished.\nThe latest BE build is required for the mod to work.\nMeowkitty contributed with sprites and maps for this mod.\n\nCredits go the the rest of the MoreDefences team for their code, LixieWulf for Allure's planet code (which I modified to make the planet) and Catana791 for some bits of code from Asthosus used in my crafting blocks."
-version: "1.0.2a"
+version: "1.0.3"
 minGameVersion: "152"
 
 hidden: false
