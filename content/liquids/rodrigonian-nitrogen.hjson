@@ -1,7 +1,7 @@
 type: Liquid
 name: Nitrogen
-description: A very abundant gas in Rodrigonia's air. Inert, although poisonous in Rodrigonia's surface due to its aathmospheric pressure.
-color: "0000ff"
+description: A very abundant gas in Rodrigonia's air. Inert, although poisonous in Rodrigonia's surface due to its athmospheric pressure.
+color: "c6ace8"
 flammability: 0
 explosiveness: 0
 heatCapacity: 0.5
