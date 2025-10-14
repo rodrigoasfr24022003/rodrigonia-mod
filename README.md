@@ -2,7 +2,7 @@
 # rodrigonia-mod
 - My planet mod for Mindustry. Heavily unfinished.
 - Discord server for the mod [here](https://discord.gg/HRRwyKnrkV).
-- Campaign requires the latest BE.
+- Mod requires the latest BE build of Mindustry.
 # Authors:
 - Rodrigo
 - Meowkitty

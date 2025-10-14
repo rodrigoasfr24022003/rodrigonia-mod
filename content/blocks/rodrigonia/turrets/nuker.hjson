@@ -38,7 +38,7 @@ ammoTypes: {
     trailLength: 12
     trailChance: 1
   },
-  letalium: {
+  imperium: {
     type: MissileBulletType
     speed: 2
     damage: 200
