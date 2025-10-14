@@ -1,0 +1,71 @@
+name: Cygnus
+description: Builds structures to defend the Crane core. Has a missile launcher.
+speed: 3
+flying: true
+health: 100
+engineOffset: 0
+engineSize: 0
+drag: 0.05
+accel: 0.1
+hitSize: 12
+useUnitCap: false
+mineFloor: true
+mineWalls: true
+isEnemy: false
+mineSpeed: 3
+mineTier: 1
+buildSpeed: 1
+coreUnitDock: true
+targetable: false
+hittable: false
+rotateSpeed: 30
+createWreck: false
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 0
+      y: -6
+      teamColor: true
+      effectParam: 1.3
+    }
+  ]
+}
+weapons: [{
+  name: cygnus-ship-missile-launcher
+  top: true
+  rotate: true
+  y: 0
+  x: 0
+  inaccuracy: 2
+  reload: 30
+  mirror: false
+  rotateSpeed: 30
+  rotationLimit: 270
+  predictTarget: false
+  shootCone: 361
+  bullet: {	
+    type: MissileBulletType
+    speed: 4
+    damage: 100
+    splashDamage: 1000
+    splashDamageRadius: 36
+    lifetime: 120
+    homingPower: 0.035,
+    homingRange: 300,
+    backColor: "ff0033",
+    frontColor: "ffffff"
+    trailColor: "ff0033"
+    trailWidth: 2,
+    trailLength: 12,
+    trailChance: 1,
+  }
+}]
+itemCapacity: 100
+range: 100
+research: {
+  parent: core-crane
+  planet: rodrigonia
+}
