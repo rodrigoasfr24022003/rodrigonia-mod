@@ -1,6 +1,6 @@
 name: Missiler
 description: Shoots iron missiles or germanium missiles at enemies.
-type: ItemTurret
+// type: ItemTurret
 health: 2250
 size: 3
 reload: 30
@@ -22,6 +22,10 @@ shoot: {
       0,0,0
     ]
   }]
+}
+shootSound: missileSmall
+drawer: {
+  type: DrawTurret
 }
 ammoTypes: {
   iron: {

@@ -55,6 +55,7 @@ ammoTypes: {
     trailChance: 1
   }
 }
+shootSound: missileLarge
 shootCone: 360
 hasLiquids: true
 consumes: {
