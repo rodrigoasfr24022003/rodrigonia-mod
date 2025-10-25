@@ -12,6 +12,7 @@ let iridium = extend(Item, "iridium", {})
 let iron = extend(Item, "iron", {})
 let letalium = extend(Item, "letalium", {})
 let nickel = extend(Item, "nickel", {})
+let obsidian = extend(Item, "obsidian", {})
 let pyroberyl = extend(Item, "pyroberyl", {})
 let redstone = extend(Item, "redstone", {})
 let rodrigonium = extend(Item, "rodrigonium", {})
@@ -35,6 +36,7 @@ module.exports = {
   iron: iron,
   letalium: letalium,
   nickel: nickel,
+  obsidian: obsidian,
   pyroberyl: pyroberyl,
   redstone: redstone,
   rodrigonium: rodrigonium,
