@@ -1,0 +1,10 @@
+hardness: 6
+cost: 1
+color: "3b2754"
+healthScaling: 1
+alwaysUnlocked: true
+name: Obsidian
+description: Extremely tough.
+shownPlanets: [
+  rodrigonia
+]
