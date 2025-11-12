@@ -23,6 +23,10 @@ shoot: {
     ]
   }]
 }
+shootSound: missileSmall
+drawer: {
+  type: DrawTurret
+}
 ammoTypes: {
   iron: {
     type: MissileBulletType

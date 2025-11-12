@@ -1,0 +1,6 @@
+type: Floor
+variants: 1
+name: Obsidian
+mapColor: 3b2754
+tier: 3
+itemDrop: obsidian

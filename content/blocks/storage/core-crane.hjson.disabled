@@ -1,18 +1,18 @@
 name: "Core: Crane"
 description: Core of the base. Once destroyed the sector is lost.
-details: "Core of the first tier.\n\nCheap and lightweight, can be launched into other sectors on Rodrigonia with relative ease compared to more massive cores."
+details: "Core of the first tier.\n\nA median t1 core. Buffs Missiles by 200% and their fire rate by 15%."
 type: CoreBlock
 size: 3
 unitType: cygnus-ship
 health: 1000
 itemCapacity: 5000
-unitCapModifier: 8
+unitCapModifier: 6
 squareSprite: false
 isFirstTier: true
 requirements: [
   iron/1000
-  silver/500
-  letalium/100
+  diamond/1000
+  letalium/250
 ]
 research: {
   parent: core-loadspine

@@ -1,0 +1,11 @@
+hardness: 1
+charge: 1
+cost: 1
+color: "660000"
+healthScaling: 1
+alwaysUnlocked: true
+name: Redstone
+description: Conducts electricity. Charged by nature.
+shownPlanets: [
+  rodrigonia
+]

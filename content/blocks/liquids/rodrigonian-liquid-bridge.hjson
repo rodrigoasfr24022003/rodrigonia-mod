@@ -9,7 +9,7 @@ requirements: [
   iron/2
 ]
 research: {
-  parent: fluiduct
+  parent: iron-fluiduct
   planet: rodrigonia
 }
 researchCost: [
