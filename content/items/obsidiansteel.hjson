@@ -3,7 +3,7 @@ cost: 1
 color: "100c1c"
 healthScaling: 1
 alwaysUnlocked: true
-name: Obsidian
+name: Obsidiansteel
 description: Extremely tough metal.
 shownPlanets: [
   rodrigonia
