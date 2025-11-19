@@ -1,6 +1,7 @@
 type: ConsumeGenerator
 name: "Magic Resonance Generator"
 description: "An early game generator, generating energy from silver."
+squareSprite: false
 health: 400
 size: 2
 itemDuration: 120

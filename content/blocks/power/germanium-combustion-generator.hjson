@@ -1,6 +1,7 @@
 type: ConsumeGenerator
 name: "Germanium Combustion Generator"
 description: "An early game generator, burning germanium for fuel."
+squareSprite: false
 health: 400
 size: 2
 itemDuration: 60
