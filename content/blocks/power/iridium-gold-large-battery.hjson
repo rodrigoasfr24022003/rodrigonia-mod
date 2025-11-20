@@ -1,0 +1,22 @@
+type: Battery
+name: "Iridium-Gold Battery"
+description: "A mid-game battery."
+squareSprite: false
+size: 3
+consumes: {
+  powerBuffered: 108000
+}
+health: 1800
+requirements: [
+   gold/900
+   iridium/300
+]
+research: {
+    planet: rodrigonia
+    parent: rodrigonian-power-node
+}
+researchCost: [
+  gold/300
+  iridium/100
+]
+category: "power"
