@@ -8,15 +8,15 @@ consumes: {
 }
 health: 1800
 requirements: [
-   gold/900
-   iridium/300
+   gold/300
+   iridium/100
 ]
 research: {
     planet: rodrigonia
-    parent: rodrigonian-power-node
+    parent: silver-battery
 }
 researchCost: [
-  gold/300
+  gold/100
   iridium/100
 ]
 category: "power"
