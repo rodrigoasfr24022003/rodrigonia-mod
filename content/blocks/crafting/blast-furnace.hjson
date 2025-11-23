@@ -1,6 +1,7 @@
 type: AttributeCrafter
 name: "Blast Furnace"
 description: "Used to make Steel. Outputs slag as a byproduct."
+squareSprite: false
 health: 900
 size: 3
 hasPower: true

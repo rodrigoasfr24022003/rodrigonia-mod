@@ -1,6 +1,7 @@
 type: AttributeCrafter
 name: "Advanced Blast Furnace"
 description: "Used to make Steel quickly. Auto-vaporizes slag."
+squareSprite: false
 health: 1600
 size: 3
 hasPower: true
