@@ -1,0 +1,106 @@
+name: Slider
+description: Big air unit with 2 Phantom Hangars and a large minelayer.
+speed: 2
+flying: true
+health: 2000
+engineOffset: 0
+engineSize: 0
+drag: 0.1
+accel: 0.2
+hitSize: 48
+itemCapacity: 0
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -3
+      y: -5
+      teamColor: true
+      effectParam: 2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 3
+      y: -5
+      teamColor: true
+      effectParam: 2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -7
+      y: -6
+      teamColor: true
+      effectParam: 2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 7
+      y: -6
+      teamColor: true
+      effectParam: 2
+    },
+    {
+      type: UnitSpawnAbility
+      unit: phantom
+      spawnTime: 120
+      spawnX: -5
+      spawnY: 0
+    },
+    {
+      type: UnitSpawnAbility
+      unit: phantom
+      spawnTime: 120
+      spawnX: 5
+      spawnY: 0
+    }
+  ]
+}
+weapons: [{
+  name: slider-minelayer
+  top: false
+  rotate: false
+  y: -5
+  x: 0
+  inaccuracy: 2.5
+  reload: 90
+  mirror: false
+  rotateSpeed: 30
+  rotationLimit: 361
+  predictTarget: true
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    type: FlakBulletType
+    speed: 10
+    drag: 0.25
+    damage: 1000
+    lifetime: 360
+    width: 12
+    height: 12
+    splashDamage: 1000
+    splashDamageRadius: 50
+    explodeRange: 50
+    explodeDelay: 0
+  }
+}]
+research: {
+  parent: valkyrie
+  planet: rodrigonia
+}
+researchCost: [
+  obsidiansteel/300
+  letalium/100
+]
