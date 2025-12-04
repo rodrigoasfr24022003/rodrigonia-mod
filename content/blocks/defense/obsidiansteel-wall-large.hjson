@@ -1,13 +1,13 @@
 type: Wall
-health: 14400
+health: 19200
 size: 2
 category: defense
-name: Large Obsidiansteel Wall
-description: A very tough large wall.
+name: Large Rodrigonium Wall
+description: An extremely tough large wall.
 requirements: [
-  obsidiansteel/24
+  rodrigonium/24
 ]
 research: {
     planet: rodrigonia
-    parent: obsidiansteel-wall
+    parent: rodrigonium-wall
 }
