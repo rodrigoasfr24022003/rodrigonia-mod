@@ -6,6 +6,7 @@ size: 3
 hasPower: true
 hasItems: true
 hasLiquids: true
+squareSprite: false
 craftTime: 60
 itemCapacity: 60
 consumes: {
