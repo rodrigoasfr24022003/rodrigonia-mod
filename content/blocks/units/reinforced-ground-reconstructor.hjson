@@ -1,0 +1,38 @@
+name: Reinforced Ground Reconstuctor
+type: Reconstructor
+description: Uses resources and units to construct low to mid-tier ground units.
+health: 1250
+size: 5
+hasPower: true
+payloadSpeed: 4
+consumes: {
+  power: 4
+  items: [
+    iron/300
+    gold/100
+  ]
+}
+constructTtime: 2400
+upgrades: [
+  [
+    sculker
+    warden
+  ]
+]
+capacities:[
+    300
+    100
+]
+requirements: [
+  iron/900
+  gold/300
+]
+category: units
+research: {
+  parent: basic-ground-factory
+  planet: rodrigonia
+}
+researchCost: [
+  iron/1800
+  gold/600
+]
