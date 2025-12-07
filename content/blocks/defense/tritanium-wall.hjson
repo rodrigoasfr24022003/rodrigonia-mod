@@ -1,11 +1,11 @@
 type: Wall
-health: 14400
-size: 2
+health: 3600
+armor: 6
 category: defense
-name: Large Obsidiansteel Wall
-description: A very tough large wall.
+name: Tritanium Wall
+description: A very tough and armored wall.
 requirements: [
-  obsidiansteel/24
+  tritanium/6
 ]
 research: {
     planet: rodrigonia

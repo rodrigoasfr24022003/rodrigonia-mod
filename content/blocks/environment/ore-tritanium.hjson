@@ -1,0 +1,7 @@
+type: OreBlock
+name: Tritanium
+itemDrop: tritanium
+variants: 3
+tier: 5
+mapColor: 57898e
+useColor: true
