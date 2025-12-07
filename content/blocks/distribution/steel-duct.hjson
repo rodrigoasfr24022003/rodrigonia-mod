@@ -1,0 +1,16 @@
+name: Steel Duct
+type: Duct
+description: Transfers items forwards with very fast throughput.
+health: 100
+speed: 2
+requirements: [
+  iron/3
+  steel/1
+]
+bridgeReplacement: iron-duct-bridge
+routerReplacement: iron-duct-router
+category: distribution
+research: {
+  parent: invar-duct
+  planet: rodrigonia
+}
