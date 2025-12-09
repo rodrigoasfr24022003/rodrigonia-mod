@@ -1,0 +1,17 @@
+name: Obsdiansteel Duct
+type: Duct
+description: Transfers items forwards with extremely fast throughput.
+health: 200
+speed: 1
+requirements: [
+  iron/3
+  steel/2
+  obsidiansteel/1
+]
+bridgeReplacement: iron-duct-bridge
+routerReplacement: iron-duct-router
+category: distribution
+research: {
+  parent: steel-duct
+  planet: rodrigonia
+}

@@ -1,0 +1,14 @@
+type: Wall
+health: 14400
+size: 2
+armor: 24
+category: defense
+name: Large Tritanium Wall
+description: A very tough and armored large wall.
+requirements: [
+  tritanium/24
+]
+research: {
+    planet: rodrigonia
+    parent: tritanium-wall
+}

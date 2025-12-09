@@ -5,6 +5,7 @@ health: 900
 size: 3
 hasPower: true
 hasItems: true
+squareSprite: false
 craftTime: 120
 itemCapacity: 60
 consumes: {

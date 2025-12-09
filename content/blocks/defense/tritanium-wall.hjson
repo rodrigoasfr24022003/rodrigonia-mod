@@ -1,0 +1,13 @@
+type: Wall
+health: 3600
+armor: 6
+category: defense
+name: Tritanium Wall
+description: A very tough and armored wall.
+requirements: [
+  tritanium/6
+]
+research: {
+    planet: rodrigonia
+    parent: obsidiansteel-wall
+}

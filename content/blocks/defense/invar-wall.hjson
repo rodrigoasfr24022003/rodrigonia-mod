@@ -1,7 +1,7 @@
 type: Wall
 health: 2400
 category: defense
-name: Iron Wall
+name: Invar Wall
 description: A tougher wall.
 requirements: [
   invar/6

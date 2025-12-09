@@ -1,0 +1,43 @@
+type: AttributeCrafter
+name: "Obsidiansteel Forge"
+description: "Used to make Obsidiansteel."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+squareSprite: false
+craftTime: 60
+itemCapacity: 60
+consumes: {
+  power: 6
+  items: {
+    items: [
+      obsidian/1
+      steel/1
+    ]
+  }
+  liquids:{
+    liquids: [
+      liquid-blaze/1
+    ]
+  }
+}
+outputItems: [
+  obsidiansteel/1
+]
+requirements: [
+   obsidian/900
+   steel/2700
+   invar/900
+]
+research: {
+    planet: rodrigonia
+    parent: electrum-smelter
+}
+researchCost: [
+   obsidian/2700
+   steel/8100
+   invar/2700
+]
+category: crafting

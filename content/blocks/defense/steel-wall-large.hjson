@@ -1,0 +1,14 @@
+type: Wall
+health: 9600
+size: 2
+category: defense
+name: Large Steel Wall
+description: A tougher large wall with armor.
+armor: 24
+requirements: [
+  steel/24
+]
+research: {
+    planet: rodrigonia
+    parent: steel-wall
+}

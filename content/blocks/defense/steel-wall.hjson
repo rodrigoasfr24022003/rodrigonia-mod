@@ -1,0 +1,13 @@
+type: Wall
+health: 2400
+category: defense
+name: Steel Wall
+description: A tougher wall with armor.
+armor: 6
+requirements: [
+  steel/6
+]
+research: {
+    planet: rodrigonia
+    parent: invar-wall
+}

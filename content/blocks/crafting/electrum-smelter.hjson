@@ -5,6 +5,7 @@ health: 400
 size: 2
 hasPower: true
 hasItems: true
+squareSprite: false
 craftTime: 120
 itemCapacity: 20
 powerCapacity: 3600

@@ -1,0 +1,12 @@
+type: Wall
+health: 4800
+category: defense
+name: Rodrigonium Wall
+description: An extremely tough wall.
+requirements: [
+  rodrigonium/6
+]
+research: {
+    planet: rodrigonia
+    parent: obsidiansteel-wall
+}

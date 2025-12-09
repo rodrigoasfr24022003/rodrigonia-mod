@@ -1,0 +1,38 @@
+name: Wither Builder
+type: Reconstructor
+description: Uses resources and units to construct Withers.
+health: 1250
+size: 5
+hasPower: true
+payloadSpeed: 4
+consumes: {
+  power: 4
+  items: [
+    silver/300
+    gold/60
+  ]
+}
+constructTtime: 2400
+upgrades: [
+  [
+    phantom
+    wither
+  ]
+]
+capacities:[
+    300
+    60
+]
+requirements: [
+  iron/600
+  gold/240
+]
+category: units
+research: {
+  parent: basic-air-factory
+  planet: rodrigonia
+}
+researchCost: [
+  iron/1200
+  gold/480
+]

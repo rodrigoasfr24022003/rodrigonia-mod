@@ -1,0 +1,13 @@
+type: Wall
+health: 19200
+size: 2
+category: defense
+name: Large Rodrigonium Wall
+description: An extremely tough large wall.
+requirements: [
+  rodrigonium/24
+]
+research: {
+    planet: rodrigonia
+    parent: rodrigonium-wall
+}
