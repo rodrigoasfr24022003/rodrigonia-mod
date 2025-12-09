@@ -2,6 +2,7 @@
 # rodrigonia-mod
 - My planet mod for Mindustry. Heavily unfinished.
 - Mod requires the latest BE build of Mindustry.
+- [Official Trello Here](https://trello.com/b/ujf4uSBt)
 # Authors:
 - Rodrigo
 - Meowkitty
