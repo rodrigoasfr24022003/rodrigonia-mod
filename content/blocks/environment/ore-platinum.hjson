@@ -1,0 +1,7 @@
+type: OreBlock
+name: Platinum
+itemDrop: platinum
+variants: 3
+tier: 4
+mapColor: 99ffff
+useColor: true

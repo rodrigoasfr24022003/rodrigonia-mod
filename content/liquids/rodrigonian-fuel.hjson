@@ -1,0 +1,15 @@
+type: Liquid
+name: Rodrigonian Fuel
+description: A heavy-duty fuel commonly used in Rodrigonia.
+color: aaad71
+flammability: 6
+explosiveness: 6
+heatCapacity: 0.167
+temperature: 0
+viscosity: 1
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

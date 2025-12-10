@@ -1,0 +1,46 @@
+type: AttributeCrafter
+name: "Fringeite Forge"
+description: "Used to make Fringeite."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+squareSprite: false
+craftTime: 120
+itemCapacity: 60
+consumes: {
+  power: 4
+  liquids:{
+    liquids: [
+      slag/0.67
+    ]
+  }
+  items: {
+    items: [
+      steel/4
+      rodsand/8
+      obsidian/8
+    ]
+  }
+}
+outputItems: [
+  fringeite/20
+]
+requirements: [
+   rodrigonium/900
+   steel/2700
+   obsidian/300
+   diamond/100
+]
+research: {
+    planet: rodrigonia
+    parent: fragdrigonium-forge
+}
+researchCost: [
+   rodrigonium/2700
+   steel/8100
+   obsidian/900
+   diamond/300
+]
+category: crafting

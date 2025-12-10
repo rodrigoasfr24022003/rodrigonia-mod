@@ -1,0 +1,9 @@
+hardness: 10
+cost: 1
+color: 0099ff
+healthScaling: 7.5
+name: Monolithic Alloy
+description: The culmination of ballistics.
+shownPlanets: [
+  rodrigonia
+]

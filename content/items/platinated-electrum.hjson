@@ -1,0 +1,9 @@
+hardness: 0.7
+cost: 2
+color: dcea76
+healthScaling: 0.9
+name: Platinated Electrum
+description: An alloy of Platinum and Electrum.
+shownPlanets: [
+  rodrigonia
+]

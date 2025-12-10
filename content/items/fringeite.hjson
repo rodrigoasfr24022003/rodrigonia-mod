@@ -1,0 +1,9 @@
+hardness: 7.5
+cost: 1
+color: cabdab
+healthScaling: 3.75
+name: Fringeite
+description: The goofy alloy.
+shownPlanets: [
+  rodrigonia
+]

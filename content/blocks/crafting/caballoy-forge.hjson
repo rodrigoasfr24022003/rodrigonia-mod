@@ -1,0 +1,40 @@
+type: AttributeCrafter
+name: "Caballoy Forge"
+description: "Used to make Caballoy."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+squareSprite: false
+craftTime: 120
+itemCapacity: 60
+consumes: {
+  power: 4
+  items: {
+    items: [
+      gold/12
+      redstone/12
+      iridium/4
+    ]
+  }
+}
+outputItems: [
+  caballoy/28
+]
+requirements: [
+   rodrigonium/900
+   gold/2700
+   iridium/300
+   diamond/100
+]
+research: {
+    planet: rodrigonia
+    parent: fragdrigonium-forge
+}
+researchCost: [
+   rodrigonium/2700
+   gold/8100
+   iridium/900
+   diamond/300
+]
+category: crafting
