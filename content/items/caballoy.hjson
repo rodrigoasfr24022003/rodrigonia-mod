@@ -1,0 +1,9 @@
+hardness: 10
+cost: 1
+color: ff8000
+healthScaling: 3.75
+name: Caballoy
+description: The culmination of energy.
+shownPlanets: [
+  rodrigonia
+]

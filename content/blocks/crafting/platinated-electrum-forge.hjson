@@ -1,0 +1,36 @@
+type: AttributeCrafter
+name: "Platinated Electrum Forge"
+description: "Used to make platinated electrum."
+health: 400
+size: 2
+hasPower: true
+hasItems: true
+squareSprite: false
+craftTime: 120
+itemCapacity: 20
+powerCapacity: 3600
+consumes: {
+  power: 2
+  items: {
+    items: [
+      platinum/1
+      electrum/1
+    ]
+  }
+}
+outputItems: [
+  platinated-electrum/2
+]
+requirements: [
+   electrum/120
+   platinum/120
+]
+research: {
+    planet: rodrigonia
+    parent: electrum-smelter
+}
+researchCost: [
+  electrum/600
+  platinum/600
+]
+category: crafting

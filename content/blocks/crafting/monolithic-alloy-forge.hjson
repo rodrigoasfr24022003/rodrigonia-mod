@@ -1,0 +1,40 @@
+type: AttributeCrafter
+name: "Monolithic Alloy Forge"
+description: "Used to make Monolithic Alloy."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+squareSprite: false
+craftTime: 120
+itemCapacity: 60
+consumes: {
+  power: 4
+  items: {
+    items: [
+      iron/4
+      obsidian/4
+      diamond/1
+    ]
+  }
+}
+outputItems: [
+  monolithic-alloy/9
+]
+requirements: [
+   rodrigonium/900
+   iron/2700
+   obsidian/300
+   diamond/100
+]
+research: {
+    planet: rodrigonia
+    parent: fragdrigonium-forge
+}
+researchCost: [
+   rodrigonium/2700
+   iron/8100
+   obsidian/900
+   diamond/300
+]
+category: crafting
