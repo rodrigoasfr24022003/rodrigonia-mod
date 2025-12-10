@@ -1,0 +1,46 @@
+type: AttributeCrafter
+name: "Rodrigonian Fuel Mixer"
+description: "Makes Rodrigonian Fuel from aniline, rodrigonium, gold and iridium."
+squareSprite: false
+health: 5000
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+powerCapacity: 1000
+consumes: {
+  power: 12
+  liquids:{
+    liquids: [
+      aniline/1
+    ]
+  }
+  items: {
+    items: [
+      rodrigonium/16
+      gold/4
+      iridium/4
+    ]
+  }
+}
+outputLiquids: [
+  rodrigonian-fuel/1
+]
+requirements: [
+  rodrigonium/3000
+  gold/1500
+  iridium/1500
+  fragdrigonium/3000
+]
+research: {
+    planet: rodrigonia
+    parent: aniline-mixer
+}
+researchCost: [
+  rodrigonium/9000
+  gold/4500
+  iridium/4500
+  fragdrigonium/9000
+]
+category: crafting

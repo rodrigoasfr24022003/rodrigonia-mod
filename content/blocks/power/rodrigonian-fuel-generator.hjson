@@ -1,0 +1,41 @@
+type: ConsumeGenerator
+name: "Rodrigonian Fuel Generator"
+description: "A late-game generator, burning rodrigonian fuel and rodrigonium for power."
+squareSprite: false
+health: 2500
+size: 5
+itemDuration: 60
+itemCapacity: 120
+hasItems: true
+hasLiquids: true
+consumes: {
+  items: {
+    items: [
+      rodrigonium/1
+    ]
+  }
+  liquids: {
+    liquids: [
+        rodrigonian-water/4
+        rodrigonian-fuel/0.66
+    ]
+  }
+}
+requirements: [
+  rodrigonium/3000
+  gold/1500
+  iridium/1500
+  fragdrigonium/3000
+]
+research: {
+    planet: rodrigonia
+    parent: germanium-combustion-generator
+}
+researchCost: [
+  rodrigonium/9000
+  gold/4500
+  iridium/4500
+  fragdrigonium/9000
+]
+powerProduction: 180
+category: "power"
