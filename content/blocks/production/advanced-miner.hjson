@@ -10,7 +10,7 @@ powerCapacity: 6000
 consumes: {
     power: 4
     liquid:{
-        liquid: water
+        liquid: rodrigonian-water
         amount: 0.5
         optional: true
         booster: true
