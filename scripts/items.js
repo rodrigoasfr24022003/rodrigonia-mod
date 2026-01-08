@@ -1,8 +1,10 @@
 let arderite = extend(Item, "arderite", {})
+let caballoy = extend(Item, "caballoy", {})
 let diamond = extend(Item, "diamond", {})
 let electrum = extend(Item, "electrum", {})
 let emerald = extend(Item, "emerald", {})
 let fragdrigonium = extend(Item, "fragdrigonium", {})
+let fringeite = extend(Item, "fringeite", {})
 let germanium = extend(Item, "germanium", {})
 let gold = extend(Item, "gold", {})
 let imperium = extend(Item, "imperium", {})
@@ -11,8 +13,12 @@ let ionium = extend(Item, "ionium", {})
 let iridium = extend(Item, "iridium", {})
 let iron = extend(Item, "iron", {})
 let letalium = extend(Item, "letalium", {})
+let monolithic_alloy = extend(Item, "monolithic-alloy", {})
 let nickel = extend(Item, "nickel", {})
 let obsidian = extend(Item, "obsidian", {})
+let obsidiansteel = extend(Item, "obsidiansteel", {})
+let platinated_electrum = extend(Item, "platinated-electrum", {})
+let platinum = extend(Item, "platinum", {})
 let pyroberyl = extend(Item, "pyroberyl", {})
 let redstone = extend(Item, "redstone", {})
 let rodrigonium = extend(Item, "rodrigonium", {})
@@ -23,10 +29,12 @@ let tritanium = extend(Item, "tritanium", {})
 
 module.exports = {
   arderite: arderite,
+  caballoy: caballoy,
   diamond: diamond,
   electrum: electrum,
   emerald: emerald,
   fragdrigonium: fragdrigonium,
+  fringeite: fringeite,
   germanium: germanium,
   gold: gold,
   imperium: imperium,
@@ -35,8 +43,12 @@ module.exports = {
   iridium: iridium,
   iron: iron,
   letalium: letalium,
+  monolithic_alloy: monolithic_alloy,
   nickel: nickel,
   obsidian: obsidian,
+  obsidiansteel: obsidiansteel,
+  platinated_electrum: platinated_electrum,
+  platinum: platinum,
   pyroberyl: pyroberyl,
   redstone: redstone,
   rodrigonium: rodrigonium,
