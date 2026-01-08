@@ -1,0 +1,34 @@
+name: Ultimate Miner
+description: An end-game drill capable of mining hexorium and sothasium, at the cost of power.
+type: Drill
+health: 3200
+size: 4
+tier: 6
+drillTime: 25
+liquidCapacity: 160
+powerCapacity: 18000
+consumes: {
+    power: 12
+    liquid:{
+        liquid: water
+        amount: 2
+        optional: true
+        booster: true
+    }
+}
+drawMineItem: false
+requirements: [
+   rodrigonium/400
+   fragdrigonium/400
+   ionium/100
+]
+category: production
+research: {
+    planet: rodrigonia
+    parent: elite-miner
+}
+researchCost: [
+   rodrigonium/1200
+   fragdrigonium/1200
+   ionium/400
+]
