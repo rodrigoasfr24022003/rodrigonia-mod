@@ -1,0 +1,7 @@
+type: OreBlock
+name: Fragmentation Crystal
+itemDrop: fragmentation-crystal
+variants: 1
+tier: 2
+mapColor: 990000
+useColor: true

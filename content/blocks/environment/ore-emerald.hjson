@@ -1,0 +1,7 @@
+type: OreBlock
+name: Emerald
+itemDrop: emerald
+variants: 1
+tier: 3
+mapColor: 50c878
+useColor: true

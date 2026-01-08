@@ -4,6 +4,7 @@ let diamond = extend(Item, "diamond", {})
 let electrum = extend(Item, "electrum", {})
 let emerald = extend(Item, "emerald", {})
 let fragdrigonium = extend(Item, "fragdrigonium", {})
+let fragmentation_crystal = extend(Item, "fragmentation-crystal", {})
 let fringeite = extend(Item, "fringeite", {})
 let germanium = extend(Item, "germanium", {})
 let gold = extend(Item, "gold", {})
@@ -34,6 +35,7 @@ module.exports = {
   electrum: electrum,
   emerald: emerald,
   fragdrigonium: fragdrigonium,
+  fragmentation_crystal: fragmentation_crystal,
   fringeite: fringeite,
   germanium: germanium,
   gold: gold,
