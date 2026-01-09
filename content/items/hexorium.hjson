@@ -1,0 +1,10 @@
+hardness: 12
+cost: 1
+color: "ff0000"
+healthScaling: 1
+alwaysUnlocked: true
+name: Hexorium
+description: Insanely tough metal.
+shownPlanets: [
+  rodrigonia
+]

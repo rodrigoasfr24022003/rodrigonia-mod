@@ -78,6 +78,48 @@ ammoTypes: {
     pierceBuilding: true
     pierceCap: 30
   },
+  obsidiansteel: {
+    type: BasicBulletType
+    speed: 10
+    damage: 10000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+  },
+  rodrigonium: {
+    type: BasicBulletType
+    speed: 10
+    damage: 12500
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+  },
+  fragsteel: {
+    type: BasicBulletType
+    speed: 10
+    damage: 6000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+    fragBullets: 3
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 10
+        damage: 2400
+        lifetime: 10
+        width: 5
+        height: 4
+    }
+  },
   fragdrigonium: {
     type: BasicBulletType
     speed: 6
@@ -150,6 +192,26 @@ ammoTypes: {
     makeFire: true
     status: burning
     statusDuration: 120
+  },
+  hexorium: {
+    type: BasicBulletType
+    speed: 12
+    damage: 12000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 120
+    fragBullets: 6
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 6
+        damage: 2400
+        lifetime: 10
+        width: 5
+        height: 4
+    }
   }
 }
 shootCone: 361

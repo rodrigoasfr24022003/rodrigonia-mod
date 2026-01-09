@@ -1,0 +1,43 @@
+type: AttributeCrafter
+name: "Fragsteel Forge"
+description: "Used to make Fragsteel."
+health: 900
+size: 3
+hasPower: true
+hasItems: true
+hasLiquids: true
+squareSprite: false
+craftTime: 60
+itemCapacity: 810
+consumes: {
+  power: 6
+  items: {
+    items: [
+      fragmentation-crystal/81
+      obsidiansteel/1
+    ]
+  }
+  liquids:{
+    liquids: [
+      liquid-blaze/1
+    ]
+  }
+}
+outputItems: [
+  fragsteel/1
+]
+requirements: [
+   obsidiansteel/900
+   rodrigonium/600
+   tritanium/600
+]
+research: {
+    planet: rodrigonia
+    parent: electrum-smelter
+}
+researchCost: [
+   obsidiansteel/2700
+   rodrigonium/1800
+   tritanium/1800
+]
+category: crafting

@@ -5,9 +5,11 @@ let electrum = extend(Item, "electrum", {})
 let emerald = extend(Item, "emerald", {})
 let fragdrigonium = extend(Item, "fragdrigonium", {})
 let fragmentation_crystal = extend(Item, "fragmentation-crystal", {})
+let fragsteel = extend(Item, "fragsteel", {})
 let fringeite = extend(Item, "fringeite", {})
 let germanium = extend(Item, "germanium", {})
 let gold = extend(Item, "gold", {})
+let hexorium = extend(Item, "hexorium", {})
 let imperium = extend(Item, "imperium", {})
 let invar = extend(Item, "invar", {})
 let ionium = extend(Item, "ionium", {})
@@ -21,6 +23,7 @@ let obsidiansteel = extend(Item, "obsidiansteel", {})
 let platinated_electrum = extend(Item, "platinated-electrum", {})
 let platinum = extend(Item, "platinum", {})
 let pyroberyl = extend(Item, "pyroberyl", {})
+let raw_hexorium = extend(Item, "raw-hexorium", {})
 let redstone = extend(Item, "redstone", {})
 let rodrigonium = extend(Item, "rodrigonium", {})
 let rodsand = extend(Item, "rodsand", {})
@@ -36,9 +39,11 @@ module.exports = {
   emerald: emerald,
   fragdrigonium: fragdrigonium,
   fragmentation_crystal: fragmentation_crystal,
+  fragsteel: fragsteel,
   fringeite: fringeite,
   germanium: germanium,
   gold: gold,
+  hexorium: hexorium,
   imperium: imperium,
   invar: invar,
   ionium: ionium,
@@ -52,6 +57,7 @@ module.exports = {
   platinated_electrum: platinated_electrum,
   platinum: platinum,
   pyroberyl: pyroberyl,
+  raw_hexorium: raw_hexorium,
   redstone: redstone,
   rodrigonium: rodrigonium,
   rodsand: rodsand,
