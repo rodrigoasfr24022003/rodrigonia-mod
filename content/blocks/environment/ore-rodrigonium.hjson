@@ -1,7 +1,7 @@
 type: OreBlock
 name: Rodrigonium
 itemDrop: rodrigonium
-variants: 1
+variants: 3
 tier: 5
 mapColor: 005fa3
 useColor: true

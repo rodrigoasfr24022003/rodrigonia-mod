@@ -1,0 +1,7 @@
+type: OreBlock
+name: Letalium
+itemDrop: letalium
+variants: 3
+tier: 3
+mapColor: 8000ff
+useColor: true

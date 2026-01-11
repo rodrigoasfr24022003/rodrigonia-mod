@@ -8,7 +8,7 @@ drillTime: 200
 liquidCapacity: 5
 consumes: {
   liquid:{
-    liquid: water
+    liquid: rodrigonian-water
       amount: 0.08
       optional: true
       booster: true

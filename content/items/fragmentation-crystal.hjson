@@ -1,0 +1,10 @@
+hardness: 1.0
+cost: 2
+color: "cc0000"
+healthScaling: 0.25
+alwaysUnlocked: true
+name: Fragmentation Crystal
+description: Extremely brittle and unnatural.
+shownPlanets: [
+  rodrigonia
+]

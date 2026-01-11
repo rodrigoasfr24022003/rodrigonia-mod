@@ -1,0 +1,10 @@
+hardness: 6
+cost: 1
+color: "660000"
+healthScaling: 1
+alwaysUnlocked: true
+name: Fragsteel
+description: Extremely tough but brittle metal.
+shownPlanets: [
+  rodrigonia
+]

@@ -1,0 +1,43 @@
+type: AttributeCrafter
+name: "Hexorium Superforge"
+description: "Used to make Hexorium from Raw Hexorium."
+health: 2400
+size: 4
+hasPower: true
+hasItems: true
+squareSprite: false
+craftTime: 60
+itemCapacity: 270
+consumes: {
+  power: 20
+  items: {
+    items: [
+      fragsteel/9
+      raw-hexorium/1
+    ]
+  }
+  liquids: {
+    liquids: [
+      liquid-blaze/0.15
+      rodrigonian-fuel/0.1
+    ]
+  }
+}
+outputItems: [
+  hexorium/1
+]
+requirements: [
+   fragsteel/600
+   ionium/600
+   rodrigonium/2400
+]
+research: {
+    planet: rodrigonia
+    parent: ionium-superforge
+}
+researchCost: [
+   fragsteel/1800
+   ionium/1800
+   rodrigonium/7200
+]
+category: crafting

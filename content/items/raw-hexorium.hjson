@@ -1,0 +1,10 @@
+hardness: 12
+cost: 1
+color: "660000"
+healthScaling: 1
+alwaysUnlocked: true
+name: Raw Hexorium
+description: Raw form of an insanely tough metal.
+shownPlanets: [
+  rodrigonia
+]

@@ -1,0 +1,42 @@
+type: AttributeCrafter
+name: "Sothasium Superforge"
+description: "Used to make Sothasium from Raw Sothasium."
+health: 2400
+size: 4
+hasPower: true
+hasItems: true
+squareSprite: false
+craftTime: 60
+itemCapacity: 270
+consumes: {
+  power: 20
+  items: {
+    items: [
+      iron/5
+      raw-sothasium/1
+    ]
+  }
+  liquids: {
+    liquids: [
+      liquid-blaze/0.6
+    ]
+  }
+}
+outputItems: [
+  sothasium/1
+]
+requirements: [
+   arderite/600
+   ionium/600
+   rodrigonium/2400
+]
+research: {
+    planet: rodrigonia
+    parent: ionium-superforge
+}
+researchCost: [
+   arderite/1800
+   ionium/1800
+   rodrigonium/7200
+]
+category: crafting

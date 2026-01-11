@@ -1,0 +1,7 @@
+type: OreBlock
+name: Diamond
+itemDrop: diamond
+variants: 1
+tier: 3
+mapColor: 00ffff
+useColor: true
