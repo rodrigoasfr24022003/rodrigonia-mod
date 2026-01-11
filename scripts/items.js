@@ -24,10 +24,12 @@ let platinated_electrum = extend(Item, "platinated-electrum", {})
 let platinum = extend(Item, "platinum", {})
 let pyroberyl = extend(Item, "pyroberyl", {})
 let raw_hexorium = extend(Item, "raw-hexorium", {})
+let raw_sothasium = extend(Item, "raw-sothasium", {})
 let redstone = extend(Item, "redstone", {})
 let rodrigonium = extend(Item, "rodrigonium", {})
 let rodsand = extend(Item, "rodsand", {})
 let silver = extend(Item, "silver", {})
+let sothasium = extend(Item, "sothasium", {})
 let steel = extend(Item, "steel", {})
 let tritanium = extend(Item, "tritanium", {})
 
@@ -58,10 +60,12 @@ module.exports = {
   platinum: platinum,
   pyroberyl: pyroberyl,
   raw_hexorium: raw_hexorium,
+  raw_sothasium: raw_sothasium,
   redstone: redstone,
   rodrigonium: rodrigonium,
   rodsand: rodsand,
   silver: silver,
+  sothasium: sothasium,
   steel: steel,
   tritanium: tritanium
 };

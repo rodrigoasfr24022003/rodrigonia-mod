@@ -141,6 +141,33 @@ ammoTypes: {
         pierceBuilding: true
         pierceCap: 4
     }
+  },
+  sothasium: {
+    type: BasicBulletType
+    speed: 60
+    damage: 30000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 24
+    fragBullets: 4
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 12
+        damage: 6000
+        lifetime: 10
+        width: 5
+        height: 4
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 4
+        status: melting
+        statusDuration: 360
+    }
+    status: melting
+    statusDuration: 1440
   }
 }
 shootCone: 361

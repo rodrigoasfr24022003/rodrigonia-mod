@@ -1,0 +1,10 @@
+hardness: 12
+cost: 1
+color: "ffff00"
+healthScaling: 1
+alwaysUnlocked: true
+name: Sothasium
+description: Insanely tough metal.
+shownPlanets: [
+  rodrigonia
+]

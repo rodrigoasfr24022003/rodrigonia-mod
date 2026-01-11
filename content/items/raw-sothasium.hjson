@@ -1,0 +1,10 @@
+hardness: 12
+cost: 1
+color: "666600"
+healthScaling: 1
+alwaysUnlocked: true
+name: Raw Sothasium
+description: Raw form of an insanely tough metal.
+shownPlanets: [
+  rodrigonia
+]

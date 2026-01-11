@@ -1,4 +1,4 @@
-name: Decker.
+name: Decker
 description: A powerful, twin-barreled version of the Canoneer.
 type: ItemTurret
 health: 4000
@@ -212,6 +212,30 @@ ammoTypes: {
         width: 5
         height: 4
     }
+  },
+  sothasium: {
+    type: BasicBulletType
+    speed: 12
+    damage: 12000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 120
+    fragBullets: 4
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 6
+        damage: 2400
+        lifetime: 10
+        width: 5
+        height: 4
+        status: burning
+        statusDuration: 40
+    }
+    status: burning
+    statusDuration: 160
   }
 }
 shootCone: 361
