@@ -12,7 +12,9 @@ predictTarget: true
 hasLiquids: true
 shoot: {
   type: ShootMulti
-  source: ShootPattern
+  source: {
+    type: ShootPattern
+  }
   shots: 4
   dest: [{
     type: ShootBarrel

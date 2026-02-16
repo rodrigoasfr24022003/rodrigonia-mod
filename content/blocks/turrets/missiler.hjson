@@ -11,7 +11,9 @@ rotateSpeed: 3
 predictTarget: true
 shoot: {
   type: ShootMulti
-  source: ShootPattern
+  source: {
+    type: ShootPattern
+  }
   shots: 3
   dest: [{
     type: ShootBarrel
