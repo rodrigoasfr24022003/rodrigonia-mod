@@ -1,4 +1,4 @@
-name: Canoneer
+name: Cannoneer
 description: Shoots stronger bullets than Bolter but consumes ammo and is slower.
 type: ItemTurret
 health: 1000
