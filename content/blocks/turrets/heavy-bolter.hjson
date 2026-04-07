@@ -1,9 +1,10 @@
-name: Ionian Bolter
-description: Shoots short laser beams that deal some damage to enemy units at a fast rate. Uses 8 power/tick.
+name: Heavy Bolter
+description: Shoots laser bolts that deal big damage to enemy units. Uses 8 power/tick.
 type: PowerTurret
-health: 1000
-size: 2
-range: 260
+health: 2250
+size: 3
+reload: 60
+range: 180
 inaccuracy: 5
 velocityRnd: 0.1
 rotateSpeed: 2
@@ -12,17 +13,20 @@ predictTarget: true
 shoot: {
   type: ShootAlternate
   shots: 2
-  shotDelay: 10
+  shotDelay: 30
 }
 shootType: {
-    type: LaserBulletType
+    type: BasicBulletType
     backColor: "003153"
     mixColorFrom: "ffffff"
-    length: 260
-    width: 8
-    lengthFalloff: 0
-    damage: 150
-    reload: 20
+    speed: 8
+    damage: 200
+    lifetime: 30
+    width: 6
+    height: 6
+    sprite: circle-small
+    shrinkY: 0
+    shrinkX: 0
 }
 shootCone: 360
 hasLiquids: true
@@ -37,7 +41,6 @@ coolantMultiplier: 2
 requirements: [
   iron/100
   silver/20
-  ionium/100
 ]
 shootSound: bolt
 category: turret
