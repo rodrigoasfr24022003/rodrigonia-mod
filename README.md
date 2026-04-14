@@ -1,7 +1,7 @@
 ![Mod Logo](github/logo.png "Mod Logo")
 # rodrigonia-mod
 - My planet mod for Mindustry. Heavily unfinished.
-- Mod requires Mindustry v8.
+- Mod requires Mindustry V8.
 - [Official Trello Here](https://trello.com/b/ujf4uSBt)
 # Authors:
 - Rodrigo
