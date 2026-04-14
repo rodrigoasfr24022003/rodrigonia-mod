@@ -1,0 +1,50 @@
+name: Heavy Bolter
+description: Shoots laser bolts that deal big damage to enemy units. Uses 8 power/tick.
+type: PowerTurret
+health: 2250
+size: 3
+reload: 60
+range: 180
+inaccuracy: 5
+velocityRnd: 0.1
+rotateSpeed: 2
+powerCapcity: 1440
+predictTarget: true
+shoot: {
+  type: ShootAlternate
+  shots: 2
+  shotDelay: 30
+}
+shootType: {
+    type: BasicBulletType
+    backColor: "003153"
+    mixColorFrom: "ffffff"
+    speed: 8
+    damage: 200
+    lifetime: 30
+    width: 6
+    height: 6
+    sprite: circle-small
+    shrinkY: 0
+    shrinkX: 0
+}
+shootCone: 360
+hasLiquids: true
+hasPower: true
+consumes: {
+  power: 8
+  coolant: {
+    amount: 0.1
+  }
+}
+coolantMultiplier: 2
+requirements: [
+  iron/100
+  silver/20
+]
+shootSound: bolt
+category: turret
+research: {
+  parent: bolter
+  planet: rodrigonia
+}

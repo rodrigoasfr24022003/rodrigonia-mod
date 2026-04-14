@@ -9,18 +9,6 @@ inaccuracy: 3
 velocityRnd: 0.1
 rotateSpeed: 3
 predictTarget: true
-shoot: {
-  type: ShootMulti
-  source: ShootPattern
-  shots: 1
-  dest: [{
-    type: ShootBarrel
-    shots: 1
-    barrels: [
-      0,0,0
-    ]
-  }]
-}
 ammoTypes: {
   letalium: {
     type: MissileBulletType

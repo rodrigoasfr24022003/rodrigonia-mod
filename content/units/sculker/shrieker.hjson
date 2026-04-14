@@ -1,0 +1,141 @@
+name: Shrieker
+type: mech
+description: A Warden with 3 lasers.
+speed: 1.2
+health: 2000
+mechLandShake: 0
+mechSideSway: 0.6
+mechFrontSway: 0.15
+mechStride: -1
+itemCapacity: 0
+hitSize: 24
+useUnitCap: true
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+weapons: [{
+  name: shrieker-laser
+  top: false
+  rotate: false
+  y: 7.5
+  x: 0
+  inaccuracy: 5
+  continuous: true
+  alwaysContinuous: true
+  mirror: false
+  rotateSpeed: 0
+  rotationLimit: 180
+  predictTarget: true
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    type: ContinuousLaserBulletType
+    fadeTime: 60
+    lightStroke: 45
+    divisions: 15
+    colors: [
+        "00404055"
+        "008080aa"
+        "00c0c0"
+        "00ffff"
+    ]
+    strokeFrom: 1
+    strokeTo: 1
+    pointyScaling: 1
+    frontLength: 75
+    backLength: 10
+    width: 6
+    damage: 100
+    incendChance: 0.0
+    lightColor: "00ffff"
+    hitSize: 2
+    drawSize: 250
+    lifetime: 100
+  }
+},{
+  name: warden-laser
+  top: false
+  rotate: true
+  y: 0
+  x: -10
+  inaccuracy: 5
+  continuous: true
+  alwaysContinuous: true
+  mirror: false
+  rotationLimit: 361
+  predictTarget: false
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    type: ContinuousLaserBulletType
+    fadeTime: 60
+    lightStroke: 45
+    divisions: 15
+    colors: [
+        "00404055"
+        "008080aa"
+        "00c0c0"
+        "00ffff"
+    ]
+    strokeFrom: 1
+    strokeTo: 1
+    pointyScaling: 1
+    frontLength: 75
+    backLength: 10
+    width: 4
+    damage: 12.5
+    incendChance: 0.0
+    lightColor: "00ffff"
+    hitSize: 2
+    drawSize: 150
+    lifetime: 60
+  }
+},{
+  name: warden-laser
+  top: false
+  rotate: true
+  y: 0
+  x: 10
+  inaccuracy: 5
+  continuous: true
+  alwaysContinuous: true
+  mirror: false
+  rotationLimit: 361
+  predictTarget: false
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    type: ContinuousLaserBulletType
+    fadeTime: 60
+    lightStroke: 45
+    divisions: 15
+    colors: [
+        "00404055"
+        "008080aa"
+        "00c0c0"
+        "00ffff"
+    ]
+    strokeFrom: 1
+    strokeTo: 1
+    pointyScaling: 1
+    frontLength: 75
+    backLength: 10
+    width: 4
+    damage: 12.5
+    incendChance: 0.0
+    lightColor: "00ffff"
+    hitSize: 2
+    drawSize: 150
+    lifetime: 60
+  }
+}]
+research: {
+  parent: sculker
+  planet: rodrigonia
+}
+researchCost: [
+  steel/100
+  diamnond/500
+]
