@@ -1,0 +1,58 @@
+name: Beamer
+description: Shoots a non-incendiary continuous laser. Uses 32 power/tick.
+type: ContinuousTurret
+health: 4000
+size: 4
+range: 300
+inaccuracy: 0
+velocityRnd: 0.1
+rotateSpeed: 2
+powerCapcity: 2560
+continuous: true
+alwaysContinuous: true
+predictTarget: true
+shootType: {
+    type: ContinuousLaserBulletType
+    fadeTime: 60
+    lightStroke: 45
+    divisions: 16
+    colors: [
+        "40000055"
+        "800000aa"
+        "c00000"
+        "ff0000"
+    ]
+    strokeFrom: 1
+    strokeTo: 1
+    pointyScaling: 1
+    frontLength: 300
+    backLength: 10
+    width: 4
+    damage: 100
+    incendChance: 0.0
+    lightColor: "ff0000"
+    hitSize: 2
+    drawSize: 300
+    lifetime: 60
+}
+shootCone: 360
+hasLiquids: true
+hasPower: true
+consumes: {
+  power: 32
+  coolant: {
+    amount: 0.5
+  }
+}
+coolantMultiplier: 2
+requirements: [
+  diamond/80
+  steel/320
+  gold/80
+]
+shootSound: bolt
+category: turret
+research: {
+  parent: heavy-bolter
+  planet: rodrigonia
+}
