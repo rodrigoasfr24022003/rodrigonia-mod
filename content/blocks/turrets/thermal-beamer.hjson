@@ -1,0 +1,59 @@
+name: Thermal Beamer
+description: Shoots a incendiary continuous laser with low base damage. Uses 32 power/tick.
+type: ContinuousTurret
+health: 9000
+size: 6
+range: 300
+inaccuracy: 0
+velocityRnd: 0.1
+rotateSpeed: 2
+powerCapcity: 2560
+continuous: true
+alwaysContinuous: true
+predictTarget: true
+shootType: {
+    type: ContinuousLaserBulletType
+    fadeTime: 20
+    lightStroke: 45
+    divisions: 16
+    colors: [
+        "ff3300"
+        "ff6600"
+        "ff9900"
+        "ffcc00"
+    ]
+    strokeFrom: 1
+    strokeTo: 1
+    pointyScaling: 1
+    frontLength: 300
+    backLength: 24
+    width: 6
+    damage: 20
+    incendChance: 1.0
+    lightColor: "ffcc00"
+    hitSize: 2
+    drawSize: 300
+    lifetime: 20
+}
+shootCone: 360
+hasLiquids: true
+hasPower: true
+consumes: {
+  power: 32
+  coolant: {
+    amount: 0.5
+  }
+}
+coolantMultiplier: 2
+requirements: [
+  ionium/80
+  diamond/80
+  steel/320
+  gold/80
+]
+shootSound: bolt
+category: turret
+research: {
+  parent: beamer
+  planet: rodrigonia
+}
