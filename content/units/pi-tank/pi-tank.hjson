@@ -12,7 +12,6 @@ targetFlags: [
 ]
 weapons: [{
   name: pi-tank-twin-cannon
-  top: false
   rotate: false
   y: 10
   x: -8.5
