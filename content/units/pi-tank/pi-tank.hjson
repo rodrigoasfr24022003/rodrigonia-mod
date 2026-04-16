@@ -1,0 +1,75 @@
+name: Pi-Tank
+type: tank
+description: A beefy unit with 2 twin cannons and a quadruple cannon turret.
+speed: 0.6
+health: 500
+hitSize: 15
+useUnitCap: true
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+weapons: [{
+  name: pi-tank-twin-cannon
+  top: false
+  rotate: false
+  y: 10
+  x: -8.5
+  inaccuracy: 5
+  reload: 10
+  mirror: true
+  rotateSpeed: 0
+  rotationLimit: 180
+  predictTarget: false
+  shootCone: 361
+  shoot: {
+    type: ShootAlternate
+    shots: 2
+    shotDelay: 10
+  }  
+  bullet: {	
+    speed: 12
+    damage: 20
+    lifetime: 6
+    width: 6
+    height: 7
+  }
+},{
+  name: pi-tank-twin-uzi-turret
+  rotate: true
+  y: -5
+  x: 0
+  inaccuracy: 5
+  reload: 20
+  mirror: false
+  rotateSpeed: 30
+  rotationLimit: 360
+  predictTarget: true
+  shootCone: 361
+  shoot: {
+    type: ShootBarrel
+    shots: 4
+    barrels: [
+      -3,0,0,
+      3,0,0,
+      -3,2,0,
+      3,2,0
+    ]
+  }
+  bullet: {	
+    speed: 12
+    damage: 16
+    lifetime: 6
+    width: 6
+    height: 7
+  }
+}]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  silver/120
+  nickel/40
+]
