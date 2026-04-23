@@ -16,6 +16,14 @@ plans: [
       silver/10
     ]
   }
+  {
+    unit: io
+    time: 2400
+    requirements: [
+      steel/30
+      ionium/10
+    ]
+  }
 ]
 requirements: [
   iron/300

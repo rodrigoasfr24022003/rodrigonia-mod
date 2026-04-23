@@ -1,0 +1,85 @@
+name: Io
+description: Slow air unit with a Thermal Beamer.
+speed: 1
+flying: true
+health: 350
+engineOffset: 0
+engineSize: 0
+drag: 0.025
+accel: 0.05
+hitSize: 12
+itemCapacity: 0
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -3
+      y: -4.5
+      teamColor: true
+      effectParam: 1.2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 3
+      y: -4.5
+      teamColor: true
+      effectParam: 1.2
+    }
+  ]
+}
+weapons: [{
+  name: io-thermal-beamer
+  top: true
+  rotate: true
+  y: 1
+  x: 0
+  inaccuracy: 0
+  continuous: true
+  alwaysContinuous: true
+  mirror: false
+  rotateSpeed: 30
+  rotationLimit: 361
+  predictTarget: false
+  shootCone: 361
+  bullet: {	
+    type: ContinuousLaserBulletType
+    fadeTime: 20
+    lightStroke: 45
+    divisions: 16
+    colors: [
+        "ff3300"
+        "ff6600"
+        "ff9900"
+        "ffcc00"
+    ]
+    strokeFrom: 0.5
+    strokeTo: 0.5
+    pointyScaling: 1
+    frontLength: 75
+    backLength: 6
+    width: 6
+    damage: 10
+    incendChance: 1.0
+    lightColor: "ffcc00"
+    hitSize: 1
+    drawSize: 75
+    lifetime: 20
+  }
+}]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  iron/120
+  nickel/40
+]

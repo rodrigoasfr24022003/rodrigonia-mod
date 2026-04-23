@@ -1,0 +1,35 @@
+type: Wall
+health: 4000
+size: 2
+type: ForceProjector
+category: defense
+name: Small Rodrigonian Shield Projector
+description: A small shield, weak but boostable with coolant and ionium.
+consumes: {
+  power: 10
+  items:{
+    items: [
+      ionium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  rodrigonium/60
+  diamond/20
+  obsidiansteel/300
+]
+sides: 6
+shieldHealth: 15000
+radius: 120
+phaseRadiusBoost: 120
+phaseShieldBoost: 30000
+cooldownNormal: 2
+cooldownLiquid: 1
+cooldownBrokenBase: 2
+coolantConsumption: 0.5
+crashDamageMultiplier: 2
+research: {
+    planet: rodrigonia
+    parent: rodrigonium-wall
+}

@@ -16,6 +16,14 @@ plans: [
       silver/15
     ]
   }
+  {
+    unit: pi-tank
+    time: 2100
+    requirements: [
+      iron/30
+      gold/30
+    ]
+  }
 ]
 requirements: [
   iron/300
