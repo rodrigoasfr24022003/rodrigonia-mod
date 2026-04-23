@@ -24,6 +24,14 @@ plans: [
       ionium/10
     ]
   }
+  {
+    unit: cannonship
+    time: 1200
+    requirements: [
+      steel/30
+      iron/30
+    ]
+  }
 ]
 requirements: [
   iron/300
