@@ -80,6 +80,6 @@ research: {
   planet: rodrigonia
 }
 researchCost: [
-  iron/120
-  nickel/40
+  steel/120
+  ionium/40
 ]

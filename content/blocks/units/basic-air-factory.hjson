@@ -32,6 +32,15 @@ plans: [
       iron/30
     ]
   }
+  {
+    unit: cannonship-plus
+    time: 1800
+    requirements: [
+      gold/10
+      steel/40
+      iron/30
+    ]
+  }
 ]
 requirements: [
   iron/300
