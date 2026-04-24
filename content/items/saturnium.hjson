@@ -1,0 +1,10 @@
+hardness: 3
+cost: 1
+color: 00ffff
+healthScaling: 1
+radioactivity: 3.0
+name: Saturnium
+description: Rodrigonia's super radioactive material.
+shownPlanets: [
+  rodrigonia
+]
