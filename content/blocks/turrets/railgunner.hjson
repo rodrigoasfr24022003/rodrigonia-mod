@@ -94,6 +94,32 @@ ammoTypes: {
     makeFire: true
     status: melting
     statusDuration: 720
+  },
+  ionium: {
+    speed: 100
+    damage: 4000
+    lifetime: 30
+    width: 12
+    height: 14
+    pierce: true
+    pierceBuilding: true
+    makeFire: true
+    status: melting
+    statusDuration: 360
+    fragBullets: 2
+    fragBullet: {	
+        type: BasicBulletType
+        speed: 100
+        damage: 2000
+        lifetime: 10
+        width: 6
+        height: 7
+        pierce: true
+        pierceBuilding: true
+        makeFire: true
+        status: melting
+        statusDuration: 180
+    }
   }
 }
 shootCone: 361
