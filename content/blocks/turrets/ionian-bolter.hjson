@@ -9,11 +9,6 @@ velocityRnd: 0.1
 rotateSpeed: 2
 powerCapcity: 1440
 predictTarget: true
-shoot: {
-  type: ShootAlternate
-  shots: 2
-  shotDelay: 10
-}
 shootType: {
     type: LaserBulletType
     backColor: "003153"

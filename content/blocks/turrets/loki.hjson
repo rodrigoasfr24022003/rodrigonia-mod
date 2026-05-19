@@ -4,7 +4,7 @@ type: ItemTurret
 health: 20250
 armor: 20
 size: 9
-reload: 360
+reload: 600
 range: 800
 inaccuracy: 0.1
 velocityRnd: 0.1

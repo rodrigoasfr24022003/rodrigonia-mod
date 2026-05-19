@@ -1,0 +1,15 @@
+type: Liquid
+name: Oxygen
+description: Flammable.
+color: "ff0000"
+flammability: 1
+explosiveness: 1
+heatCapacity: 0.5
+temperature: 0
+gas: true
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

@@ -1,0 +1,12 @@
+hardness: 1
+cost: 1
+radioactivity: 10
+explosiveness: 10
+flammability : 10
+color: "ffffff"
+healthScaling: 1
+name: Funny Crystal
+description: Extremely radioactive and synthethic.
+shownPlanets: [
+  rodrigonia
+]

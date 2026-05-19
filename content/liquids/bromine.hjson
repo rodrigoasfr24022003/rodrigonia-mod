@@ -1,0 +1,15 @@
+type: Liquid
+name: Bromine
+description: Liquid halogen.
+color: "a62929"
+flammability: 1
+explosiveness: 0.5
+heatCapacity: 0.2
+temperature: 0
+viscosity: 0.1
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

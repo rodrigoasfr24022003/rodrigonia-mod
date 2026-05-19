@@ -1,0 +1,10 @@
+hardness: 0.5
+cost: 1
+radioactivity: 1
+color: "754f45"
+healthScaling: 1
+name: Astatine
+description: Solid halogen.
+shownPlanets: [
+  rodrigonia
+]

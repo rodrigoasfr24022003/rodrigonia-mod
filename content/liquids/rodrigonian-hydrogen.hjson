@@ -1,0 +1,15 @@
+type: Liquid
+name: Hydrogen
+description: Flammable. It is what cause the Hindenburg to blow up.
+color: "ffffff"
+flammability: 1
+explosiveness: 1
+heatCapacity: 0.5
+temperature: 0
+gas: true
+coolant: false
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

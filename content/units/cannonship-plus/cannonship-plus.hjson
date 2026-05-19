@@ -1,0 +1,87 @@
+name: Cannonship +
+description: Medium-speed air unit with 2 heavy cannons.
+speed: 1.5
+flying: true
+health: 300
+engineOffset: 0
+engineSize: 0
+drag: 0.0375
+accel: 0.075
+hitSize: 12
+itemCapacity: 0
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -3
+      y: -4.5
+      teamColor: true
+      effectParam: 1.2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 3
+      y: -4.5
+      teamColor: true
+      effectParam: 1.2
+    }
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -4.5
+      y: -4.5
+      teamColor: true
+      effectParam: 1.2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 4.5
+      y: -4.5
+      teamColor: true
+      effectParam: 1.2
+    }
+  ]
+}
+weapons: [{
+  name: cannonship-plus-heavy-cannon
+  top: false
+  rotate: true
+  y: 6.5
+  x: -3.5
+  inaccuracy: 2
+  reload: 120
+  mirror: true
+  rotateSpeed: 45
+  rotationLimit: 361
+  predictTarget: true
+  shootCone: 361
+  layerOffset: -1
+  bullet: {	
+    speed: 8
+    damage: 200
+    lifetime: 16
+    width: 8
+    height: 9
+  }
+}]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  iron/120
+  steel/160
+  gold/40
+]
