@@ -1,0 +1,10 @@
+hardness: 1
+cost: 1
+radioactivity: 3
+color: "330000"
+healthScaling: 1
+name: Copernicium
+description: Extremely radioactive and synthethic.
+shownPlanets: [
+  rodrigonia
+]

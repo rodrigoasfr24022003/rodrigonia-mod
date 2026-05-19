@@ -1,0 +1,10 @@
+hardness: 0.5
+cost: 1
+flammability: 1
+color: "808000"
+healthScaling: 1
+name: Sulfur
+description: Flammable.
+shownPlanets: [
+  rodrigonia
+]

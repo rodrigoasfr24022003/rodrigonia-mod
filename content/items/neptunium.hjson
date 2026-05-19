@@ -1,0 +1,10 @@
+hardness: 1
+cost: 1
+radioactivity: 1.5
+color: "0080ff"
+healthScaling: 1
+name: Neptunium
+description: Radioactive.
+shownPlanets: [
+  rodrigonia
+]

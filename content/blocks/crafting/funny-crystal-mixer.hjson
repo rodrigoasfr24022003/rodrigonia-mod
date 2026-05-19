@@ -1,0 +1,46 @@
+type: AttributeCrafter
+name: "Funny Crystal Mixer"
+description: "the funny"
+health: 3200
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+squareSprite: false
+craftTime: 120
+itemCapacity: 270
+consumes: {
+  power: 100
+  liquids:{
+    liquids: [
+      bromine/8
+      rodrigonian-hydrogen/8
+      rodrigonian-oxygen/4
+    ]
+  }
+  items: {
+    items: [
+      sulfur/2
+      astatine/14
+      neptunium/4
+      copernicium/1
+      diamond/6
+    ]
+  }
+}
+outputItems: [
+  funny-crystal/1
+]
+requirements: [
+  ionium/1000
+  arderite/10000
+]
+research: {
+    planet: rodrigonia
+    parent: ionium-superforge
+}
+researchCost: [
+  ionium/3000
+  arderite/30000
+]
+category: crafting
