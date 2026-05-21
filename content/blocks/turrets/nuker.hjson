@@ -4,7 +4,7 @@ type: ItemTurret
 health: 2250
 size: 3
 reload: 120
-range: 300
+range: 150
 inaccuracy: 3
 velocityRnd: 0.1
 rotateSpeed: 3
@@ -16,31 +16,56 @@ ammoTypes: {
     damage: 100
     splashDamage: 10000
     splashDamageRadius: 72
-    lifetime: 360
+    lifetime: 180
     homingPower: 0.01,
-    homingRange: 300,
+    homingRange: 50,
     backColor: "8000ff",
-    frontColor: "ffffff"
+    frontColor: "8000ff"
     trailColor: "8000ff"
     trailWidth: 6
     trailLength: 12
     trailChance: 1
+    width: 6
+    height: 6
+    sprite: circle-small
+  },
+  saturnium: {
+    type: MissileBulletType
+    speed: 3
+    damage: 120
+    splashDamage: 12000
+    splashDamageRadius: 108
+    lifetime: 40
+    homingPower: 0.01,
+    homingRange: 50,
+    backColor: "00ffff",
+    frontColor: "00ffff"
+    trailColor: "00ffff"
+    trailWidth: 6
+    trailLength: 12
+    trailChance: 1
+    width: 6
+    height: 6
+    sprite: circle-small
   },
   imperium: {
     type: MissileBulletType
     speed: 2
-    damage: 200
-    splashDamage: 20000
+    damage: 100
+    splashDamage: 10000
     splashDamageRadius: 96
-    lifetime: 360
+    lifetime: 120
     homingPower: 0.01,
-    homingRange: 300,
+    homingRange: 50,
     backColor: "ff0033",
-    frontColor: "ffffff"
+    frontColor: "ff0033"
     trailColor: "ff0033"
     trailWidth: 6
     trailLength: 12
     trailChance: 1
+    width: 6
+    height: 6
+    sprite: circle-small
   }
 }
 shootSound: missileLarge

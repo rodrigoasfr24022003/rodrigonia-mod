@@ -3,7 +3,7 @@ description: Shoots a non-incendiary continuous laser. Uses 32 power/tick.
 type: ContinuousTurret
 health: 4000
 size: 4
-range: 300
+range: 150
 inaccuracy: 0
 velocityRnd: 0.1
 rotateSpeed: 2

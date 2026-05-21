@@ -21,7 +21,7 @@ shootType: {
     mixColorFrom: "ffffff"
     speed: 8
     damage: 100
-    lifetime: 40
+    lifetime: 20
     width: 6
     height: 6
     sprite: circle-small
