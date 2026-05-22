@@ -1,10 +1,10 @@
 name: Disruptor
-description: Shoots laser bolts that deal some damage to enemy units and EMP's them. Uses 6 power/tick.
+description: Shoots laser bolts that upon contact split into multi-hit arcs against other targets. Causes EMP blasts against targets. Uses 6 power/tick.
 type: PowerTurret
-health: 1000
+health: 460
 size: 2
 reload: 42
-range: 120
+range: 200
 inaccuracy: 5
 velocityRnd: 0.1
 rotateSpeed: 2
@@ -19,8 +19,8 @@ shootType: {
     backColor: "ffd700"
     mixColorFrom: "ffffff"
     speed: 6
-    damage: 100
-    lifetime: 40
+    damage: 25
+    lifetime: 30
     width: 6
     height: 9
     sprite: circle-small

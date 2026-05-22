@@ -1,10 +1,10 @@
 name: Missiler
 description: Shoots iron missiles or germanium missiles at enemies.
 type: ItemTurret
-health: 2250
+health: 550
 size: 3
 reload: 30
-range: 300
+range: 350
 inaccuracy: 3
 velocityRnd: 0.1
 rotateSpeed: 3
@@ -33,26 +33,29 @@ ammoTypes: {
   iron: {
     type: MissileBulletType
     speed: 4
-    damage: 100
-    splashDamage: 1000
-    splashDamageRadius: 36
-    lifetime: 120
-    homingPower: 0.035,
+    damage: 28
+    reload: 35
+    splashDamage: 5
+    splashDamageRadius: 8
+    lifetime: 90
+    homingPower: 0.1,
     homingRange: 600,
     backColor: "999999",
     frontColor: "ffffff"
     trailColor: "999999"
     trailWidth: 2,
-    trailLength: 12,
+    trailLength: 20,
     trailChance: 1,
   },
   germanium: {
     type: MissileBulletType
     speed: 4
-    damage: 50
-    splashDamage: 500
-    splashDamageRadius: 48
-    lifetime: 120
+    damage: 36
+    reload: 20
+    range: 370
+    splashDamage: 8
+    splashDamageRadius: 12
+    lifetime: 100
     homingPower: 0.035,
     homingRange: 600,
     backColor: "668f8f",

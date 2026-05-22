@@ -1,10 +1,11 @@
 name: Bolter
 description: Shoots laser bolts that deal some damage to enemy units. Uses 4 power/tick.
+details: "Due to the odd nature of the materials on this planet, many turrets and units needed to be recontextualized for many different situations, causing redundancy between many different defenses."
 type: PowerTurret
-health: 1000
+health: 350
 size: 2
 reload: 33
-range: 120
+range: 160
 inaccuracy: 5
 velocityRnd: 0.1
 rotateSpeed: 2
