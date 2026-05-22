@@ -81,7 +81,7 @@ weapons: [{
     lightColor: "ffcc00"
     hitSize: 1
     drawSize: 75
-    lifetime: 20
+    lifetime: 40
   }
 }]
 research: {
