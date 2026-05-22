@@ -1,5 +1,6 @@
 name: Cannonship
 description: Medium-speed reinforced air unit with 2 cannons.
+details: "An ancient model put to use in the underlying wake of Crux. Each cannonship model has it's own set of upsides and downsides, so use with careful knowledge of what the situation calls for."
 speed: 1.5
 flying: true
 health: 500
