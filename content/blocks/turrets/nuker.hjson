@@ -1,5 +1,5 @@
 name: Nuker
-description: Shoots letalium nukes at enemies.
+description: Shoots letalium, imperium or saturnium nukes at enemies.
 type: ItemTurret
 health: 2250
 size: 3
