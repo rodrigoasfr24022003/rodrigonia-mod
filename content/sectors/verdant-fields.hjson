@@ -1,0 +1,15 @@
+localizedName: "Verdant Fields"
+description: "What a green sector. Don't get distracted, we have a Crux invar factory to burn."
+planet: rodrigonia
+sector: 36
+difficulty: 2
+research: {
+  parent: core-loadspine
+  objectives: [
+    {
+      type: SectorComplete
+      preset: ferritic-mining-complex
+    }
+  ]
+}
+alwaysUnlocked: true
