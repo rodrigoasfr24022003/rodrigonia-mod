@@ -37,7 +37,7 @@ abilities: {
   ]
 }
 weapons: [{
-  name: io-thermal-beamer
+  name: io-empty
   top: true
   rotate: true
   y: 1
@@ -50,18 +50,27 @@ weapons: [{
   rotationLimit: 361
   predictTarget: false
   shootCone: 361
+  parts: [
+    {
+      type: RegionPart
+      suffix: -thermal-beamer
+      layerOffset: 0.01
+    }
+  ]
   bullet: {	
     type: ContinuousLaserBulletType
-    fadeTime: 20
+    fadeTime: 40
     lightStroke: 45
     divisions: 16
+    layer: 115
     colors: [
-        "ff3300"
-        "ff6600"
-        "ff9900"
-        "ffcc00"
+        "fb914eff"
+        "ffa267aa"
+        "#f2b18778"
+        "#dcb49b55"
+        "#e1d3c922"
     ]
-    strokeFrom: 0.5
+    strokeFrom: 1
     strokeTo: 0.5
     pointyScaling: 1
     frontLength: 75
