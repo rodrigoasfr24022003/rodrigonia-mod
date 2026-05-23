@@ -3,6 +3,7 @@
 - My planet mod for Mindustry. Heavily unfinished.
 - Mod requires Mindustry V8.
 - [Official Trello Here](https://trello.com/b/ujf4uSBt)
+- Use the `dev` branch if you want the latest features right now and cannot wait for a release.
 # Authors:
 - Rodrigo
 - Meowkitty
