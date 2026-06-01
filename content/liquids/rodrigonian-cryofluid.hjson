@@ -1,0 +1,15 @@
+type: Liquid
+name: Rodrigonian Cryofluid
+description: Water with rodrigono-organic compounds (and tritanium).
+color: 008080
+flammability: 0
+explosiveness: 0
+heatCapacity: 3
+temperature: 0
+viscosity: 0.25
+coolant: true
+moveThroughBlocks: true
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}

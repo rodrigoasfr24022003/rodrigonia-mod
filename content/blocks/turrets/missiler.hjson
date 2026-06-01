@@ -9,6 +9,7 @@ inaccuracy: 3
 velocityRnd: 0.1
 rotateSpeed: 3
 predictTarget: true
+targetGround: false
 shoot: {
   type: ShootMulti
   source: {

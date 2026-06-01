@@ -2,7 +2,7 @@ name: Wither
 description: Very fast air unit with 3 heavy cannons.
 speed: 3
 flying: true
-health: 300
+health: 310
 engineOffset: 0
 engineSize: 0
 drag: 0.05

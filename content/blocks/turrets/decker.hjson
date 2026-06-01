@@ -4,7 +4,7 @@ type: ItemTurret
 health: 4000
 size: 4
 reload: 300
-range: 90
+range: 180
 inaccuracy: 2
 velocityRnd: 0.1
 rotateSpeed: 1
@@ -24,7 +24,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 2500
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -38,7 +38,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 5000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -49,7 +49,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 5000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -60,7 +60,7 @@ ammoTypes: {
     type: EmpBulletType
     speed: 10
     damage: 5000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -71,7 +71,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 7500
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -82,7 +82,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 10000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -93,7 +93,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 12500
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -104,7 +104,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 6000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -124,7 +124,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 6
     damage: 12000
-    lifetime: 12
+    lifetime: 24
     width: 15
     height: 18
     pierce: true
@@ -163,7 +163,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 10000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -183,7 +183,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 30
     damage: 10000
-    lifetime: 10
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -192,13 +192,12 @@ ammoTypes: {
     makeFire: true
     status: burning
     statusDuration: 120
-    reloadMultiplier: 0.5
   },
   hexorium: {
     type: BasicBulletType
     speed: 12
     damage: 12000
-    lifetime: 12
+    lifetime: 20
     width: 12
     height: 15
     pierce: true
@@ -218,7 +217,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 12
     damage: 12000
-    lifetime: 12
+    lifetime: 20
     width: 12
     height: 15
     pierce: true

@@ -3,7 +3,7 @@ description: Shoots a incendiary continuous laser with low base damage. Uses 32 
 type: ContinuousTurret
 health: 9000
 size: 6
-range: 150
+range: 300
 inaccuracy: 0
 velocityRnd: 0.1
 rotateSpeed: 2

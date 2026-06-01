@@ -4,7 +4,7 @@ type: PowerTurret
 health: 2250
 size: 3
 reload: 60
-range: 90
+range: 180
 inaccuracy: 5
 velocityRnd: 0.1
 rotateSpeed: 2

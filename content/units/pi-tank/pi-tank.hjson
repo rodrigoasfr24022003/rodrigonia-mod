@@ -2,7 +2,7 @@ name: Pi-Tank
 type: tank
 description: A beefy unit with 2 twin cannons and a quadruple cannon turret.
 speed: 0.6
-health: 500
+health: 1550
 hitSize: 15
 useUnitCap: true
 targetFlags: [

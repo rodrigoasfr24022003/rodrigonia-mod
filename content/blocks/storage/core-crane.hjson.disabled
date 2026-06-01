@@ -1,12 +1,12 @@
 name: "Core: Crane"
 description: Core of the base. Once destroyed the sector is lost.
-details: "Core of the first tier.\n\nA median t1 core. Was supposed to buff missiles, but technical issues made it so it was not possible."
+details: "Core of the first tier.\n\nA median t1 core. Buffs Missiles by 200% and their fire rate by 15%."
 type: CoreBlock
 size: 3
 unitType: cygnus-ship
 health: 1000
 itemCapacity: 5000
-unitCapModifier: 12
+unitCapModifier: 6
 squareSprite: false
 isFirstTier: true
 requirements: [

@@ -3,7 +3,7 @@ description: Shoots short laser beams that deal some damage to enemy units at a 
 type: PowerTurret
 health: 1000
 size: 2
-range: 120
+range: 260
 inaccuracy: 5
 velocityRnd: 0.1
 rotateSpeed: 2
