@@ -21,7 +21,7 @@ shootType: {
     backColor: "003153"
     mixColorFrom: "ffffff"
     speed: 8
-    damage: 100
+    damage: 35
     lifetime: 20
     width: 6
     height: 6

@@ -4,7 +4,7 @@ type: ItemTurret
 health: 2250
 size: 3
 reload: 20
-range: 90
+range: 180
 inaccuracy: 3
 velocityRnd: 0.1
 rotateSpeed: 3
@@ -45,7 +45,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 10
-    lifetime: 20
+    lifetime: 40
     width: 6
     height: 7
   }
@@ -53,7 +53,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 8
     damage: 15
-    lifetime: 23
+    lifetime: 45
     width: 6
     height: 7
   }
@@ -61,7 +61,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 10
     damage: 20
-    lifetime: 25
+    lifetime: 50
     width: 6
     height: 7
   }

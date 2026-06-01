@@ -16,6 +16,7 @@ plans: [
       silver/10
     ]
   }
+  /*
   {
     unit: io
     time: 2400
@@ -41,6 +42,7 @@ plans: [
       iron/30
     ]
   }
+  */
 ]
 requirements: [
   iron/300

@@ -2,7 +2,7 @@ name: Phantom
 description: Fast air unit with a basic cannon.
 speed: 2
 flying: true
-health: 200
+health: 400
 engineOffset: 0
 engineSize: 0
 drag: 0.05

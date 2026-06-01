@@ -44,3 +44,4 @@ researchCost: [
   arderite/30000
 ]
 category: crafting
+buildVisibility: sandboxOnly
