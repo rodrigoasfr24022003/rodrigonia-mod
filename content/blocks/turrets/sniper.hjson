@@ -4,7 +4,7 @@ type: ItemTurret
 health: 4000
 size: 4
 reload: 225
-range: 300
+range: 450
 inaccuracy: 0
 velocityRnd: 0.1
 rotateSpeed: 1
@@ -72,7 +72,7 @@ ammoTypes: {
     pierce: true
     pierceBuilding: true
     pierceCap: 2
-    rangeChange: -77.5
+    rangeChange: -120
   }
 }
 shootCone: 361
