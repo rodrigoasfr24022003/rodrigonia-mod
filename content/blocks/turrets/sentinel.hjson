@@ -1,0 +1,92 @@
+name: Sentinel
+description: Shoots explosive bullets.
+type: ItemTurret
+health: 2250
+size: 4
+reload: 100
+range: 170
+inaccuracy: 2
+velocityRnd: 0.1
+rotateSpeed: 2.5
+predictTarget: true
+hasLiquids: true
+shoot: {
+  type: ShootBarrel
+  source: ShootPattern
+  shots: 1
+  barrels: [
+      0,0,0
+  ]
+}
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    speed: 10
+    damage: 1400
+    lifetime: 20
+    width: 16
+    height: 16
+    splashDamage: 1400
+    splashDamageRadius: 50
+  },
+  invar: {
+    type: BasicBulletType
+    speed: 10
+    damage: 2100
+    lifetime: 20
+    width: 16
+    height: 16
+    splashDamage: 2100
+    splashDamageRadius: 50
+    rangeChange: 34
+  },
+  electrum: {
+    type: EmpBulletType
+    speed: 10
+    damage: 1400
+    lifetime: 20
+    width: 16
+    height: 16
+    splashDamage: 1400
+    splashDamageRadius: 50
+  },
+  steel: {
+    type: BasicBulletType
+    speed: 10
+    damage: 2100
+    lifetime: 20
+    width: 16
+    height: 16
+    splashDamage: 2100
+    splashDamageRadius: 50
+    fragBullets: 3
+    fragBullet: {
+      type: BasicBulletType
+      speed: 5
+      damage: 840
+      lifetime: 3
+      width: 4
+      height: 3
+    }
+  }
+}
+shootCone: 361
+consumes: {
+    coolant: {
+        amount: 0.1
+    }
+}
+coolantMultiplier: 0.5
+requirements: [
+  iron/300
+  fragsteel/30
+  steel/600
+]
+maxAmmo: 30
+liquidCapacity: 100
+shootSound: shoot
+category: turret
+research: {
+  parent: heavy-cannoneer
+  planet: rodrigonia
+}
