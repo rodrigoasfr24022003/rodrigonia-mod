@@ -99,6 +99,17 @@ ammoTypes: {
         width: 3
         height: 3
     }
+  },
+  ionium: {
+    type: BasicBulletType
+    speed: 20
+    damage: 200
+    splashDamage: 100
+    splashDamageRadius: 24
+    lifetime: 30
+    width: 6
+    height: 7,
+    reloadMultiplier: 0.125
   }
 }
 shootCone: 361
