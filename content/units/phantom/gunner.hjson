@@ -73,7 +73,7 @@ weapons: [{
   predictTarget: true
   shootCone: 361
   bullet: {	
-    type: FlakBulletType
+    type: BulletType
     speed: 20
     damage: 50
     lifetime: 20

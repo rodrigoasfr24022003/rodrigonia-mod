@@ -1,0 +1,76 @@
+name: Cannonship++
+description: Sluggish air unit with a double superheavy cannon.
+speed: 0.5
+flying: true
+health: 200
+engineOffset: 0
+engineSize: 0
+drag: 0.0125
+accel: 0.025
+hitSize: 12
+itemCapacity: 0
+targetFlags: [
+    storage,
+    battery,
+    null
+]
+abilities: {
+  add: [
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: -1.5
+      y: -6
+      teamColor: true
+      effectParam: 1.2
+    },
+    {
+      type: MoveEffectAbility
+      display: false
+      minVelocity: 0
+      x: 1.5
+      y: -6
+      teamColor: true
+      effectParam: 1.2
+    }
+  ]
+}
+weapons: [{
+  name: cannonship-plus-plus-superheavy-cannon
+  shoot: {
+    type: ShootAlternate
+    shots: 2
+    shotDelay: 20
+  }   
+  rotate: true
+  y: 4
+  x: 0
+  inaccuracy: 2
+  reload: 100
+  mirror: false
+  rotateSpeed: 30
+  rotationLimit: 361
+  predictTarget: true
+  shootCone: 361
+  bullet: {	
+    speed: 10
+    damage: 1000
+    lifetime: 20
+    width: 12
+    height: 15
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 30
+  }
+}]
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  tritanium/30
+  gold/30
+  steel/120
+  iron/90
+]
