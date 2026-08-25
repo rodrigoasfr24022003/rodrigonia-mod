@@ -15,6 +15,14 @@ plans: [
       iron/30
       silver/15
     ]
+  },
+  {
+    unit: enderman
+    time: 1200
+    requirements: [
+      silver/50
+      nickel/25
+    ]
   }
   /*
   {

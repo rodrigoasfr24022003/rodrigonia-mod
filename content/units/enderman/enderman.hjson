@@ -1,0 +1,28 @@
+name: Enderman
+type: mech
+description: A weaponless unit that can help with building and mine iron, silver and nickel.
+speed: 0.8
+health: 400
+mechSideSway: 0.4
+mechFrontSway: 0.1
+mechStride: 4
+itemCapacity: 40
+hitSize: 9
+useUnitCap: true
+targetFlags: []
+weapons: []
+mechLandShake: 0
+mechSideSway: 0.54
+mechFrontSway: 0.1
+mechStride: -1
+mineSpeed: 4
+mineTier: 1
+buildSpeed: 1
+research: {
+  parent: core-loadspine
+  planet: rodrigonia
+}
+researchCost: [
+  silver/200
+  nickel/100
+]
